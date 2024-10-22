@@ -4,9 +4,9 @@
 This repo performs various operations on video and audio files, including:
 1. Extracting short video clips from longer ones.
 2. Enhancing audio by adjusting pitch and volume, eg. for a deeper voice.
-3. Extracting audio from a video and saving it as an MP3 file.
-4. Amplifying audio if necessary.
-5. Compressing and converting video files to WebM format.
+3. Compressing and converting video files to WebM format.
+4. Extracting audio from a video and saving it as an MP3 file.
+5. Amplifying audio if necessary.
 6. Transcribing audio using Whisper.
 7. Correcting raw audio transcripts using ChatGPT.
 8. Embedding subtitles into the WebM video files.
@@ -14,8 +14,8 @@ This repo performs various operations on video and audio files, including:
 ## Main Functions
 - Extract video clips.
 - Enhance audio in a video file.
-- Convert audio to MP3 and amplify it.
 - Convert video to WebM format for web optimization.
+- Convert audio to MP3 and amplify it.
 - Transcribe audio using Whisper.
 - Correct transcripts using AI (ChatGPT).
 - Add subtitles to videos.

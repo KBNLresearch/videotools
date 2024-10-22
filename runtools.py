@@ -118,15 +118,15 @@ def main():
         db_increase = 0  # Increase the audio by 0dB
         #enhance_audio_in_video(input_video=input_file, output_video=sound_enhanced_video_file, pitch_semitones=pitch_semitones, db_increase=db_increase)
 
-        # 3. Extract the audio from the video clip and save as MP3
+        # 3. Compress and convert the clip to WebM format
+        #compress_and_convert_to_webm(input_clip=input_file, output_webm=webm_video_file)
+
+        # 4. Extract the audio from the video clip and save as MP3
         #extract_audio(input_video=input_file, output_audio=audio_file)
 
-        # 4. Amplify the audio if necessary
+        # 5. Amplify the audio if necessary
         amp_factor = 1.5  # Amplification factor
         #amplify_audio(input_audio=audio_file, output_audio=amplified_audio_file, factor=amp_factor)
-
-        # 5. Compress and convert the clip to WebM format
-        #compress_and_convert_to_webm(input_clip=input_file, output_webm=webm_video_file)
 
         # 6. Transcribe the audio using Whisper and generate a .srt file
         whisper_model = "large-v2"
