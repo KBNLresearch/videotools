@@ -1,0 +1,437 @@
+start	end	text
+0	3440	Hello, good afternoon everybody.
+3440	10960	Welcome to this practical part of the Wikidata workshop about professors at the University
+10960	11960	of Maastricht.
+11960	15080	It's the 15th of October currently.
+15080	16440	And my name is Olaf Janssen.
+16440	21800	I'm the Wikimedia Coordinator of the National Library in the Netherlands.
+21800	26840	I must first mention that there is also a theoretical part to this workshop which is
+26840	30120	available in the other video I recorded.
+30120	37240	So if you want to know the basics about Wikidata and its applications to research and science,
+37240	42040	please consult the first theoretical part of the workshop.
+42040	44640	This is the second practical part.
+44640	50720	So this is especially if you want to get hands-on yourself with Wikidata and if you want to
+50720	57920	work on Wikidata items that are related to professors here at Maastricht University.
+57920	65920	This part will be about 1 hour and 15 to 20 minutes if you do the full part.
+65920	67960	So let me just walk you through this workshop.
+67960	72200	There will be about 30 minutes of practical exercises that you can do.
+72200	76880	For the rest I think I need to explain first a bit what the aim of the workshop is, where
+76880	83080	you can find information related to professors of Maastricht University that you can then
+83080	84080	include in Wikidata.
+84080	90240	So first I'm going to try to give you some general context about the topic and then I'll
+90240	97360	try to help you with making your first steps in Wikidata by adding and enriching the information
+97360	100480	about university professors at Maastricht.
+101080	107480	Okay, but before we continue, let me make sure that we're all on the same level, that
+107480	115880	the Wi-Fi on your laptops is enabled and that you have actually created an account on Wikidata.
+115880	120440	I asked you to do that before the workshop today.
+120440	122200	So I reckon you have done that.
+122200	125720	If you have not yet done that, if you still need to create a Wikidata account, you can
+125720	134120	go to the URL that is shown here and do that during the first part of the workshop, because
+134120	136280	I'm not going to wait for that.
+136280	138880	So you can do it right now.
+138880	146240	Most importantly, what you will need for the workshop is the handout here that I made,
+146240	151480	which is available from this URL here at Zenodo.
+151480	157080	If you go to here, you can download the handout for participants.
+157080	158880	In detail, it's available here.
+158880	161760	This is the Zenodo page.
+161760	169600	This exactly contains the same kind of information that is available as in the presentation that
+169600	176320	I'm about to give, but then all written out so you can easily refer to your either Word
+176320	179840	or PDF version of the handout.
+179840	184720	If you want to be able to access the information that I will send you quickly.
+184720	193600	Okay, having said that, let's first talk about professors as normal human beings.
+193600	196880	Of course, they are humans.
+196880	202720	What I intend to do in this part is just to look at the basic properties of professors,
+202720	207440	like they have a date of birth, a place of birth, they have a sex or gender, they have
+207440	209480	a name, etc.
+210120	214560	Later in the workshop, in this practical part, I will look at the professional qualities
+214560	224360	of these professors, like the fields of work they work at, where they were educated, what
+224360	226480	sort of professor they were.
+226480	229320	That's all about their professional activities.
+229320	232920	By the way, here on the top of the screen, you can still see the Zenodo record.
+232920	240360	If you have not yet downloaded or accessed this page to download the handout for participants,
+240360	245080	you can do it during the first few slides of this workshop.
+245080	251840	Okay, so when I'm talking about modeling professors, I'm talking about modeling humans.
+252000	264040	Then we have to look at how humans in Wikidata are actually modeled.
+264040	269080	Then you have to think, well, what kind of really basic properties are needed to model
+269080	272280	a person in Wikidata?
+272280	277080	When you give that some thought, and you would look at already existing Wikidata items, especially
+278080	282960	there are these properties that can be considered rather basic.
+282960	288280	First of all, the statement if a person in Wikidata is a male or female or something
+288280	289280	else.
+289280	292920	Then the country of citizenship, so basically nationality.
+292920	297760	Then the given name, the family name, and the name in the native language.
+297760	301600	Date of birth, place of birth, date of death, place of death.
+301600	304640	And then the native language the person speaks.
+304640	308560	So if it is from the Netherlands, then it will be Dutch.
+308560	315920	But also the other languages the person is capable of speaking or writing.
+315920	322040	So this is for the first bit of this section of the workshop.
+322040	327000	Then after we've looked at it, we're going to look at the professional and educational
+327000	329960	information about the professors.
+329960	333440	But that's specifically for the second part.
+333440	344280	Just to look at a quick example of these basic properties, I have the Wikidata item
+344280	348720	about a famous Dutch astronomer, Jan Hendrik Oort.
+348720	352960	My background, I studied astronomy in the 90s in Leiden.
+352960	360120	So this is why I chose this not exactly random example, but it's a good example to illustrate
+360280	364320	the basic properties of humans on Wikidata.
+364320	369240	And first of all, we have the label.
+369240	374960	So this is basically the name of this person, Jan Hendrik Oort, in all the different languages.
+374960	380480	And then there is a short description about what kind of person Jan Hendrik Oort was.
+380480	386680	He was a Dutch astronomer who lived between 1900 and 1992, actually.
+386720	389920	And this is available in multiple languages.
+393800	401680	I need to point out here that for every human on Wikidata, it's always an instance of human.
+401680	407600	So this is a unique specimen of the group of humans.
+407600	412280	And this is indicated in Wikidata by the property P31.
+412280	415800	This is instance of, so a unique example of.
+415800	418480	And then the value of that property is Q5.
+418480	425360	So this is the class of humans on Wikidata, which is the fifth class.
+425360	433080	Q1 is the universe, Q2 is the earth, Q5 is human, Q42 is Douglas Adams, obviously.
+433080	440120	And this goes all the way up to currently Q114 million even.
+441120	450600	Then if you scroll down that page, you will see that Jan Hendrik Oort is a sex or gender male.
+450600	454800	Sex or gender is denoted by property P101 in Wikidata.
+454800	460280	Country of citizenship, that's P27, which is the Kingdom of the Netherlands, etc.
+460280	466120	So the name in a native language, the name in Dutch, is indicated by this property.
+466520	475320	The given name, so that's his first names given by the P735 property.
+475320	478880	The family name is one number down.
+478880	486480	And so you can continue, the date of birth is P569, the place of birth is P19, etc.
+486480	489480	You see, this is the date of death and the place of death.
+489520	497440	So these are all properties in Wikidata that are related to basic data about humans.
+499560	505640	And to continue to finish this up, the native language, so the natural language the person speaks
+505640	510080	because he's a citizen of a certain country is P103.
+510080	517080	And obviously, Jan Hendrik Oort was capable of speaking Dutch, which is indicated by this property.
+518080	523080	Okay, you might wonder, why can I find all these different properties that are related to humans?
+523080	527080	Or is there a nice, compact overview of all these kinds of properties?
+527080	531080	The good answer is, yes, there is.
+533080	541080	Because on this URL, so the template person properties,
+541080	546080	this lists all kinds of properties that are related to humans.
+546080	551080	Both really basic properties, like sex or gender or place of birth, etc.
+551080	558080	But also a bit more advanced properties, like educated at and academic degree, etc.
+558080	560080	That's what we'll look at later.
+561080	566080	But these are the most important properties related to humans.
+566080	575080	Alternatively, you can go to the Wikidata Prop Explorer here at this page.
+575080	581080	And if you collapse down the list of all the various properties,
+581080	586080	then there is this thing called Wikidata Property for Items About People.
+586080	590080	And here you see the same properties that I actually showed before.
+590080	593080	So the place of birth, the place of death, etc.
+593080	595080	Sex or gender, P21.
+597080	602080	All the way up to date of birth and date of death by this property.
+602080	604080	Family name, given name, etc.
+604080	608080	So these are just the things I showed you already.
+610080	614080	Okay, so now for the first part of the practical exercise,
+614080	621080	what we'll do in the first instance is to add basic properties for these professors.
+621080	626080	And I have to give a bit of background to this exercise.
+627080	636080	Because the professors at Maastricht University and at many other universities in the Netherlands,
+636080	642080	here on the screen, data about these professors has already been added to Wikidata
+642080	649080	because of the so-called Wikiscientist Project, which was started in 2019.
+649080	655080	Because then the first really big bulk of professors were added to Wikidata.
+655080	658080	And it still runs till today.
+658080	664080	And you can consider this workshop to be part of that Wikiscientist Project.
+665080	668080	So what the aim of this particular project was,
+668080	675080	was to create and maintain centralized and structured data about Dutch professors
+675080	680080	and other leading scientists all the way from the 16th century up to now
+680080	683080	to be used by a wide audience.
+685080	692080	And also to have the work-related data of these professors mapped onto Wikidata.
+692080	698080	So recording information, for instance, about which university did they work,
+698080	701080	when did they join the university, when did they leave the university,
+701080	706080	what positions did they held at the university, etc.
+706080	709080	And this is a project that is done on Wikidata.
+709080	714080	Hence, you see here, this is a Wiki project.
+714080	719080	So that's a project where all the information is gathered on Wikidata.
+719080	724080	And the project working environment, the documentation, etc.
+724080	727080	is also available on Wikidata.
+730080	733080	An employee of Maastricht University, Manuel Beussen,
+733080	738080	he has written a blog post about this project.
+738080	744080	And if you want to read the full background of the project,
+744080	748080	you can go to the website of the Stichting Academisch Erfgoed,
+748080	752080	which is the Foundation for Academical Heritage in English.
+752080	757080	And this was the organization that actually initiated this project.
+757080	760080	And they wrote, after the first year of the project,
+760080	765080	I believe they wrote a report on the activities that were done during the project
+765080	768080	and the results that were obtained.
+768080	773080	And to place this project in a bit more wider context,
+773080	777080	there are two other projects on Wikidata
+777080	781080	that are related to higher education and universities, etc.
+781080	783080	One is the Wiki project Higher Education,
+783080	790080	which works on adding Wikidata or adding to Wikidata information
+790080	795080	about universities and higher educational institutions.
+795080	800080	And another project is especially about university degrees throughout the world,
+800080	804080	because Wikidata has always an international scope.
+804080	808080	So you could say that this Dutch Wiki Wetenschappersproject
+808080	814080	is actually a subset or a subproject of these larger, more encompassing projects.
+815080	821080	All right. And then if you go to that page on the Wiki Wetenschappersproject,
+821080	827080	you will find a table where all the basic properties that we just discussed
+827080	829080	are actually available here.
+829080	834080	These are the same properties that I already showed you here.
+834080	841080	So if you want to refer to this project specifically for the properties,
+841080	845080	the properties specifically for the project, you can go to this page.
+845080	849080	And our starting point will be this table.
+849080	852080	This is a table for the University of Maastricht
+852080	857080	where all the professors, all the hoogleraren are recorded.
+857080	862080	Well, not necessarily all the Maastricht University professors, but many of them.
+862080	868080	Actually, the persons who agreed upon having their data recorded in Wikidata
+868080	872080	at the start of the project in 2019.
+872080	878080	But this table, it has some 300 Maastricht professors listed.
+878080	882080	So this is a really excellent starting point if you want to improve
+882080	886080	and add in data about professors at Maastricht.
+886080	889080	This is a good starting point.
+889080	892080	So we'll use that table to work from.
+892080	897080	And in this table, all these basic persons data, as we saw before,
+897080	902080	are listed for many professors.
+902080	909080	And these columns in the table correspond to these properties in Wikidata that I showed you.
+909080	912080	What you immediately see is that there are blank spots here in the table.
+912080	922080	So this means that for this professor, the family name and the place of death is not recorded.
+922080	926080	This is not a surprise because she's still alive, luckily.
+926080	929080	So this will remain empty for a while, I guess.
+929080	938080	But here you can see that the country of origin and the nationality is the Kingdom of the Netherlands.
+938080	942080	And it is not available for this professor here in this field.
+942080	946080	So we're going to try to improve this situation.
+946080	950080	So what we're going to do now is the first level of exercise.
+950080	959080	And the first level of exercise is actually to add data to Wikidata without the need for external data.
+959080	967080	So we're not going to consult external resources, external references to add to Wikidata.
+967080	968080	That we'll do in the next block.
+968080	976080	But in this first block, we will actually get our information from already existing Wikidata items.
+977080	983080	So we have this table again that we just looked at.
+983080	987080	And you see here, this is a description of the person in Dutch.
+987080	998080	And you immediately see that this is a short characterization of this professor Wil Albeda called.
+998080	1003080	And it's typically composed of fields like the nationality, Netherlands, Dutch.
+1003080	1009080	Something about the profession or occupation of this person, a political person and an economist here.
+1009080	1013080	And if available, the year of birth and year of death.
+1013080	1015080	So like in this case you see here.
+1015080	1019080	And the good thing is about this table is that you can actually sort it.
+1019080	1028080	And if you sort it, you will see that all the professors for which this description is not yet available are listed here.
+1029080	1041080	So what we can now easily do, we can add information like the nationality, the profession, the fact.
+1041080	1046080	Because these are all Maastricht University professors, we can add that fact.
+1046080	1049080	And if available, these years.
+1049080	1052080	So that might look for this professor, that might look something like this.
+1053080	1057080	The Netherlands, a Dutch psychiatrist and professor at Maastricht University.
+1057080	1068080	So we can similarly, we can add this kind of information, not necessarily very like a copy of this, but something equivalent.
+1068080	1076080	You could say we can add that to these, all these, all these professors that don't yet have that.
+1077080	1085080	Then next we'll see here at the far right of the table, this is sex or gender.
+1085080	1092080	And this can often be derived, commonly typically be derived from the name of the professor.
+1092080	1096080	And this is very easy, for instance, this is so this is about property 21.
+1096080	1105080	So this person, Kees van Dam, obviously, if you know that he is a man and you can add male here.
+1105080	1113080	And the typical values to choose from, if you make the classical subdivision male, female,
+1113080	1120080	is male has this Q number, which is shown here.
+1120080	1128080	And female has this Q number, which is shown here.
+1128080	1130080	So it's either male or female.
+1130080	1139080	And if a person is non-binary or something, there are also separate Wikidata properties for those types of sex or gender.
+1139080	1149080	What is also quite easy to derive from existing information is the country of nationality, so P27.
+1149080	1153080	And this can be commonly derived from the place of birth.
+1153080	1160080	Here we see that all these persons were born in either The Hague, Heerlen or Boksmeer, these are all cities in the Netherlands.
+1160080	1169080	And it means that we can easily from this derive that the nationality of the person is Kingdom of the Netherlands.
+1169080	1174080	And for Dutch persons, you have to be aware of that you actually choose Kingdom of the Netherlands here.
+1174080	1185080	So this Wikidata item number and not Q55, which is the Netherlands, which is a different thing than the Kingdom of the Netherlands.
+1185080	1192080	But the convention on Wikidata is to actually for Dutch persons do Kingdom of the Netherlands.
+1192080	1203080	And finally, we can also derive a family name and given name of the person from their already stated full names here.
+1203080	1212080	So for instance, for this professor Wilco Letterie, his first name is Wilco and his family name is Letterie.
+1212080	1217080	So that can also be easily added to Wikidata.
+1217080	1224080	Okay, so now let me try to give a live demo.
+1224080	1229080	Well, I actually can do that because I'm not recording my screen now.
+1229080	1238080	But if you, this is quite easy to actually go to this Wikidata item and then have a short description of this person.
+1238080	1248080	Like he's a professor at, not sure which topic or which field of work, but he's a professor at Utrecht University.
+1249080	1256080	And I think his birthday is already stated in Wikidata.
+1256080	1261080	So you can actually use that information to add to the description.
+1261080	1267080	And you can add that the given name is Wilco and his family name is Letterie.
+1267080	1279080	And in an equivalent manner you can add to Wikidata on the item of Kees van Dam that the sex or gender of this person is male in this case.
+1279080	1282080	So this is a short demo.
+1282080	1288080	What I would like you to continue now is to go to this table here at this URL.
+1288080	1292080	And then go to one of the Wikidata items.
+1292080	1299080	I have to point out on the previous slide, not sure if I can actually go back to that slide.
+1299080	1301080	No, I'm afraid not.
+1301080	1306080	Don't edit this, what I want to say, don't edit this table directly.
+1306080	1312080	Rather go to the Wikidata item here and make the edits in the Wikidata items themselves.
+1313080	1325080	So you can choose a person from the list, see where information can be added, like this kind of information.
+1325080	1330080	And then just edit the Wikidata item, store it.
+1330080	1334080	And then once you have done that, and we take about 10 minutes for that.
+1335080	1341080	Don't forget after saving your edits to push here to click this.
+1343080	1349080	This is not really a button, but this URL, this text here, to manually update the list.
+1349080	1362080	And after you have done that, then the table here will be updated either immediately or if the system is slow, then within a couple of minutes.
+1362080	1370080	And then this table will be updated and the information that you just added is actually available from here.
+1373080	1375080	Alright, so that's about 10 minutes of work.
+1375080	1385080	And after you have hopefully successfully done that, we'll continue with the second block of this workshop.
+1385080	1389080	And now we're going to try to add to Wikidata.
+1389080	1396080	Data that is related to the professional activities of these professors.
+1398080	1411080	And this block is going to be a bit more complicated than the previous block, because we have to build up and improve our knowledge, of course.
+1411080	1417080	But the structure of the data is also slightly more complicated.
+1418080	1421080	So, yeah, let's go on and tackle that now.
+1423080	1430080	But first, before I dive into this further, I have to make sure that we all have the same definitions.
+1430080	1436080	And this has to do with defining what a professor is, basically.
+1437080	1446080	I thought that I knew something about the phenomenon of professor.
+1446080	1460080	But when I was preparing for this workshop a couple of weeks ago, I found out that there is much more nuance in professorships and the ranks and functions of professors than I was aware of.
+1460080	1469080	So this is why I made this slide to actually make you also, if you're all working on a university, so I think you have some notion of professors, of course.
+1469080	1476080	But it's good to have this clearly on a sheet.
+1476080	1482080	And I'm deliberately using the Dutch word for professor, hoogleraar.
+1484080	1488080	Why I use that deliberately in Dutch, you will see in a moment.
+1488080	1495080	But een hoogleraar, he or she is a university teacher of the most senior rank.
+1496080	1503080	So, hoogleraar, that's a position, an office you can hold. In Dutch it's called a functie or an ambt.
+1504080	1510080	So that's just a, yeah, like a job, a function.
+1511080	1528080	And the funny thing about, at least in the Netherlands, what I found out is that an academic education or a PhD or a doctor's degree is not a requirement for if you want to become a professor.
+1528080	1545080	Of course, it's highly unlikely that without a PhD you will get a professorship, but there are examples known that people that didn't study at university or only got their master's degree actually became professors.
+1545080	1551080	You might be surprised about this fact. You can check the sources. I think it goes to Wikipedia.
+1552080	1561080	But I don't want to go on, I want to discuss this in more detail now because this is beyond the scope of the current workshop.
+1562080	1569080	Okay, then there is something called professor in Dutch. This is different from hoogleraar.
+1570080	1580080	If I were to do this slide in English, then both these things would be professor because the English word for hoogleraar is professor.
+1581080	1586080	But the English word for professor is also professor. So this is a Dutch word, professor.
+1587080	1592080	And professor is an academic title and rank. So it's in Dutch an aanspreektitel.
+1593080	1612080	And it's generally used for a university teacher of any rank. For instance, in the United States this is the case, but in the Netherlands it's especially true for the hoogleraar, so the university teachers of the highest rank.
+1612080	1625080	And professor is not something like an academic degree or something you can actually work for, you can study for, but it's like an attribute you get when you become a hoogleraar.
+1626080	1637080	So this is the difference. It's a decoration attribute title you can use if you're a hoogleraar.
+1638080	1647080	And then the academic degree. The degree at the university is something of course it gives to its graduates and it's actually something you study for.
+1648080	1655080	So the highest degree that Dutch universities will give is the degree of PhD or doctorate.
+1655080	1670080	And this is also the most common degree that the hoogleraar will have. They first did their master's thesis, then their PhD, and then they were appointed to be a professor at some stage of their careers.
+1671080	1683080	All right, so now how do all these kinds of different things and definitions translate into the Wikiewetenschappersproject and thus about the professors at Maastricht University?
+1683080	1693080	And for that we go to the Wikiewetenschappers eigenschappen, the properties page again, which we saw before for these basic properties about professors.
+1694080	1701080	And if you scroll down that page, you will come to the professional information for the professors.
+1701080	1719080	And here you see quite a number of properties in Wikidata that are related to that professional activities like the occupation, the employer, so that's the university they work at, the university where they got their education, the academic degree they hold.
+1720080	1729080	And here you see an entire blob of all kinds of different Wikidata items related to professors.
+1729080	1739080	So let's look at this. I think if you see this, this is quite confusing. So let's look at this in a bit more detail. Let's use some illustration for that in other words.
+1740080	1753080	And the Wikidata item I found, which was really good, was the item on Marleen van Baak. She is an emeritus professor at Maastricht.
+1753080	1771080	And when I looked through this Wikidata item, this is like a really good example, a kind of canonical you could even call it. So this is the example I will use to demonstrate how professional data about hoogleraaren is recorded in Wikidata.
+1771080	1796080	So the first thing to notice is that the occupation, that's P106 in Wikidata, is always university teacher, which is this number. This is true for all professors or all university teachers, not only at Maastricht University, but also for all the other universities that were part of the Wiki Wetenschappersproject.
+1796080	1819080	You could argue about this. I'm sure you could also say, is the university teacher, is that the best way to describe a professor at university? I'm not going to discuss that at this particular moment, because this was a choice that was made at the beginning of the Wiki Wetenschappersproject back in 2019.
+1820080	1841080	And I'm going to respect that choice, although I think you can debate about it, but this is the standard that is used throughout the project for all the universities. So I'm going to stick to the convention and not motivate you or change your mind that you would need to do this in a different manner.
+1842080	1862080	Then it says the employer of this hoogleraar is Maastricht University, so that's always P180 for Maastricht, this Q number. And these two things that I showed you here, so that's the Maastricht University and the occupation being university teacher.
+1863080	1870080	That's the definition to have a wetenschapper on the Wiki Wetenschappersproject.
+1871080	1888080	To continue, where was Marleen van Baak educated? As it said here, she was educated at the University of Maastricht. She got her, what's it called now, the master's thesis, master's degree.
+1889080	1911080	These are the dates she started, she ended, and her field was biology. And she got her academic degree of doctorate, so that's her PhD, between 1975 and 1979. She was in the field of exercise psychology, and it was done at Nijmegen University.
+1911080	1915080	So this is the way to record that kind of information in Wikidata.
+1916080	1932080	Then what you often see in the Wiki Wetenschappersproject is a webpage where the person is described, and it's typically the homepage at the university the professor is associated with.
+1932080	1937080	So in this case, this is the homepage of Professor van Baak.
+1938080	1954080	What you also often see is the Org ID, which is property 496 in Wikidata and has this particular value. So if you click on this link, you will go to the Org ID page of Marleen van Baak.
+1955080	1965080	One thing I did not yet discuss, but which I will show you now, is how that notion that Marleen is a professor is actually recorded in Wikidata.
+1966080	1974080	Well, the way it's done is under employers, so that's the P100A Maastricht University here, which we saw before.
+1975080	1983080	These qualifiers here are used to indicate that Marleen was a professor.
+1983080	1997080	First, she was a normal professor, a hoogleraar, position held hoogleraar, but that ended because she got a pension basically, she got her emeritus.
+1998080	2008080	And it's indicated here that from 2014 onwards she has a different position because their position now has become professor emeritus.
+2008080	2020080	And you immediately see that professor emeritus and hoogleraar, those are two different things in Wikidata.
+2021080	2029080	And actually it gets much more complicated because there are a lot of notions on professors in Wikidata.
+2030080	2038080	Just to show you a few, now don't get scared because I'm going to show you this one, this is a Wikidata about a high level professor.
+2039080	2052080	This is another one, this is even another one, professorship, full professor, an ordinary professor, an extraordinary professor, an assistant professor, an associate professor.
+2053080	2067080	It goes on, a teaching professor, an honorary professor, an ecclesiastical professor, a visiting professor, an emeritus, a berufstitelprofessor, this is in German,
+2068080	2072080	professor de universite, this is a French type of professor.
+2073080	2085080	And then if you think now I've seen them all, you're very wrong because for the Netherlands there are even all these kinds of professorships.
+2086080	2096080	So this is quite a lot and it's also quite confusing that there are so many types of professor, but this is the nature of Wikidata.
+2096080	2106080	Wikidata is an open project that everybody can add data to and this means that the ontology in Wikidata is also open.
+2107080	2114080	So everybody can add their notion or their local or their national notion of different types of professors.
+2114080	2121080	Sometimes that makes sense, sometimes it doesn't.
+2122080	2129080	When it makes sense for instance is that the notion of professor in the Netherlands, this full professor in the Netherlands,
+2130080	2133080	it's something else than the notion of a professor in Germany.
+2134080	2136080	That's really a different thing.
+2137080	2139080	Or a professor in Sweden, that's also a different thing.
+2140080	2142080	Or a professor in the UK or in the United States.
+2142080	2151080	Those are all slightly different notions of professorships which therefore have their own Wikidata items.
+2152080	2159080	And obviously something like an ordinary professor or an extraordinary professor, those are also different notions.
+2160080	2166080	And they have these special appointment professors or this is a typical Dutch thing, academy professor, etc.
+2167080	2174080	So there are all these different notions on professorship which are in Wikidata for a reason.
+2175080	2182080	It's very confusing if you are new to Wikidata and you're not familiar with all these kinds of, or you're aware of all these kinds of things.
+2183080	2187080	But it's a thing to take into account of.
+2188080	2201080	But what I would encourage you if you're working on Wikidata on Dutch professors, on Dutch full professors, I need to say always use this queue number.
+2202080	2212080	A general other tip when working on Wikidata and if you're not yet familiar with how certain items are structured,
+2212080	2218080	is then to look at good quality items of already existing persons in this case.
+2219080	2228080	And for Marleen van Beek I showed you, but also Gerard van Breukelen, who we already saw in the first theoretical part of the workshop.
+2229080	2239080	And also Bruno de Witte, if you look at their Wikidata items, the way their professional data is recorded, so the professor and educated ed and degree, etc.
+2239080	2243080	That's really well done.
+2244080	2253080	So if you can consider this to be canonical items to actually copy the structure of the data from these three examples.
+2254080	2257080	Okay, this is the thing I needed to say about professorships.
+2257080	2275080	So what we're going to do now in the second practical block of the afternoon is to try to add professional data about professors to already existing Wikidata items, where we get that information from external data sources.
+2276080	2281080	And let's look at how that can be done.
+2281080	2288080	We'll start with the table that we saw before. So this is the overview table of Maastricht professors.
+2289080	2297080	And what kind of information would we like to add now? We would like to add information from external public sources.
+2298080	2307080	And the first one could be the place of birth and the date of birth.
+2307080	2320080	So if you can find in a public, reliable, external source information about the date on which the person was born, you can add that to Wikidata.
+2321080	2327080	And again, don't add it in the table directly, but add it in the corresponding Wikidata items.
+2327080	2343080	And then furthermore, you can add the information about the university where the professor was educated, the academic degree of the professor, the homepage at the university, and the org ID information.
+2344080	2349080	You can all add that to these related properties.
+2349080	2364080	Of course, when you find external information and you want to add that information to Wikidata, you have to state, you have to make clear where you found that information, where you got it from.
+2365080	2373080	And for this case, for Bruno de Witte, it's stated that his employer is Maastricht University.
+2373080	2378080	And you need to make clear where that information comes from.
+2379080	2386080	And this is done by this block. So there is this information about his homepage on the Maastricht University website.
+2387080	2393080	And from here, you can actually derive that his employer is Maastricht University.
+2394080	2405080	And what you also need to do in general is to add information about when you added or when you checked that source for that information and when you added the information to Wikidata.
+2406080	2410080	And when you look at here, how do you do that?
+2410080	2426080	When you edit Wikidata, you get this edit screen and the reference URL, that's P854 in Wikidata, that states the URL of the page where the information was found.
+2427080	2435080	And the retrieved date, P813, is the information or the date when the information was added.
+2435080	2443080	So these are always the same things you have to put in Wikidata when you make a reference to a certain external source.
+2444080	2450080	Just to make clear, where can you find that kind of information?
+2451080	2462080	First of all, of course, you can find it on the public, the homepage of the university where the professors have their own homepage.
+2462080	2466080	For instance, this professor, Wiebe Bijke, he's called.
+2467080	2475080	He actually, when you go to his page, you scroll down, there is a full CV of all his activities.
+2476080	2482080	And here you can find information about where he was educated, when he became a professor, etc.
+2482080	2491080	Another good source is the Orkut page of the professor or the page on ResearchGate.
+2492080	2496080	You can also go to that site to find professional information.
+2497080	2504080	Of course, you can use Google to look for information on a specific person, like this one, Nancy Brocken.
+2505080	2514080	You can also check the LinkedIn profile, that also gives information about the professor or if professors have personal websites or blogs.
+2515080	2524080	You might also be able to retrieve, for instance, the year that they were born or the year they got their PhD degrees or something.
+2525080	2530080	Furthermore, you can also look in Wikipedia articles about the professors.
+2531080	2534080	These are some articles about Maastricht University professors.
+2535080	2545080	And then I would suggest that you don't look at the Wikipedia article yourself, so don't get information from this part of the Wikipedia article.
+2546080	2549080	But always go to the underlying sources of the Wikipedia article.
+2549080	2554080	And here you can, if you check those sources, you can also find relevant information.
+2555080	2556080	All right.
+2557080	2561080	Then before we can actually get started, it's a pretty long introduction.
+2562080	2564080	I'm very aware of that, but there is a lot to tell.
+2565080	2572080	There are a lot of remarks to make before you can actually, with an informed mind, add information to Wikidata.
+2572080	2580080	So, although it might be a bit lengthy, I have to share this information with you because this is important, because we're dealing with living persons.
+2581080	2584080	Most of the university professors at Maastricht are still alive.
+2585080	2594080	So that's why we have to be aware of the GDPR and the AVG conditions that apply to this exercise.
+2595080	2600080	And information about the AVG is available from the Wiki Wetenschappersproject.
+2600080	2616080	And just to summarize the most important findings, it says that personal data about living persons we only include in Wikidata if they are publicly available from general information sources.
+2617080	2619080	And this is a good guide to go by.
+2620080	2636080	If there are some kind of, for instance, if you find information on a non-public site or if you have to log in to certain sites or if they're not generally publicly available, don't include that information in Wikidata.
+2637080	2653080	And this is also stated by a report that was done after the Wiki Wetenschappersproject by the SSA, the Dutch Academic Heritage Foundation.
+2653080	2666080	They also give guidelines to which kinds of data are suitable for inclusion into Wikidata, given the GDPR AVG that is valid.
+2667080	2684080	So in this report they state that, they ask the question, can we provide data about Dutch professors to the Wiki Wetenschappersproject?
+2685080	2692080	They said, yeah, we can do that, provided there is a public source mentioned.
+2692080	2702080	So this is from the Wiki Wetenschappersproject point of view. Of course, Wikidata also has policies about living persons.
+2703080	2709080	They're also aware of GDPR AVG, so they have their own policies to follow.
+2710080	2721080	And they kind of say the same things. For data about living persons, it should be supported by a reliable public source.
+2722080	2725080	And privacy should be respected. That's always the case.
+2726080	2733080	So just to summarize the findings from both the Wiki Wetenschappersproject and the Wikidata policies,
+2734080	2744080	these are the guidelines that you need to be aware of when you add information to Wikidata.
+2744080	2752080	So only add information from reliable public well-known sources. Always add references in Wikidata to those sources.
+2753080	2764080	Avoid what in Dutch are special persoonsgegevens, so special personal data like religion, ethnicity, sexual orientation, etc.
+2765080	2772080	Don't include that in Wikidata unless you have explicit permission from the person itself.
+2772080	2778080	Avoid things like home addresses, email, telephone numbers, information about partners, children, etc.
+2779080	2787080	And even if the professor person provided himself, and why did I include this last thing?
+2788080	2793080	This has to do with what I found in the CV of Professor Beiker.
+2794080	2799080	When you go here, it just tells you where he lives. This is his personal home address.
+2799080	2805080	Don't include that in Wikidata because this is personal private sensitive data.
+2806080	2812080	He chose to put it on here, but just be careful, be mindful of Professor Beiker.
+2813080	2821080	Don't add that to Wikidata, because once it's in Wikidata, it will be in Wikidata forever, and it will be visible forever for everybody.
+2822080	2828080	Okay, now I'm actually going to skip this part.
+2829080	2835080	This is supposed to be me giving a live demo, but because of reasons of time, I'm actually going to avoid it.
+2836080	2840080	It is not too difficult when you follow the instructions that I showed you before.
+2841080	2846080	So now we can use 20 minutes of our time to actually go to work yourself.
+2846080	2850080	Finally, I'm very aware that I've spoken a lot.
+2851080	2857080	But this is the information you need to have one time, and once you know this, once you are aware of the information,
+2858080	2862080	then you can add information to Wikidata forever.
+2863080	2867080	So, start with what the exercise is.
+2868080	2873080	From this table here, go to the table, see where there are empty cells in the table,
+2873080	2880080	and try to add information about where the persons were educated, academic degrees, etc.
+2881080	2892080	based on information of external sources, and also include those sources in the Wikidata source references.
+2893080	2899080	To make life easier for you, in the handout that you already downloaded,
+2899080	2912080	at the very bottom of the handout, there is already a list that I compiled myself.
+2913080	2920080	So if you don't want to go to too much trouble, and you want to add information about Willem Brouwer,
+2921080	2927080	you can go to this page and you will find these bits of information that you can readily include in Wikidata.
+2927080	2935080	And I did that for, I think, 15 to 20 professors, so if you're a bit lazy,
+2936080	2939080	you can just copy basically the information that is given here.
+2940080	2945080	But please also check the originating sources for this information.
+2946080	2956080	And again, as I said, if you wonder how to do it, if you're a bit, perhaps if it's your first time working with Wikidata,
+2957080	2967080	and you need some guidance and things to hold on to, go to either of these three items,
+2968080	2974080	and you will find a really good example of how information in Wikidata for professors can be structured.
+2975080	2978080	Okay, this is it for me for now.
+2978080	2987080	Here on the third, this was supposed to be, because for reasons of time, I'm not going to try to discuss this.
+2988080	2993080	If you want to do this, this is about creating actually new Wikidata items,
+2994080	2999080	so we already looked at existing Wikidata items, if you want to create new Wikidata items for UM professors,
+3000080	3004080	then go by these guidelines.
+3005080	3012080	So find the professor that is not yet described in that Wiki Wetenschappers table.
+3013080	3015080	For instance, you can find one here.
+3016080	3020080	Then try to gather information about this person from reliable public sources.
+3021080	3026080	And then please pay attention to AVG GDPR and privacy guidelines.
+3026080	3038080	And then add that information to Wikidata, based on the examples of Marleen van Baak, Bruno and Gerard van Breukelen.
+3039080	3041080	Okay, that was it for me. I think I've talked enough.
+3042080	3046080	It's really time for you to actually go and exercise yourselves.
+3047080	3055080	If you have any questions or any suggestions, feel free to send me an email at olafjansen.kb.nl
+3056080	3060080	This is the National Library in the Netherlands, where I'm the Wikimedia Coordinator.
+3061080	3068080	And we can also get in touch via video or telephone or something, or chat.
+3069080	3075080	It's all available if you need any support in adding data to Wikidata.
+3076080	3078080	Okay, thank you very much. Bye bye.

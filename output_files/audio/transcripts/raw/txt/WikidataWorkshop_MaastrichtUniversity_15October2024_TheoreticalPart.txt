@@ -1,0 +1,512 @@
+Hello everybody, welcome to this workshop on Wikidata for the University of Maastricht
+on the 15th of October 2024. My name is Olaf, I'm the Wikimedia Coordinator at the National
+Library of the Netherlands. And today, for the next two and a half hours, I will guide
+this workshop on Wikidata related to professors here at Maastricht University. And this workshop
+will be in two parts. It will be first a theoretical introduction where we will look at the basics
+of Wikidata, so really the principles and founding guidances of Wikidata. And also in
+the theoretical part we will look at how we can use Wikidata in research, science and
+cultural heritage. That will be about an hour, so that will be me presenting the theory to
+you. And of course, if you have any questions, you can send me an email or we can have a
+chat if you would like to know more about that part of Wikidata. Then we have a short
+break and after the break there will be a second theoretical part, so where you will actually try
+to make your first edits and contributions to Wikidata, themed by data on professors of
+Maastricht University. For the second part, there's actually a separate video available which
+you will find on the page this video is in. I recorded it also today when it was still daylight.
+So if you want to work through that workshop, the practical part of the workshop yourself,
+then you can go and check out that video. And the second part is between 75 or 90 minutes,
+but for this particular video that I'm recording now, I will actually only do the basics of Wikidata,
+so that will be approximately an hour of video you will have had. So let me go on to the opening
+slide of this theoretical part. As I said, I'm Olaf Janssen, I'm with the National Library of
+the Netherlands. And for the next hour, we will look at the basics of Wikidata. So what Wikidata
+is, what are the principles of Wikidata, both from the technical and social point of view,
+and with social, I mean the community point of view. And then in the second part of this first
+theoretical block, I will show you some case studies on how Wikidata can be relevant for
+the domains of research, science and cultural heritage. Perhaps a small introduction about
+myself. As I said, I'm with the National Library of the Netherlands, and I'm the Wikimedia
+Coordinator of our library. And in that role, which I've been fulfilling for 10 years now,
+I try to bring two worlds together. On the one hand, there is the world of the KB with our
+collections and our data and our books, of course, and our information and our people.
+And on the other hand, there is the world of Wikipedia, for instance, Encyclopedia, but also
+projects like Wikidata that we'll discuss today, or the image repository of Wikipedia called
+Wikimedia Commons. And the volunteers of creators, or sorry, the communities of creators, mostly
+volunteers, that work on these platforms to sustain them and to grow them. In these two worlds,
+I try to collaborate them together to mutual benefit. For instance, we as the KB take a lot
+of information from Wikipedia, Wikidata, but also make sure that we contribute to Wikidata. And one
+of the contributions that we also do, it's not only adding data to Wikidata, but also educating
+other heritage institutions and other universities about Wikidata. This is exactly the thing that I'm
+doing right now. So I'm sharing my knowledge with you and hopefully the wider Wikimedia community
+just for mutual benefit, so to say. All right, so what do I hope that you will have
+learned or gained some more understanding of by the end of this afternoon? First of all,
+that you have a basic idea of what Wikidata is, how it works, both from the technical perspective,
+like the data perspective, and also from the community slash social perspective. So that you
+will also have a little insight in how the community around Wikidata is organized.
+Because I put it here on purpose, because in many introductory talks about Wikidata,
+it only focuses on this real hard data aspect of Wikidata. But for me, the community aspects are
+equally important, actually. And actually, I think they're even more important than the technical
+aspects of Wikidata. And why I think so, I will discuss later on in this presentation.
+Then next, the second learning goal is trying to give you a small insight into how Wikidata can be
+relevant for research, science, and cultural heritage. And then lastly, and this is the second
+part of the workshop, the practical part, for which a separate video is available also, is trying to
+guide you through making your first steps into Wikidata yourself. So doing your first contributions
+focused on data of professors here at Maastricht University. So let's start simply by asking
+ourselves, what is Wikidata? Well, if you talk with people about Wikidata, you get a wide variety
+of answers. But depending on their view on Wikidata and their level of experience with
+Wikidata, I think the most basic thing you can explain about Wikidata is that it is a database
+containing structured descriptions of all sorts of things. And what kinds of things are,
+can you think of, for instance, it as a description, a structured description of the Eiffel Tower,
+or this valley in Antarctica, or this hit single by Girlfriend, or this book, or this American judge,
+or this airport in the United States, or this gene, or this election in Catalonia,
+or this scientific article, or this species of insect, or this composition by Robert Schumann,
+or this street in the Netherlands, or this family name, or this quasar in the constellation of
+Urza Meyer, or this really nice car, or this really nice metal band, or this international
+football association, or this cannabis seed bank in Canada, or this researcher, or this randomly
+chosen library from the Netherlands. So you see there are a lot of different things described in
+Wikidata. In total, when I last checked it, nearly 114 million distinct things are described in
+Wikidata. To give you just a short glimpse of what kind of groups together, like classes,
+there are described in Wikidata. It has a lot of scientific articles to start with. This is the
+the green pie chart. I will come back to that towards the end of my presentation, why it is
+such a big chunk. But also there are roughly some 5 million people, 5 to 6 million people described
+in Wikidata, animal and plants, etc. Chemical substances, thousands and thousands of
+astronomical objects, genes, really a lot of genes are available in Wikidata, etc.
+So Wikidata is both very broad, but it can also be very specific, like it has
+currently nearly 900 descriptions of Van Gogh paintings.
+If you take all the things in Wikidata that have geographical coordinates, like longitude
+and latitude, and you plot them on a map, you get this map, which was last created a year ago.
+Basically, this is a map of where people live, because where people live, they tend to describe
+their things in their surroundings. And it's typically along the coast. You will see,
+for instance, also this kind of map with other data points related to human civilization and
+where humans live. Okay, so that was a really brief introduction into Wikidata, really basic.
+What I would like to do next in the second part of the talk is to have a look at the principles
+that are guiding Wikidata. And those are seven. And let me just start by the first one.
+Wikidata contains structured descriptions of things. You can think, for instance, about
+Wikipedia. Wikipedia also contains descriptions of things, but those descriptions are free text.
+So they are not structured. And what do I mean by structured? It's the following, like there is,
+for instance, the Eiffel Tower is described in Wikidata. And you can see here that the Eiffel
+Tower is named after Gustave Eiffel. And it is situated in the country of France. And it is the
+property of the government of France. And these are structured descriptions. So it's a
+thing, the Eiffel Tower, and it has this property, which has a value here. And in this way,
+the entire Wikidata item is structured. What you notice here is that this description of the Eiffel
+Tower is in English. All the fields that you see here, all these strings and all these
+things here, those are all in English. Why that's important, you will find out in a moment.
+Then secondly, all these 114 million descriptions are stored in one big central system. At least
+for the user, that is the experience. Behind the scenes, I think there will be multiple databases
+working together. But for the user experience, it's one big storage of data. And data is not
+available only in English, but in over 200 different languages. And that's why I just
+showed you the English interface. You can also trigger the Dutch interface of Wikidata. And then
+you will see all these texts here. Those are all in Dutch. You can also do it in Portuguese,
+and even in Japanese. Most of the items here are also available in Japanese, as you can see here.
+All right, that was the first three. The fourth thing is that on Wikidata, that it contains
+linked data. And how do I explain this? The phrase that you use is linked data is about
+things, not strings. And it is made clear by looking at, for instance,
+after whom the Eiffel Tower was named, being Gustav Eiffel. And this text you see here,
+Gustav Eiffel, that's not plain text, but it's actually a URL you can click on. It's a clickable
+link. And when you click on this link, you will go to the Wikidata item on Gustav Eiffel. And in
+Gustav Eiffel, there are the other blue links, as you can see here, that use a human, etc. You can
+also click on those, and then you'll go to the Wikidata items on, in this case, human.
+This is meant by, so these are all entities in semantic terms, and not just ordinary strings.
+These are mutually interconnected, as will be clear from this example. So there are like a
+billion and billions of connections between all the items in Wikidata. So it's strongly internally
+connected. But also Wikidata is strongly connected to the outside world, because in this case, for
+the Eiffel Tower, these are all databases you see here, in which the Eiffel Tower is also described.
+And if you, for instance, look at this one, the Skyscraper Center Building ID, and if you click
+on this identifier in that particular database, you will get a description of the Eiffel Tower
+in this database. Currently, there are over 9,000 different databases known to Wikidata.
+So in theory, it's not the case, but provided they would all have an item on the Eiffel Tower,
+this list of external databases would be 9,000 rows long. But that's just an illustration of
+how many databases are actually available in Wikidata.
+Okay, number five, Wikidata is free and open. And what do I mean by free? Free is as in gratis,
+as in you don't have to pay money for it. And open is free. So you can go to the website,
+pay money for it, to access it. Also, there are no trackers, like cookies and stuff in Wikidata.
+And you will never see an ad that you have to avoid or click on. Because Wikidata is actually
+under the same funding as Wikipedia. It's financed by getting annual donations from
+about 7 million people from all over the world. Also, what is also defined by the word open here
+is that the fact that in Wikidata, all the data is free of copyright and also free of database rights.
+And that's because all the data in Wikidata is under the CC0 license. Effectively, this means
+that all the data is dedicated into the public domain. This has two big consequences, this
+principle that it is open. First of all, everybody is allowed to reuse the data in Wikidata. So you
+can search it, you can share it, you can copy data, you can actually download all of Wikidata
+and sell that as a commercial product. That's fully allowed because it's all in the public domain.
+Secondly, the open nature of Wikidata also means that everybody can contribute data. Everybody can
+add data, everybody can improve data, they can join two similar items, they can delete items, they can
+add other kinds of information to Wikidata. And if you think that's true, there are actually a lot of
+people that like doing that. Personally, I'm quite fond of adding new data to Wikidata.
+And I'm not the only one in the world, because there is a strong Wikidata community.
+And there are about 23,000,000 people on the planet that work on Wikidata at least once a week,
+that's meant by active contributors. Of which I am one. So I have, you could also say that I have
+23,000 colleagues all over the world, which I can reach out to if I need any help, or if I can,
+if I also can give knowledge and my time and my knowledge about Wikidata, I can give them to them.
+And what you also see on the background, I will come back to this later in a bit more detail,
+but these people, they really like to meet each other, because I think every week or so, and
+perhaps more often, somewhere in the world, there is a gathering of people working on Wikidata.
+So this is an international bunch of people, really ranging from here, this is the Netherlands,
+this was in Haiti, this was in Nigeria, if I remember correctly, this was in Nepal, I guess.
+So a really international crowd, and I think the community is the unique selling point of Wikidata.
+And why do I think so? In the previous slide I told that you can, in principle, you can download
+Wikidata fully, the full database, and you can try to build a commercial product around it.
+That's actually, I guess, not a totally unachievable task, it's a doable effort,
+but what you don't, what you can't buy with money is the commitment and the time and the enthusiasm
+and even the love of people for Wikidata. You can't buy these 23,000 people to actually come
+and work at your new commercial version of Wikidata. And this is actually, I think, the
+unique part of Wikidata, that there is this community that is really enthusiastic about
+Wikidata, is helping each other all the time, it's global, it's very open, very friendly people,
+which money simply can't buy. And more about the Wikidata community later in this presentation.
+Okay, and the final guiding principle of Wikidata is number seven. This has to do with the fact that
+Wikidata is both for humans. You can have, as a human, you can have an interaction with Wikidata
+via the web interface of Wikidata. So you can read this stuff, but you can also change it and edit it,
+and you can merge it, etc. And all these kind of operations you can do via the graphical user
+interface, typically associated with HTML. But if you're a machine, or if somebody actually writes
+a script to have machine interaction with Wikidata, that's also fully possible, because all
+the things you can do via the graphical user interface, you can also do via a set of APIs.
+So these are actually fully equivalent. If you can, everything you can do here, you can also do
+programmatically via the API. All right, so far for the first two items on the agenda of this
+theoretical part. What I would like to do next is to have a look at how things are actually
+described in Wikidata. All right, so let's look at how things are described in Wikidata.
+And this is always the classical image that is also available on the front page of the Wikidata
+website. To illustrate this principle, we have this thing, in this case the Earth, and this has this
+property, in this case the highest point. And this property has a value, and in this case it's
+Mount Everest. And in Wikidata terms, it goes as follows. The Earth, which is Q2, and this Q-number
+in Wikidata, that's a unique identifier of the thing that is being described. So apparently,
+the Earth was the second thing ever to be described in Wikidata. Q1 is the universe, Q42 is
+Douglas Adams, of course, all the way up to Q114 million at the moment. And this is just a number
+that goes up every time a new Wikidata item is created. This Q2 has this property, highest point.
+So this is this Q2 thing again, sorry. And this has this highest point, which is a property
+in Wikidata, denoted by the P-number here. And this is apparently the 610th property that was
+ever recorded in Wikidata. And the value of the thing is here, the Q-number for Mount Everest,
+actually hidden by my little camera here. But this is, I can't read the Q-number actually,
+but this is a Q-number. So it's always Q-P-Q, hence the Q, so like this,
+actually the classical semantical triple. So let's illustrate that a bit further by looking at
+the item of the KB in Wikidata. And the KB has this unique identifier. So that is the
+unique Q-number by which the National Library of Netherlands is identified.
+And this block on top, that's called the fingerprint in Wikidata terms.
+This is multilingual. As you can see, there is a description in English, in German, in Spanish,
+etc., also in Dutch, of course. And this has these fields of a label. So this is the title of the
+item. And this is also reflected here. So if I were to change this, then this would change.
+A little description, so a short characterization of what the thing is. This is the National
+Library of the Netherlands. And here are these aliases, also known as alternative names,
+by which this particular item is known, like the KB or the Royal Library, etc.
+Next, if you scroll down that item page, then you will see that there is a claim made about
+the country in which the National Library is. So this is again the same Q-P-Q triple. So it's
+the KB, Q-number, this number. The country is identified by property 17 in Wikidata.
+And the value of this property is it's in the Netherlands, which has number Q55.
+And the place where this information comes from, the source reference, is listed as in this block.
+This is called the reference. And it says, well, the claim that the KB is in the Netherlands is
+drawn from this website, which was published in December 2019.
+And this information was retrieved on this, the 12th of December,
+2021. Everything that is in Wikidata should have a source reference. You can also see it here,
+for instance, this claim has a reference, this has a reference, this not yet. But if you're
+working on Wikidata, always try to add references to where you found the information that is being
+given in the item. Then if you scroll down, you will see that there is a claim that the
+KB is a member of a range of library associations. And if you look at this one, it's the KB is a member of the Conference of European National Librarians.
+And in this bit, point in time 2022, so this claim was true in this year, this refinement,
+that's called a qualifier. So qualifier is always the thing that refines the
+how do you call that? The upper general, more general statement.
+And finally, there is a list of external identifiers, just the same as I showed you with
+the Eiffel Tower. And so these are all claims about the National Library. Okay, I actually
+already mentioned that currently there are 9,000 over 9,000, to be said 9,045 different databases
+known to Wikidata. And all these databases have their own properties. As you can see here,
+these are all P numbers. So these all have their own properties. And actually, this is one of the
+major functions of Wikidata is to be a hub on the internet to connect all kinds of databases
+together. And I don't know any other registry or any other big place where so many different
+databases are recorded. So if you want to discover obscure databases that you will never have heard
+of before, Wikidata is the place to go to. If you just go to this and you check them out, you will
+be amazed what kind of data is recorded in the world. And if you want to check out this information
+in a bit more relaxed or laid-back manner, you can go to this page. This is a page on the
+simplified data model of Wikidata. Basically, here is the same information as I just explained
+to you is available, but you can read it at your own pace. And one thing I need to point out is
+the following, that Wikidata has a version history. And this means that every edit that is stored
+is stored forever. So everything you do in Wikidata is recorded. And you can always go back to previous
+versions of the document and make sure that you don't put anything in Wikidata that is private
+or secret. Because once it's in Wikidata, it is public forever. So be careful about what you add
+to Wikidata. All right. Now let's look at some examples of what kind of information can be
+requested from Wikidata. And I'm going to build it on three slides we saw before. The fact that
+all the data in Wikidata is stored centrally. That it has all kinds of things, Wikidata,
+and that everything is interconnected. Those three things, if you combine them together,
+centrally stored, all sorts of things and everything is connected, you can ask really
+interesting questions to Wikidata. If you want to ask questions to Wikidata, you do that via
+a search language which is called SPARQL. It's like a dialect of SQL. And this is a common search
+language for linked open databases. I'm not going to go into detail on SPARQL. That's an entire
+day in itself, I guess. I can give workshops and lectures on that as well. But it's far
+beyond the scope of this introductory workshop we're doing at the moment. But what I would like
+to do now is to look at some results that you can get from SPARQLing in Wikidata. For instance,
+you can ask Wikidata, give me some depictions of house cats and you will get up this result.
+And if you click on this link, it will trigger this gallery, this depiction gallery.
+You can also ask Wikidata, give me a list of things that are named after French presidents,
+but which are outside of France. And you will, for instance, discover that in
+Ivory Coast, apparently there is a bridge named after General De Gaulle. You can really make
+interesting discoveries. And in Poland, there's also a roundabout called, of course, named after
+Charles De Gaulle, etc. Or you can ask, give me a list of the causes of death of American presidents.
+Or you can say, man, Nobel Prizes were awarded last week. And I wanted to know, well, who were
+Dutch people that were nominated for a Nobel Prize, but actually never won the prize?
+You get this list and you see that the Dutch author of Simon Vesdijk, he was nominated 11
+times for the Nobel Prize, but he never won it. That's quite sad. But if you think,
+Simon Vesdijk is a sad guy, think again, because this guy, Johannes Willem Sommerfeld,
+he was nominated no fewer than 84 times for the Nobel Prize, but he never won it. And, yeah,
+the cruel thing is that all of his PhD students, of like, like, 10, I believe 10 or so of his PhD
+students, were actually winners of Nobel Prizes. But the man himself never won it, I'm afraid.
+This is also a really nice query to show you the power of Wikidata paintings with alliterative
+titles. I think about, for instance, like, what was it, an Apollo artist,
+Cesar Chechime, so all alliterations.
+10 largest cities with female mayors, you can also request that these are the cities,
+these are the populations, and these are the female mayors. And finally, you can request a list
+of birthplaces of economists that already died, divided by time period. So these are the time
+periods, and the different colors represent each one, one time period here. And these are the
+places where these economists, these already deceased economists were actually born.
+Okay, this is to show you the power of Wikidata, basically. And now for the next block,
+I would like to look at the things we saw before, all quite, let's call it more technical,
+more data aspects of Wikidata. And I would like to have a also look at the social slash community
+aspects of Wikidata. And this, if you ask this question, who builds Wikidata?
+Then the answer is the community, because it's a community project.
+And here on this slide, you see a roughly 1% of all the people in the world that's working
+on Wikidata. And what I already told actually is that there are currently 23,000 active contributors
+to Wikidata. And it has been in existence since October 2012. So currently we're celebrating the
+12th birthday of Wikidata. And since that time, they have made 2.25 billion edits, which is an
+awful lot. These people don't only like to work on Wikidata as a data thing, but they also,
+as you can see from this group, they like to meet each other. And when you become active
+in the Wikidata community, as I said, you like to meet each other, but you also will,
+by experience, be drawn to certain roles or certain tasks within the community
+that you like more than others. And here you can see a number of roles that are
+present in the Wikidata community. It can be a developer, or it can be an ambassador,
+or it can be a translator. And when you look at a somewhat larger list of different roles you can
+fulfill within the community, you will see that there are, this is not a hard division, but
+I try to group the more hard data roles, like being a developer, or data editor, or data modeler,
+or a SPARQL expert, here above the line here. But the nice thing about Wikidata is also that there
+are lots of roles you can have in the community that are not really about hard data, but like,
+you can translate in data in Wikidata, or you can be an event organizer. So all these events that
+take place all over the world with subgroups of the Wikidata community, these are all organized
+by those people themselves. So you can also, if you like organizing events, you can become a member
+of the Wikidata community. Or you can do communication and outreach, or what I'm doing right now at this
+moment, I can be a teacher, a trainer, and a speaker. This is also a role you can have
+in the Wikidata community. So for every type of job role, there's always a place for you within
+Wikidata. And another thing to shed another light on the community is the following. I asked
+ChatGPT last week, what can you tell me about the mindset behind the Wikidata community?
+And it came up with this really great answer. This was spot on, so I just copied it. I didn't
+try to paraphrase it in any way. It's all about openness and transparency. It's about
+collaboration and collective intelligence, the wisdom of the crowd here. It's about inclusivity
+and diversity. Everybody is welcome from all over the world, independent of country, sexual
+preference, education, etc. You're all very welcome, independent of culture, language,
+expertise, etc. It's all about innovation and experimentation. It's about a strong culture of
+experimentation, which is exactly how I personally like to work. I like to experiment with stuff.
+It's about supportive collective learning, and it's about having an impact on the entire planet.
+It's a global database. It's a global project. And this is also in the mind of people working
+on Wikidata, that you're not doing this for your own institution or your own country even, but it's
+really geared towards the entire world. This also means, this community sense, is that people like
+to meet each other, as I already said, and it really happens all over the world. These are all
+images of celebrations of Wikidata birthdays in the past, and you see it's from Indonesia, India,
+Nepal, Germany, Netherlands, Turkey, etc. So it's a really global community.
+Once every year, on average, there is this big international meetup of people that like Wikidata.
+This is called WikidataCon. And here you can meet people from all over the world that are
+working and are enthusiastic about Wikidata. And one of the events that takes place right now,
+this month, is the birthday celebration of Wikidata. Currently we do the 12th birthday.
+And people, they come together, they really celebrate Wikidata, they bake cakes with the
+Wikidata logo on it, and they have their favorite t-shirts on. And it's really, you see, quite
+literally all over the world, Wikidata is being celebrated. Also, throughout the year, many
+Wikidata workshops are giving, introduction workshops, as I'm doing at the moment here right now,
+but also more advanced workshops are also given, or more specialized technical meetups,
+like hackathons and editathons, they're also happening quite often. And as a good community,
+of course, you have your community swag, you have your t-shirts and your caps and your
+breadcases and your brooms and your pens, etc. And this is me personally wearing my Wikidata t-shirts,
+etc. It says stickers, of course, to put on your laptops. This is also a manifestation of the
+fandom that many people have about Wikidata. So I hope this little section gave you some feeling
+of the human side of Wikidata, I think I call it that way, the social and community aspects
+which makes Wikidata such a nice place. Okay, then I've arrived at the last part of my,
+this particular presentation, this talk. And this talk, this part is to do with
+illustrating how Wikidata can be relevant for research, science and cultural heritage.
+And this is actually a section I made especially for this workshop, this lecture.
+So let's find out what it is. I think this section will take about 15 to 20 minutes.
+So then we'll have a full hour of presentation done. This is not much time, 15 to 20 minutes is
+not a lot of time to actually talk about this topic. So as you will see, this section will be
+quite anecdotic. It's not a concise treatment of all the various aspects of Wikidata has
+in relation to research, science and cultural heritage. But it's like, I will bring forward
+a number of use cases which hopefully will illustrate this sentence here in a nice way.
+And when I was thinking how shall I introduce this part of the presentation,
+I thought the following. My line of thought was as follows. In this slide that we saw before,
+you see actually that Wikidata holds data about many fields of science and research,
+like chemistry, astronomy, genetic sciences, scientific articles, biology and stuff,
+and et cetera here. And what I thought, well, actually, I don't need to talk about
+what Wikidata holds for science, but the other way around, what science holds for Wikidata.
+So I looked up a visual representation of all of human knowledge. These are all fields of
+human knowledge, as you can see. And I asked myself the question, to what extent is Wikidata
+used throughout science research and GLAM / cultural heritage? And actually,
+I didn't have an immediate answer to that. So I tried searching academic databases,
+looking for articles on Wikidata, and then plot them on certain fields of knowledge.
+And this was not immediately an easy exercise until I found this website. You can see here at
+the very bottom of the slide, it's called SemanticScholar.org. This is a service that you can
+search over 200 million scientific articles with. And if you do this query, you can look for
+articles that are related to Wikidata. And the nice thing about SemanticScholar is that you can
+filter on fields of study. And this is what I did to get an overview of this. And then I found out
+that Wikidata is used in the area of gender studies, and also on history and linguistics,
+and geography and sociology and information science, art, astronomy, biology and microbiology,
+computer science, medicine, environmental sciences, and even in ecology.
+So it's certainly not a full, not every domain of human knowledge is represented via Wikidata,
+but quite a few. And I also think that increasingly, because I think if you did
+that exercise 10 years ago, you would have far less white bins here. So increasingly,
+you Wikidata shows its relevance for increasingly more fields of knowledge.
+And what I would like to do now is to look at six case studies, six anecdotal cases. And
+there's a little point, of course, I did it anecdotally, because it's about Wikidata.
+And look at six use cases, which hopefully show or at least illustrate
+how Wikidata can be relevant for that particular field of science.
+And the first case study, the first case I would like to bring forward has to do with
+the field of scholarly communication or scientometrics. And scientometrics is the
+quantitative study of science and scientific communication. So for instance, if you want to
+know who is the most cited author in a certain field of science, or the most prolific journals
+in a certain field, that's the things that are being studied in scientometrics.
+And a really nice scientometric tool is Scholia. And what's Scholia? Scholia is a service that
+creates visual scholarly profiles for researchers, articles, organizations, etc.,
+all based on information from Wikidata. And I need to illustrate this, of course,
+otherwise it will be a bit abstract. And the first profile that I would like to show you is
+the profile from this professor here at Maastricht University, Gerard van Breukelen.
+And this is a Scholia profile of Gerard. And if you go to this profile, what kind of things will
+you actually encounter? First of all, there's a list of publications. So where he was the author
+or one of the co-authors of the article. I have to be specific, these are not necessarily
+all the articles that Gerard published, because these are only the articles that are recorded
+in Wikidata. And I'm not sure if Wikidata has a complete inventory of all of his articles.
+But for the articles that are available, you can make this list. You can also make this plot,
+like how many articles he published over the years, either as the main author or one of the
+co-authors or as a lower rank author. You can see by this, how I call it, bubble chart,
+it's called what kind of research topics Gerard van Breukelen is involved in, and also in which
+journals he published most. The bigger ones are the most often, I'm sorry, the journals he used
+most often for his publications, and the smaller ones are the less used journals.
+This is a graph of the co-authors, so the people who Gerard van Breukelen collaborated with in
+writing his articles. And you can also see where these co-authors work across the globe by this
+co-author map. And finally, you can also check out which articles by Gerard van Breukelen were
+cited most often. And apparently this ANCOPA paper was cited 206 times. And of course,
+you can also give the number of citations over the years. So this is how such a profile on
+Scholia is composed. And the nice thing about Scholia is that you cannot only request these
+profiles for authors, for people, but also for organizations or for articles or for journals or
+for topics like obesity or for taxons like the Mosasaurus or chemical elements. These are all
+possible, so you can have all these really nice ways to have various facets and spotlights on all
+sorts of, let's say, classes of information. If you want to read more about Scholia, I can
+recommend the base paper of Scholia where the project is introduced.
+This one. And if you want to read on Wikidata about Scholia, you can go to the Scholia page on Wikidata.
+Okay, the second one, the second field of science and research I would like to bring forward is
+life and biomedical sciences. And I'm mainly doing this because the author of this particular paper,
+Andra Waagmeester, is also a very active community member of Wikidata. So I know him
+more from the Wikidata community than from this particular field. And I must be honest, I'm a bit
+anxious. I'm holding my horses, let's say. I'm a bit anxious. That's too strong. But I'm not
+very familiar in this field of knowledge. So I'm not going to talk about this in too much detail.
+But what I would like to forward is that in this paper,
+Wikidata is being discussed as a knowledge graph for the life sciences. And this paper demonstrates
+several use cases of Wikidata, including crowdsource creation of biomedical ontologies,
+phenotype-based diagnosis of disease. I have no idea what this means, but I'll just take it for
+granted that some of you might know it. And drug repurposing. And if you want to read the full
+article, of course, you can go here. Another article by Andra Waagmeester is this one. This
+has to do with aligning knowledge surrounding corona viruses. When the pandemic struck,
+it said here that there were a lot of projects and initiatives that rose up in the beta corner.
+And these were all very loosely related. And there was a need to have a common ground to bring
+together all these different projects. And in this paper, Wikidata is suggested as such a common
+ground. So this is used to make data sources related to human corona viruses more interoperable.
+So these are two papers by Andra Waagmeester. Actually, he took it a step further and he did
+a PhD on biomedical sciences and Wikidata. Not exactly, but this PhD of his, which he defended
+successfully earlier this year in January, it has a lot of Wikidata in it. I counted it and it has
+415 mentions of Wikidata. I think this is the most Wikidata dense PhD thesis, perhaps,
+for sure in this field of science. And I think perhaps in the Netherlands, perhaps even worldwide,
+this is Wikidata is very prominent in this particular PhD.
+This is another article on biological taxonomy. For reasons of time, I'm not going to
+detail it. I'm not going to talk about it. Actually, I'm just showing it to you.
+Of course, this presentation is also available as a PowerPoint and as a PDF file. And there's also a
+full text version of this presentation where you can find the link to this particular article.
+If you want to study it yourself, you can do it after this presentation.
+And then the third field that I would like to bring forward is this one,
+astronomy. And this is, let's say, the mirror opposite of life sciences, because
+that's actually the topic I studied. I studied astronomy in the 90s in Leiden.
+So I'm much more familiar with the type of information you see here than the type of
+information you saw on the previous slides. So I was really happy to find a paper that mentions
+Wikidata in relation to astronomy. And this paper talks about using Wikidata to disambiguate
+planetary features. And what are planetary features? Excuse me, in this context.
+Think, for instance, of craters on the moon and craters on Mars that carry the same name.
+So if you have a paper, if you have an astronomical publication, and you want to do
+named entity recognition on that paper, and you would encounter, for instance, I think it's called
+Adams here, the crater is called Adams, you're not sure if that crater is situated on the moon,
+or if it's situated on Mars. To make that process easier, this paper suggests that Wikidata can be
+used for extracting planetary names, and to make that named entity recognition process and this
+disambiguation process of planetary features more easily.
+Another thing about astronomy, this is also, I'm just going to show you this, I'm not going to
+discuss it, but you can study it yourself afterwards if you're interested.
+Because I would like to move on to the next, the fourth case study on using Wikidata.
+And this has to do with a very hot topic at the moment, large language models and
+artificial intelligence. And this paper talks about using Wikidata to make large language
+models more accurate and flexible. Here it says that all the facts that are stated in Wikidata,
+some 12 billion, they can be used to train large language models to provide more accurate answers.
+And the other way around is also true. This paper talks about using artificial intelligence and LLMs
+to improve the contents of Wikidata. And you might notice in Wikidata that some fields are empty,
+for instance, that not all fields have been fulfilled, or that certain languages in Wikidata
+are underrepresented. And this paper suggests that artificial intelligence could build,
+could fill those kinds of current gaps. This is another paper on AI and LLMs related to Wikidata,
+but as with the previous two other papers that I skipped, I will also skip this one
+for reasons of time. So if you're interested in that, yeah, you can study it yourself.
+Because what I would like to spend the last five remaining minutes on of this talk is this one.
+This is a case study from my own library, from the KB. And this has to do with GLAM and cultural
+heritage. And the thing about the KB is that we have this really nice collection of what we call
+our collection highlights. We have really wonderful manuscripts and old atlases and these really
+lovely, hand-illustrated books about birds of the Netherlands from the 18th century, basically.
+And we have about 80 of these most beautiful and important objects of our collection.
+These are our collection highlights. And these are all part of our national heritage.
+And when you look at the way that we make these collection highlights available through our own
+websites, like our own KB website, but also our catalog, and the way we show the fully digitized
+works, you will notice that they are really good to look at and to read. You can, for instance,
+read about all these collection highlights on our own websites. You can all find them in our catalogs.
+And we have these books you can leaf through with all the digitized images of all these
+80 collection highlights. And the metaphor is that you can view them and you can see them and
+you can read them, but you can't touch them. And what do I mean by you can't touch them?
+Is that if you actually want to build stuff, you want to use these collection highlights as
+building blocks, if you want to create something from these collection highlights, then our own
+web services are not very suitable. And what do we have to think? If I say build stuff,
+then like you say you want to make visualizations based on our collection highlights, or you want
+to build apps that contain collection highlights, or you want to make data stories, or you want to
+do AI stuff, or you want to build tools, etc. or games you want to use, you want to make a game
+of our collection highlights, or offline you want to do a publication, or you want to do an artwork
+on these collection highlights, then our own website and our own catalog are not really
+suitable for that. It's not a place that offers building blocks. So if you think that idea through,
+what you actually would like to have is something like that. You would like your collections
+highlights to be some kind of a technical Lego set that contains building blocks with which you
+can make all these things I just showed you. And if you look at this slide, it's no coincidence
+that this Lego box is powered by Wikidata and also Commons and Wikipedia.
+And how do you need to see this? This is about what I've called Wikifying our collection highlights.
+So what we made sure we did a project on that in 2020. And we made sure that our collection
+highlights were all described on Wikidata. And also subsets or deeper level Wikidata items
+regarding those highlights were made. Next, we made sure that all the 11,000 images we had
+from our KB collection highlights were available on Wikimedia Commons. And we made sure that most
+highlights got Wikipedia articles. And I've summarized that process of turning our collection
+highlights into Wiki building blocks. I call that Wikifying. And once you start Wikifying your
+collections, then you will be able, you will get all kinds of new functionalities that you
+can now do with your collection highlights that were not possible before.
+Perhaps this is a bit abstract, but I invite you to read a five series paper that I wrote about this.
+50 cool things that you can now do with KB collection highlights. And these, the first part
+is a general introduction for why we did the project and how we Wikified our collection highlights.
+And then in the four next episodes of this series, in roughly, let's say 12 new functionalities per
+article, you can discover what kind of new things we can now do with our collection highlights,
+because our collection highlights are now available in the Wikimedia infrastructure.
+This is a really nice article that I really would like to encourage you to read it.
+And then the last example that I would like to show you
+is this one. This is from the American Physical Society. So that's the
+organization that supports physicists in the United States. And they provide these trainings
+that aim at elevating the achievements of women and other underrepresented groups via Wikipedia
+and via Wikidata. The American Physical Society has such an initiative.
+A similar initiative is done by the Smithsonian Institutions in Washington.
+And they want to improve the representation of women in science, technology, engineering and math
+by working on Wikipedia articles to improve those and create those for more female scientists
+and also do that simultaneously on Wikidata. And if you get better information in Wikipedia,
+you get better info boxes. Here this is a Wikipedia info box. And then in Google search results,
+which is based on this info box, the information here will also be visible better.
+So by working on Wikidata and Wikipedia, eventually Google will also be improved.
+And if you want to read more about this, these were just six case studies where I highlighted
+a number of papers. If you want to read more papers on science and Wikidata, you can go to
+the little list I compiled here for you. It's various Google Scholar and Semantic Scholar that
+I talked about before. And you can look for Wikidata articles yourself. Okay, this is pretty
+much the end of my talk. Nearly finished. What I would like to show you before I really finish is
+where you can find this presentation on Zenodo. If you go to this record on Zenodo,
+then you can either download this presentation as a PowerPoint or a PDF.
+And if you want to discover Wikidata further, because I was only able to show you a really
+small part actually of all the knowledge related to Wikidata, you can go to this page on GitHub,
+the Wikidata General Overview. And this is kind of a comprehensive introduction into Wikidata,
+but quite compact. I tried to squeeze as much information on the basic level about Wikidata
+into a big list. It's a big inventory of mainly links to other places for Wikidata.
+I think this is a really good general introduction, general overview of Wikidata if you're relatively
+new to Wikidata. Okay, that was my presentation. That was my talk. Thank you for your attention.
+If you have any questions or any suggestions, please reach out to me. The preferred way is via
+email here. This is my email address at the National Library. You can find all the information
+here on Zenodo. And I would like to know if you send me an email. If you want to know more, we can
+get in contact further. Okay, that was it for me. Bye bye. And I'll see you in the second part of
+the presentation, or the second part of the workshop, which is the practical, hands-on part
+of the workshop. And this is available in a separate video, which is also available from
+Zenodo in due time. Bye bye.

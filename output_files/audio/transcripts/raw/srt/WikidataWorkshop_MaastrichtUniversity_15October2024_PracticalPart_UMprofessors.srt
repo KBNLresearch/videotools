@@ -1,0 +1,1744 @@
+1
+00:00:00,000 --> 00:00:03,440
+Hello, good afternoon everybody.
+
+2
+00:00:03,440 --> 00:00:10,960
+Welcome to this practical part of the Wikidata workshop about professors at the University
+
+3
+00:00:10,960 --> 00:00:11,960
+of Maastricht.
+
+4
+00:00:11,960 --> 00:00:15,080
+It's the 15th of October currently.
+
+5
+00:00:15,080 --> 00:00:16,440
+And my name is Olaf Janssen.
+
+6
+00:00:16,440 --> 00:00:21,800
+I'm the Wikimedia Coordinator of the National Library in the Netherlands.
+
+7
+00:00:21,800 --> 00:00:26,840
+I must first mention that there is also a theoretical part to this workshop which is
+
+8
+00:00:26,840 --> 00:00:30,120
+available in the other video I recorded.
+
+9
+00:00:30,120 --> 00:00:37,240
+So if you want to know the basics about Wikidata and its applications to research and science,
+
+10
+00:00:37,240 --> 00:00:42,040
+please consult the first theoretical part of the workshop.
+
+11
+00:00:42,040 --> 00:00:44,640
+This is the second practical part.
+
+12
+00:00:44,640 --> 00:00:50,720
+So this is especially if you want to get hands-on yourself with Wikidata and if you want to
+
+13
+00:00:50,720 --> 00:00:57,920
+work on Wikidata items that are related to professors here at Maastricht University.
+
+14
+00:00:57,920 --> 00:01:05,920
+This part will be about 1 hour and 15 to 20 minutes if you do the full part.
+
+15
+00:01:05,920 --> 00:01:07,960
+So let me just walk you through this workshop.
+
+16
+00:01:07,960 --> 00:01:12,200
+There will be about 30 minutes of practical exercises that you can do.
+
+17
+00:01:12,200 --> 00:01:16,880
+For the rest I think I need to explain first a bit what the aim of the workshop is, where
+
+18
+00:01:16,880 --> 00:01:23,080
+you can find information related to professors of Maastricht University that you can then
+
+19
+00:01:23,080 --> 00:01:24,080
+include in Wikidata.
+
+20
+00:01:24,080 --> 00:01:30,240
+So first I'm going to try to give you some general context about the topic and then I'll
+
+21
+00:01:30,240 --> 00:01:37,360
+try to help you with making your first steps in Wikidata by adding and enriching the information
+
+22
+00:01:37,360 --> 00:01:40,480
+about university professors at Maastricht.
+
+23
+00:01:41,080 --> 00:01:47,480
+Okay, but before we continue, let me make sure that we're all on the same level, that
+
+24
+00:01:47,480 --> 00:01:55,880
+the Wi-Fi on your laptops is enabled and that you have actually created an account on Wikidata.
+
+25
+00:01:55,880 --> 00:02:00,440
+I asked you to do that before the workshop today.
+
+26
+00:02:00,440 --> 00:02:02,200
+So I reckon you have done that.
+
+27
+00:02:02,200 --> 00:02:05,720
+If you have not yet done that, if you still need to create a Wikidata account, you can
+
+28
+00:02:05,720 --> 00:02:14,120
+go to the URL that is shown here and do that during the first part of the workshop, because
+
+29
+00:02:14,120 --> 00:02:16,280
+I'm not going to wait for that.
+
+30
+00:02:16,280 --> 00:02:18,880
+So you can do it right now.
+
+31
+00:02:18,880 --> 00:02:26,240
+Most importantly, what you will need for the workshop is the handout here that I made,
+
+32
+00:02:26,240 --> 00:02:31,480
+which is available from this URL here at Zenodo.
+
+33
+00:02:31,480 --> 00:02:37,080
+If you go to here, you can download the handout for participants.
+
+34
+00:02:37,080 --> 00:02:38,880
+In detail, it's available here.
+
+35
+00:02:38,880 --> 00:02:41,760
+This is the Zenodo page.
+
+36
+00:02:41,760 --> 00:02:49,600
+This exactly contains the same kind of information that is available as in the presentation that
+
+37
+00:02:49,600 --> 00:02:56,320
+I'm about to give, but then all written out so you can easily refer to your either Word
+
+38
+00:02:56,320 --> 00:02:59,840
+or PDF version of the handout.
+
+39
+00:02:59,840 --> 00:03:04,720
+If you want to be able to access the information that I will send you quickly.
+
+40
+00:03:04,720 --> 00:03:13,600
+Okay, having said that, let's first talk about professors as normal human beings.
+
+41
+00:03:13,600 --> 00:03:16,880
+Of course, they are humans.
+
+42
+00:03:16,880 --> 00:03:22,720
+What I intend to do in this part is just to look at the basic properties of professors,
+
+43
+00:03:22,720 --> 00:03:27,440
+like they have a date of birth, a place of birth, they have a sex or gender, they have
+
+44
+00:03:27,440 --> 00:03:29,480
+a name, etc.
+
+45
+00:03:30,120 --> 00:03:34,560
+Later in the workshop, in this practical part, I will look at the professional qualities
+
+46
+00:03:34,560 --> 00:03:44,360
+of these professors, like the fields of work they work at, where they were educated, what
+
+47
+00:03:44,360 --> 00:03:46,480
+sort of professor they were.
+
+48
+00:03:46,480 --> 00:03:49,320
+That's all about their professional activities.
+
+49
+00:03:49,320 --> 00:03:52,920
+By the way, here on the top of the screen, you can still see the Zenodo record.
+
+50
+00:03:52,920 --> 00:04:00,360
+If you have not yet downloaded or accessed this page to download the handout for participants,
+
+51
+00:04:00,360 --> 00:04:05,080
+you can do it during the first few slides of this workshop.
+
+52
+00:04:05,080 --> 00:04:11,840
+Okay, so when I'm talking about modeling professors, I'm talking about modeling humans.
+
+53
+00:04:12,000 --> 00:04:24,040
+Then we have to look at how humans in Wikidata are actually modeled.
+
+54
+00:04:24,040 --> 00:04:29,080
+Then you have to think, well, what kind of really basic properties are needed to model
+
+55
+00:04:29,080 --> 00:04:32,280
+a person in Wikidata?
+
+56
+00:04:32,280 --> 00:04:37,080
+When you give that some thought, and you would look at already existing Wikidata items, especially
+
+57
+00:04:38,080 --> 00:04:42,960
+there are these properties that can be considered rather basic.
+
+58
+00:04:42,960 --> 00:04:48,280
+First of all, the statement if a person in Wikidata is a male or female or something
+
+59
+00:04:48,280 --> 00:04:49,280
+else.
+
+60
+00:04:49,280 --> 00:04:52,920
+Then the country of citizenship, so basically nationality.
+
+61
+00:04:52,920 --> 00:04:57,760
+Then the given name, the family name, and the name in the native language.
+
+62
+00:04:57,760 --> 00:05:01,600
+Date of birth, place of birth, date of death, place of death.
+
+63
+00:05:01,600 --> 00:05:04,640
+And then the native language the person speaks.
+
+64
+00:05:04,640 --> 00:05:08,560
+So if it is from the Netherlands, then it will be Dutch.
+
+65
+00:05:08,560 --> 00:05:15,920
+But also the other languages the person is capable of speaking or writing.
+
+66
+00:05:15,920 --> 00:05:22,040
+So this is for the first bit of this section of the workshop.
+
+67
+00:05:22,040 --> 00:05:27,000
+Then after we've looked at it, we're going to look at the professional and educational
+
+68
+00:05:27,000 --> 00:05:29,960
+information about the professors.
+
+69
+00:05:29,960 --> 00:05:33,440
+But that's specifically for the second part.
+
+70
+00:05:33,440 --> 00:05:44,280
+Just to look at a quick example of these basic properties, I have the Wikidata item
+
+71
+00:05:44,280 --> 00:05:48,720
+about a famous Dutch astronomer, Jan Hendrik Oort.
+
+72
+00:05:48,720 --> 00:05:52,960
+My background, I studied astronomy in the 90s in Leiden.
+
+73
+00:05:52,960 --> 00:06:00,120
+So this is why I chose this not exactly random example, but it's a good example to illustrate
+
+74
+00:06:00,280 --> 00:06:04,320
+the basic properties of humans on Wikidata.
+
+75
+00:06:04,320 --> 00:06:09,240
+And first of all, we have the label.
+
+76
+00:06:09,240 --> 00:06:14,960
+So this is basically the name of this person, Jan Hendrik Oort, in all the different languages.
+
+77
+00:06:14,960 --> 00:06:20,480
+And then there is a short description about what kind of person Jan Hendrik Oort was.
+
+78
+00:06:20,480 --> 00:06:26,680
+He was a Dutch astronomer who lived between 1900 and 1992, actually.
+
+79
+00:06:26,720 --> 00:06:29,920
+And this is available in multiple languages.
+
+80
+00:06:33,800 --> 00:06:41,680
+I need to point out here that for every human on Wikidata, it's always an instance of human.
+
+81
+00:06:41,680 --> 00:06:47,600
+So this is a unique specimen of the group of humans.
+
+82
+00:06:47,600 --> 00:06:52,280
+And this is indicated in Wikidata by the property P31.
+
+83
+00:06:52,280 --> 00:06:55,800
+This is instance of, so a unique example of.
+
+84
+00:06:55,800 --> 00:06:58,480
+And then the value of that property is Q5.
+
+85
+00:06:58,480 --> 00:07:05,360
+So this is the class of humans on Wikidata, which is the fifth class.
+
+86
+00:07:05,360 --> 00:07:13,080
+Q1 is the universe, Q2 is the earth, Q5 is human, Q42 is Douglas Adams, obviously.
+
+87
+00:07:13,080 --> 00:07:20,120
+And this goes all the way up to currently Q114 million even.
+
+88
+00:07:21,120 --> 00:07:30,600
+Then if you scroll down that page, you will see that Jan Hendrik Oort is a sex or gender male.
+
+89
+00:07:30,600 --> 00:07:34,800
+Sex or gender is denoted by property P21 in Wikidata.
+
+90
+00:07:34,800 --> 00:07:40,280
+Country of citizenship, that's P27, which is the Kingdom of the Netherlands, etc.
+
+91
+00:07:40,280 --> 00:07:46,120
+So the name in a native language, the name in Dutch, is indicated by this property.
+
+92
+00:07:46,520 --> 00:07:55,320
+The given name, so that's his first names given by the P735 property.
+
+93
+00:07:55,320 --> 00:07:58,880
+The family name is one number down.
+
+94
+00:07:58,880 --> 00:08:06,480
+And so you can continue, the date of birth is P569, the place of birth is P19, etc.
+
+95
+00:08:06,480 --> 00:08:09,480
+You see, this is the date of death and the place of death.
+
+96
+00:08:09,520 --> 00:08:17,440
+So these are all properties in Wikidata that are related to basic data about humans.
+
+97
+00:08:19,560 --> 00:08:25,640
+And to continue to finish this up, the native language, so the natural language the person speaks
+
+98
+00:08:25,640 --> 00:08:30,080
+because he's a citizen of a certain country is P103.
+
+99
+00:08:30,080 --> 00:08:37,080
+And obviously, Jan Hendrik Oort was capable of speaking Dutch, which is indicated by this property.
+
+100
+00:08:38,080 --> 00:08:43,080
+Okay, you might wonder, why can I find all these different properties that are related to humans?
+
+101
+00:08:43,080 --> 00:08:47,080
+Or is there a nice, compact overview of all these kinds of properties?
+
+102
+00:08:47,080 --> 00:08:51,080
+The good answer is, yes, there is.
+
+103
+00:08:53,080 --> 00:09:01,080
+Because on this URL, so the Template:Person properties,
+
+104
+00:09:01,080 --> 00:09:06,080
+this lists all kinds of properties that are related to humans.
+
+105
+00:09:06,080 --> 00:09:11,080
+Both really basic properties, like sex or gender or place of birth, etc.
+
+106
+00:09:11,080 --> 00:09:18,080
+But also a bit more advanced properties, like educated at and academic degree, etc.
+
+107
+00:09:18,080 --> 00:09:20,080
+That's what we'll look at later.
+
+108
+00:09:21,080 --> 00:09:26,080
+But these are the most important properties related to humans.
+
+109
+00:09:26,080 --> 00:09:35,080
+Alternatively, you can go to the Wikidata Prop Explorer here at this page.
+
+110
+00:09:35,080 --> 00:09:41,080
+And if you collapse down the list of all the various properties,
+
+111
+00:09:41,080 --> 00:09:46,080
+then there is this thing called Wikidata Property for Items About People.
+
+112
+00:09:46,080 --> 00:09:50,080
+And here you see the same properties that I actually showed before.
+
+113
+00:09:50,080 --> 00:09:53,080
+So the place of birth, the place of death, etc.
+
+114
+00:09:53,080 --> 00:09:55,080
+Sex or gender, P21.
+
+115
+00:09:57,080 --> 00:10:02,080
+All the way up to date of birth and date of death by this property.
+
+116
+00:10:02,080 --> 00:10:04,080
+Family name, given name, etc.
+
+117
+00:10:04,080 --> 00:10:08,080
+So these are just the things I showed you already.
+
+118
+00:10:10,080 --> 00:10:14,080
+Okay, so now for the first part of the practical exercise,
+
+119
+00:10:14,080 --> 00:10:21,080
+what we'll do in the first instance is to add basic properties for these professors.
+
+120
+00:10:21,080 --> 00:10:26,080
+And I have to give a bit of background to this exercise.
+
+121
+00:10:27,080 --> 00:10:36,080
+Because the professors at Maastricht University and at many other universities in the Netherlands,
+
+122
+00:10:36,080 --> 00:10:42,080
+here on the screen, data about these professors has already been added to Wikidata
+
+123
+00:10:42,080 --> 00:10:49,080
+because of the so-called Wiki-scientist Project, which was started in 2019.
+
+124
+00:10:49,080 --> 00:10:55,080
+Because then the first really big bulk of professors were added to Wikidata.
+
+125
+00:10:55,080 --> 00:10:58,080
+And it still runs till today.
+
+126
+00:10:58,080 --> 00:11:04,080
+And you can consider this workshop to be part of that Wiki-scientist Project.
+
+127
+00:11:05,080 --> 00:11:08,080
+So what the aim of this particular project was,
+
+128
+00:11:08,080 --> 00:11:15,080
+was to create and maintain centralized and structured data about Dutch professors
+
+129
+00:11:15,080 --> 00:11:20,080
+and other leading scientists all the way from the 16th century up to now
+
+130
+00:11:20,080 --> 00:11:23,080
+to be used by a wide audience.
+
+131
+00:11:25,080 --> 00:11:32,080
+And also to have the work-related data of these professors mapped onto Wikidata.
+
+132
+00:11:32,080 --> 00:11:38,080
+So recording information, for instance, about which university did they work,
+
+133
+00:11:38,080 --> 00:11:41,080
+when did they join the university, when did they leave the university,
+
+134
+00:11:41,080 --> 00:11:46,080
+what positions did they held at the university, etc.
+
+135
+00:11:46,080 --> 00:11:49,080
+And this is a project that is done on Wikidata.
+
+136
+00:11:49,080 --> 00:11:54,080
+Hence, you see here, this is a Wiki project.
+
+137
+00:11:54,080 --> 00:11:59,080
+So that's a project where all the information is gathered on Wikidata.
+
+138
+00:11:59,080 --> 00:12:04,080
+And the project working environment, the documentation, etc.
+
+139
+00:12:04,080 --> 00:12:07,080
+is also available on Wikidata.
+
+140
+00:12:10,080 --> 00:12:13,080
+An employee of Maastricht University, Manuel Boessen,
+
+141
+00:12:13,080 --> 00:12:18,080
+he has written a blog post about this project.
+
+142
+00:12:18,080 --> 00:12:24,080
+And if you want to read the full background of the project,
+
+143
+00:12:24,080 --> 00:12:28,080
+you can go to the website of the Stichting Academisch Erfgoed,
+
+144
+00:12:28,080 --> 00:12:32,080
+which is the Foundation for Academical Heritage in English.
+
+145
+00:12:32,080 --> 00:12:37,080
+And this was the organization that actually initiated this project.
+
+146
+00:12:37,080 --> 00:12:40,080
+And they wrote, after the first year of the project,
+
+147
+00:12:40,080 --> 00:12:45,080
+I believe they wrote a report on the activities that were done during the project
+
+148
+00:12:45,080 --> 00:12:48,080
+and the results that were obtained.
+
+149
+00:12:48,080 --> 00:12:53,080
+And to place this project in a bit more wider context,
+
+150
+00:12:53,080 --> 00:12:57,080
+there are two other projects on Wikidata
+
+151
+00:12:57,080 --> 00:13:01,080
+that are related to higher education and universities, etc.
+
+152
+00:13:01,080 --> 00:13:03,080
+One is the Wiki project Higher Education,
+
+153
+00:13:03,080 --> 00:13:10,080
+which works on adding Wikidata or adding to Wikidata information
+
+154
+00:13:10,080 --> 00:13:15,080
+about universities and higher educational institutions.
+
+155
+00:13:15,080 --> 00:13:20,080
+And another project is especially about university degrees throughout the world,
+
+156
+00:13:20,080 --> 00:13:24,080
+because Wikidata has always an international scope.
+
+157
+00:13:24,080 --> 00:13:28,080
+So you could say that this Dutch Wiki-Wetenschappersproject
+
+158
+00:13:28,080 --> 00:13:34,080
+is actually a subset or a subproject of these larger, more encompassing projects.
+
+159
+00:13:35,080 --> 00:13:41,080
+All right. And then if you go to that page on the Wiki-Wetenschappersproject,
+
+160
+00:13:41,080 --> 00:13:47,080
+you will find a table where all the basic properties that we just discussed
+
+161
+00:13:47,080 --> 00:13:49,080
+are actually available here.
+
+162
+00:13:49,080 --> 00:13:54,080
+These are the same properties that I already showed you here.
+
+163
+00:13:54,080 --> 00:14:01,080
+So if you want to refer to this project specifically for the properties,
+
+164
+00:14:01,080 --> 00:14:05,080
+the properties specifically for the project, you can go to this page.
+
+165
+00:14:05,080 --> 00:14:09,080
+And our starting point will be this table.
+
+166
+00:14:09,080 --> 00:14:12,080
+This is a table for the University of Maastricht
+
+167
+00:14:12,080 --> 00:14:17,080
+where all the professors, all the hoogleraren are recorded.
+
+168
+00:14:17,080 --> 00:14:22,080
+Well, not necessarily all the Maastricht University professors, but many of them.
+
+169
+00:14:22,080 --> 00:14:28,080
+Actually, the persons who agreed upon having their data recorded in Wikidata
+
+170
+00:14:28,080 --> 00:14:32,080
+at the start of the project in 2019.
+
+171
+00:14:32,080 --> 00:14:38,080
+But this table, it has some 300 Maastricht professors listed.
+
+172
+00:14:38,080 --> 00:14:42,080
+So this is a really excellent starting point if you want to improve
+
+173
+00:14:42,080 --> 00:14:46,080
+and add in data about professors at Maastricht.
+
+174
+00:14:46,080 --> 00:14:49,080
+This is a good starting point.
+
+175
+00:14:49,080 --> 00:14:52,080
+So we'll use that table to work from.
+
+176
+00:14:52,080 --> 00:14:57,080
+And in this table, all these basic persons data, as we saw before,
+
+177
+00:14:57,080 --> 00:15:02,080
+are listed for many professors.
+
+178
+00:15:02,080 --> 00:15:09,080
+And these columns in the table correspond to these properties in Wikidata that I showed you.
+
+179
+00:15:09,080 --> 00:15:12,080
+What you immediately see is that there are blank spots here in the table.
+
+180
+00:15:12,080 --> 00:15:22,080
+So this means that for this professor, the family name and the place of death is not recorded.
+
+181
+00:15:22,080 --> 00:15:26,080
+This is not a surprise because she's still alive, luckily.
+
+182
+00:15:26,080 --> 00:15:29,080
+So this will remain empty for a while, I guess.
+
+183
+00:15:29,080 --> 00:15:38,080
+But here you can see that the country of origin and the nationality is the Kingdom of the Netherlands.
+
+184
+00:15:38,080 --> 00:15:42,080
+And it is not available for this professor here in this field.
+
+185
+00:15:42,080 --> 00:15:46,080
+So we're going to try to improve this situation.
+
+186
+00:15:46,080 --> 00:15:50,080
+So what we're going to do now is the first level of exercise.
+
+187
+00:15:50,080 --> 00:15:59,080
+And the first level of exercise is actually to add data to Wikidata without the need for external data.
+
+188
+00:15:59,080 --> 00:16:07,080
+So we're not going to consult external resources, external references to add to Wikidata.
+
+189
+00:16:07,080 --> 00:16:08,080
+That we'll do in the next block.
+
+190
+00:16:08,080 --> 00:16:16,080
+But in this first block, we will actually get our information from already existing Wikidata items.
+
+191
+00:16:17,080 --> 00:16:23,080
+So we have this table again that we just looked at.
+
+192
+00:16:23,080 --> 00:16:27,080
+And you see here, this is a description of the person in Dutch.
+
+193
+00:16:27,080 --> 00:16:38,080
+And you immediately see that this is a short characterization of this professor Wil Albeda called.
+
+194
+00:16:38,080 --> 00:16:43,080
+And it's typically composed of fields like the nationality, Netherlands, Dutch.
+
+195
+00:16:43,080 --> 00:16:49,080
+Something about the profession or occupation of this person, a political person and an economist here.
+
+196
+00:16:49,080 --> 00:16:53,080
+And if available, the year of birth and year of death.
+
+197
+00:16:53,080 --> 00:16:55,080
+So like in this case you see here.
+
+198
+00:16:55,080 --> 00:16:59,080
+And the good thing is about this table is that you can actually sort it.
+
+199
+00:16:59,080 --> 00:17:08,080
+And if you sort it, you will see that all the professors for which this description is not yet available are listed here.
+
+200
+00:17:09,080 --> 00:17:21,080
+So what we can now easily do, we can add information like the nationality, the profession, the fact.
+
+201
+00:17:21,080 --> 00:17:26,080
+Because these are all Maastricht University professors, we can add that fact.
+
+202
+00:17:26,080 --> 00:17:29,080
+And if available, these years.
+
+203
+00:17:29,080 --> 00:17:32,080
+So that might look for this professor, that might look something like this.
+
+204
+00:17:33,080 --> 00:17:37,080
+The Netherlands, a Dutch psychiatrist and professor at Maastricht University.
+
+205
+00:17:37,080 --> 00:17:48,080
+So we can similarly, we can add this kind of information, not necessarily very like a copy of this, but something equivalent.
+
+206
+00:17:48,080 --> 00:17:56,080
+You could say we can add that to these, all these, all these professors that don't yet have that.
+
+207
+00:17:57,080 --> 00:18:05,080
+Then next we'll see here at the far right of the table, this is sex or gender.
+
+208
+00:18:05,080 --> 00:18:12,080
+And this can often be derived, commonly typically be derived from the name of the professor.
+
+209
+00:18:12,080 --> 00:18:16,080
+And this is very easy, for instance, this is so this is about property 21.
+
+210
+00:18:16,080 --> 00:18:25,080
+So this person, Cees van Dam, obviously, if you know that he is a man and you can add male here.
+
+211
+00:18:25,080 --> 00:18:33,080
+And the typical values to choose from, if you make the classical subdivision male, female,
+
+212
+00:18:33,080 --> 00:18:40,080
+is male has this Q-number, which is shown here.
+
+213
+00:18:40,080 --> 00:18:48,080
+And female has this Q-number, which is shown here.
+
+214
+00:18:48,080 --> 00:18:50,080
+So it's either male or female.
+
+215
+00:18:50,080 --> 00:18:59,080
+And if a person is non-binary or something, there are also separate Wikidata properties for those types of sex or gender.
+
+216
+00:18:59,080 --> 00:19:09,080
+What is also quite easy to derive from existing information is the country of nationality, so P27.
+
+217
+00:19:09,080 --> 00:19:13,080
+And this can be commonly derived from the place of birth.
+
+218
+00:19:13,080 --> 00:19:20,080
+Here we see that all these persons were born in either The Hague, Heerlen or Boksmeer, these are all cities in the Netherlands.
+
+219
+00:19:20,080 --> 00:19:29,080
+And it means that we can easily from this derive that the nationality of the person is Kingdom of the Netherlands.
+
+220
+00:19:29,080 --> 00:19:34,080
+And for Dutch persons, you have to be aware of that you actually choose Kingdom of the Netherlands here.
+
+221
+00:19:34,080 --> 00:19:45,080
+So this Wikidata item number and not Q55, which is the Netherlands, which is a different thing than the Kingdom of the Netherlands.
+
+222
+00:19:45,080 --> 00:19:52,080
+But the convention on Wikidata is to actually for Dutch persons do Kingdom of the Netherlands.
+
+223
+00:19:52,080 --> 00:20:03,080
+And finally, we can also derive a family name and given name of the person from their already stated full names here.
+
+224
+00:20:03,080 --> 00:20:12,080
+So for instance, for this professor Wilko Letterie, his first name is Wilko and his family name is Letterie.
+
+225
+00:20:12,080 --> 00:20:17,080
+So that can also be easily added to Wikidata.
+
+226
+00:20:17,080 --> 00:20:24,080
+Okay, so now let me try to give a live demo.
+
+227
+00:20:24,080 --> 00:20:29,080
+Well, I actually can do that because I'm not recording my screen now.
+
+228
+00:20:29,080 --> 00:20:38,080
+But if you, this is quite easy to actually go to this Wikidata item and then have a short description of this person.
+
+229
+00:20:38,080 --> 00:20:48,080
+Like he's a professor at, not sure which topic or which field of work, but he's a professor at Utrecht University.
+
+230
+00:20:49,080 --> 00:20:56,080
+And I think his birthday is already stated in Wikidata.
+
+231
+00:20:56,080 --> 00:21:01,080
+So you can actually use that information to add to the description.
+
+232
+00:21:01,080 --> 00:21:07,080
+And you can add that the given name is Wilko and his family name is Letterie.
+
+233
+00:21:07,080 --> 00:21:19,080
+And in an equivalent manner you can add to Wikidata on the item of Cees van Dam that the sex or gender of this person is male in this case.
+
+234
+00:21:19,080 --> 00:21:22,080
+So this is a short demo.
+
+235
+00:21:22,080 --> 00:21:28,080
+What I would like you to continue now is to go to this table here at this URL.
+
+236
+00:21:28,080 --> 00:21:32,080
+And then go to one of the Wikidata items.
+
+237
+00:21:32,080 --> 00:21:39,080
+I have to point out on the previous slide, not sure if I can actually go back to that slide.
+
+238
+00:21:39,080 --> 00:21:41,080
+No, I'm afraid not.
+
+239
+00:21:41,080 --> 00:21:46,080
+Don't edit this, what I want to say, don't edit this table directly.
+
+240
+00:21:46,080 --> 00:21:52,080
+Rather go to the Wikidata item here and make the edits in the Wikidata items themselves.
+
+241
+00:21:53,080 --> 00:22:05,080
+So you can choose a person from the list, see where information can be added, like this kind of information.
+
+242
+00:22:05,080 --> 00:22:10,080
+And then just edit the Wikidata item, store it.
+
+243
+00:22:10,080 --> 00:22:14,080
+And then once you have done that, and we take about 10 minutes for that.
+
+244
+00:22:15,080 --> 00:22:21,080
+Don't forget after saving your edits to push here to click this.
+
+245
+00:22:23,080 --> 00:22:29,080
+This is not really a button, but this URL, this text here, to manually update the list.
+
+246
+00:22:29,080 --> 00:22:42,080
+And after you have done that, then the table here will be updated either immediately or if the system is slow, then within a couple of minutes.
+
+247
+00:22:42,080 --> 00:22:50,080
+And then this table will be updated and the information that you just added is actually available from here.
+
+248
+00:22:53,080 --> 00:22:55,080
+Alright, so that's about 10 minutes of work.
+
+249
+00:22:55,080 --> 00:23:05,080
+And after you have hopefully successfully done that, we'll continue with the second block of this workshop.
+
+250
+00:23:05,080 --> 00:23:09,080
+And now we're going to try to add to Wikidata.
+
+251
+00:23:09,080 --> 00:23:16,080
+Data that is related to the professional activities of these professors.
+
+252
+00:23:18,080 --> 00:23:31,080
+And this block is going to be a bit more complicated than the previous block, because we have to build up and improve our knowledge, of course.
+
+253
+00:23:31,080 --> 00:23:37,080
+But the structure of the data is also slightly more complicated.
+
+254
+00:23:38,080 --> 00:23:41,080
+So, yeah, let's go on and tackle that now.
+
+255
+00:23:43,080 --> 00:23:50,080
+But first, before I dive into this further, I have to make sure that we all have the same definitions.
+
+256
+00:23:50,080 --> 00:23:56,080
+And this has to do with defining what a professor is, basically.
+
+257
+00:23:57,080 --> 00:24:06,080
+I thought that I knew something about the phenomenon of professor.
+
+258
+00:24:06,080 --> 00:24:20,080
+But when I was preparing for this workshop a couple of weeks ago, I found out that there is much more nuance in professorships and the ranks and functions of professors than I was aware of.
+
+259
+00:24:20,080 --> 00:24:29,080
+So this is why I made this slide to actually make you also, if you're all working on a university, so I think you have some notion of professors, of course.
+
+260
+00:24:29,080 --> 00:24:36,080
+But it's good to have this clearly on a sheet.
+
+261
+00:24:36,080 --> 00:24:42,080
+And I'm deliberately using the Dutch word for professor, hoogleraar.
+
+262
+00:24:44,080 --> 00:24:48,080
+Why I use that deliberately in Dutch, you will see in a moment.
+
+263
+00:24:48,080 --> 00:24:55,080
+But een hoogleraar, he or she is a university teacher of the most senior rank.
+
+264
+00:24:56,080 --> 00:25:03,080
+So, hoogleraar, that's a position, an office you can hold. In Dutch it's called a functie or an ambt.
+
+265
+00:25:04,080 --> 00:25:10,080
+So that's just a, yeah, like a job, a function.
+
+266
+00:25:11,080 --> 00:25:28,080
+And the funny thing about, at least in the Netherlands, what I found out is that an academic education or a PhD or a doctor's degree is not a requirement for if you want to become a professor.
+
+267
+00:25:28,080 --> 00:25:45,080
+Of course, it's highly unlikely that without a PhD you will get a professorship, but there are examples known that people that didn't study at university or only got their master's degree actually became professors.
+
+268
+00:25:45,080 --> 00:25:51,080
+You might be surprised about this fact. You can check the sources. I think it goes to Wikipedia.
+
+269
+00:25:52,080 --> 00:26:01,080
+But I don't want to go on, I want to discuss this in more detail now because this is beyond the scope of the current workshop.
+
+270
+00:26:02,080 --> 00:26:09,080
+Okay, then there is something called professor in Dutch. This is different from hoogleraar.
+
+271
+00:26:10,080 --> 00:26:20,080
+If I were to do this slide in English, then both these things would be professor because the English word for hoogleraar is professor.
+
+272
+00:26:21,080 --> 00:26:26,080
+But the English word for professor is also professor. So this is a Dutch word, professor.
+
+273
+00:26:27,080 --> 00:26:32,080
+And professor is an academic title and rank. So it's in Dutch an aanspreektitel.
+
+274
+00:26:33,080 --> 00:26:52,080
+And it's generally used for a university teacher of any rank. For instance, in the United States this is the case, but in the Netherlands it's especially true for the hoogleraar, so the university teachers of the highest rank.
+
+275
+00:26:52,080 --> 00:27:05,080
+And professor is not something like an academic degree or something you can actually work for, you can study for, but it's like an attribute you get when you become a hoogleraar.
+
+276
+00:27:06,080 --> 00:27:17,080
+So this is the difference. It's a decoration attribute title you can use if you're a hoogleraar.
+
+277
+00:27:18,080 --> 00:27:27,080
+And then the academic degree. The degree at the university is something of course it gives to its graduates and it's actually something you study for.
+
+278
+00:27:28,080 --> 00:27:35,080
+So the highest degree that Dutch universities will give is the degree of PhD or doctorate.
+
+279
+00:27:35,080 --> 00:27:50,080
+And this is also the most common degree that the hoogleraar will have. They first did their master's thesis, then their PhD, and then they were appointed to be a professor at some stage of their careers.
+
+280
+00:27:51,080 --> 00:28:03,080
+All right, so now how do all these kinds of different things and definitions translate into the Wiki-Wetenschappersproject and thus about the professors at Maastricht University?
+
+281
+00:28:03,080 --> 00:28:13,080
+And for that we go to the Wikiewetenschappers eigenschappen, the properties page again, which we saw before for these basic properties about professors.
+
+282
+00:28:14,080 --> 00:28:21,080
+And if you scroll down that page, you will come to the professional information for the professors.
+
+283
+00:28:21,080 --> 00:28:39,080
+And here you see quite a number of properties in Wikidata that are related to that professional activities like the occupation, the employer, so that's the university they work at, the university where they got their education, the academic degree they hold.
+
+284
+00:28:40,080 --> 00:28:49,080
+And here you see an entire blob of all kinds of different Wikidata items related to professors.
+
+285
+00:28:49,080 --> 00:28:59,080
+So let's look at this. I think if you see this, this is quite confusing. So let's look at this in a bit more detail. Let's use some illustration for that in other words.
+
+286
+00:29:00,080 --> 00:29:13,080
+And the Wikidata item I found, which was really good, was the item on Marleen van Baak. She is an emeritus professor at Maastricht.
+
+287
+00:29:13,080 --> 00:29:31,080
+And when I looked through this Wikidata item, this is like a really good example, a kind of canonical you could even call it. So this is the example I will use to demonstrate how professional data about hoogleraaren is recorded in Wikidata.
+
+288
+00:29:31,080 --> 00:29:56,080
+So the first thing to notice is that the occupation, that's P106 in Wikidata, is always university teacher, which is this number. This is true for all professors or all university teachers, not only at Maastricht University, but also for all the other universities that were part of the Wiki-Wetenschappersproject.
+
+289
+00:29:56,080 --> 00:30:19,080
+You could argue about this. I'm sure you could also say, is the university teacher, is that the best way to describe a professor at university? I'm not going to discuss that at this particular moment, because this was a choice that was made at the beginning of the Wiki-Wetenschappersproject back in 2019.
+
+290
+00:30:20,080 --> 00:30:41,080
+And I'm going to respect that choice, although I think you can debate about it, but this is the standard that is used throughout the project for all the universities. So I'm going to stick to the convention and not motivate you or change your mind that you would need to do this in a different manner.
+
+291
+00:30:42,080 --> 00:31:02,080
+Then it says the employer of this hoogleraar is Maastricht University, so that's always P180 for Maastricht, this Q-number. And these two things that I showed you here, so that's the Maastricht University and the occupation being university teacher.
+
+292
+00:31:03,080 --> 00:31:10,080
+That's the definition to have a wetenschapper on the Wiki-Wetenschappersproject.
+
+293
+00:31:11,080 --> 00:31:28,080
+To continue, where was Marleen van Baak educated? As it said here, she was educated at the University of Maastricht. She got her, what's it called now, the master's thesis, master's degree.
+
+294
+00:31:29,080 --> 00:31:51,080
+These are the dates she started, she ended, and her field was biology. And she got her academic degree of doctorate, so that's her PhD, between 1975 and 1979. She was in the field of exercise psychology, and it was done at Nijmegen University.
+
+295
+00:31:51,080 --> 00:31:55,080
+So this is the way to record that kind of information in Wikidata.
+
+296
+00:31:56,080 --> 00:32:12,080
+Then what you often see in the Wiki-Wetenschappersproject is a webpage where the person is described, and it's typically the homepage at the university the professor is associated with.
+
+297
+00:32:12,080 --> 00:32:17,080
+So in this case, this is the homepage of Professor van Baak.
+
+298
+00:32:18,080 --> 00:32:34,080
+What you also often see is the ORCID ID, which is property 496 in Wikidata and has this particular value. So if you click on this link, you will go to the ORCID ID page of Marleen van Baak.
+
+299
+00:32:35,080 --> 00:32:45,080
+One thing I did not yet discuss, but which I will show you now, is how that notion that Marleen is a professor is actually recorded in Wikidata.
+
+300
+00:32:46,080 --> 00:32:54,080
+Well, the way it's done is under employers, so that's the P108 Maastricht University here, which we saw before.
+
+301
+00:32:55,080 --> 00:33:03,080
+These qualifiers here are used to indicate that Marleen was a professor.
+
+302
+00:33:03,080 --> 00:33:17,080
+First, she was a normal professor, a hoogleraar, position held hoogleraar, but that ended because she got a pension basically, she got her emeritus.
+
+303
+00:33:18,080 --> 00:33:28,080
+And it's indicated here that from 2014 onwards she has a different position because their position now has become professor emeritus.
+
+304
+00:33:28,080 --> 00:33:40,080
+And you immediately see that professor emeritus and hoogleraar, those are two different things in Wikidata.
+
+305
+00:33:41,080 --> 00:33:49,080
+And actually it gets much more complicated because there are a lot of notions on professors in Wikidata.
+
+306
+00:33:50,080 --> 00:33:58,080
+Just to show you a few, now don't get scared because I'm going to show you this one, this is a Wikidata about a professor.
+
+307
+00:33:59,080 --> 00:34:12,080
+This is another one, this is even another one, professorship, full professor, an ordinary professor, an extraordinary professor, an assistant professor, an associate professor.
+
+308
+00:34:13,080 --> 00:34:27,080
+It goes on, a teaching professor, an honorary professor, an ecclesiastical professor, a visiting professor, an emeritus, a berufstitelprofessor, this is in German,
+
+309
+00:34:28,080 --> 00:34:32,080
+professor de universite, this is a French type of professor.
+
+310
+00:34:33,080 --> 00:34:45,080
+And then if you think now I've seen them all, you're very wrong because for the Netherlands there are even all these kinds of professorships.
+
+311
+00:34:46,080 --> 00:34:56,080
+So this is quite a lot and it's also quite confusing that there are so many types of professor, but this is the nature of Wikidata.
+
+312
+00:34:56,080 --> 00:35:06,080
+Wikidata is an open project that everybody can add data to and this means that the ontology in Wikidata is also open.
+
+313
+00:35:07,080 --> 00:35:14,080
+So everybody can add their notion or their local or their national notion of different types of professors.
+
+314
+00:35:14,080 --> 00:35:21,080
+Sometimes that makes sense, sometimes it doesn't.
+
+315
+00:35:22,080 --> 00:35:29,080
+When it makes sense for instance is that the notion of professor in the Netherlands, this full professor in the Netherlands,
+
+316
+00:35:30,080 --> 00:35:33,080
+it's something else than the notion of a professor in Germany.
+
+317
+00:35:34,080 --> 00:35:36,080
+That's really a different thing.
+
+318
+00:35:37,080 --> 00:35:39,080
+Or a professor in Sweden, that's also a different thing.
+
+319
+00:35:40,080 --> 00:35:42,080
+Or a professor in the UK or in the United States.
+
+320
+00:35:42,080 --> 00:35:51,080
+Those are all slightly different notions of professorships which therefore have their own Wikidata items.
+
+321
+00:35:52,080 --> 00:35:59,080
+And obviously something like an ordinary professor or an extraordinary professor, those are also different notions.
+
+322
+00:36:00,080 --> 00:36:06,080
+And they have these special appointment professors or this is a typical Dutch thing, academy professor, etc.
+
+323
+00:36:07,080 --> 00:36:14,080
+So there are all these different notions on professorship which are in Wikidata for a reason.
+
+324
+00:36:15,080 --> 00:36:22,080
+It's very confusing if you are new to Wikidata and you're not familiar with all these kinds of, or you're aware of all these kinds of things.
+
+325
+00:36:23,080 --> 00:36:27,080
+But it's a thing to take into account of.
+
+326
+00:36:28,080 --> 00:36:41,080
+But what I would encourage you if you're working on Wikidata on Dutch professors, on Dutch full professors, I need to say always use this queue number.
+
+327
+00:36:42,080 --> 00:36:52,080
+A general other tip when working on Wikidata and if you're not yet familiar with how certain items are structured,
+
+328
+00:36:52,080 --> 00:36:58,080
+is then to look at good quality items of already existing persons in this case.
+
+329
+00:36:59,080 --> 00:37:08,080
+And for Marleen van Baak I showed you, but also Gerard van Breukelen, who we already saw in the first theoretical part of the workshop.
+
+330
+00:37:09,080 --> 00:37:19,080
+And also Bruno de Witte, if you look at their Wikidata items, the way their professional data is recorded, so the professor and educated ed and degree, etc.
+
+331
+00:37:19,080 --> 00:37:23,080
+That's really well done.
+
+332
+00:37:24,080 --> 00:37:33,080
+So if you can consider this to be canonical items to actually copy the structure of the data from these three examples.
+
+333
+00:37:34,080 --> 00:37:37,080
+Okay, this is the thing I needed to say about professorships.
+
+334
+00:37:37,080 --> 00:37:55,080
+So what we're going to do now in the second practical block of the afternoon is to try to add professional data about professors to already existing Wikidata items, where we get that information from external data sources.
+
+335
+00:37:56,080 --> 00:38:01,080
+And let's look at how that can be done.
+
+336
+00:38:01,080 --> 00:38:08,080
+We'll start with the table that we saw before. So this is the overview table of Maastricht professors.
+
+337
+00:38:09,080 --> 00:38:17,080
+And what kind of information would we like to add now? We would like to add information from external public sources.
+
+338
+00:38:18,080 --> 00:38:27,080
+And the first one could be the place of birth and the date of birth.
+
+339
+00:38:27,080 --> 00:38:40,080
+So if you can find in a public, reliable, external source information about the date on which the person was born, you can add that to Wikidata.
+
+340
+00:38:41,080 --> 00:38:47,080
+And again, don't add it in the table directly, but add it in the corresponding Wikidata items.
+
+341
+00:38:47,080 --> 00:39:03,080
+And then furthermore, you can add the information about the university where the professor was educated, the academic degree of the professor, the homepage at the university, and the ORCID ID information.
+
+342
+00:39:04,080 --> 00:39:09,080
+You can all add that to these related properties.
+
+343
+00:39:09,080 --> 00:39:24,080
+Of course, when you find external information and you want to add that information to Wikidata, you have to state, you have to make clear where you found that information, where you got it from.
+
+344
+00:39:25,080 --> 00:39:33,080
+And for this case, for Bruno de Witte, it's stated that his employer is Maastricht University.
+
+345
+00:39:33,080 --> 00:39:38,080
+And you need to make clear where that information comes from.
+
+346
+00:39:39,080 --> 00:39:46,080
+And this is done by this block. So there is this information about his homepage on the Maastricht University website.
+
+347
+00:39:47,080 --> 00:39:53,080
+And from here, you can actually derive that his employer is Maastricht University.
+
+348
+00:39:54,080 --> 00:40:05,080
+And what you also need to do in general is to add information about when you added or when you checked that source for that information and when you added the information to Wikidata.
+
+349
+00:40:06,080 --> 00:40:10,080
+And when you look at here, how do you do that?
+
+350
+00:40:10,080 --> 00:40:26,080
+When you edit Wikidata, you get this edit screen and the reference URL, that's P854 in Wikidata, that states the URL of the page where the information was found.
+
+351
+00:40:27,080 --> 00:40:35,080
+And the retrieved date, P813, is the information or the date when the information was added.
+
+352
+00:40:35,080 --> 00:40:43,080
+So these are always the same things you have to put in Wikidata when you make a reference to a certain external source.
+
+353
+00:40:44,080 --> 00:40:50,080
+Just to make clear, where can you find that kind of information?
+
+354
+00:40:51,080 --> 00:41:02,080
+First of all, of course, you can find it on the public, the homepage of the university where the professors have their own homepage.
+
+355
+00:41:02,080 --> 00:41:06,080
+For instance, this professor, Wiebe Bijker, he's called.
+
+356
+00:41:07,080 --> 00:41:15,080
+He actually, when you go to his page, you scroll down, there is a full CV of all his activities.
+
+357
+00:41:16,080 --> 00:41:22,080
+And here you can find information about where he was educated, when he became a professor, etc.
+
+358
+00:41:22,080 --> 00:41:31,080
+Another good source is the ORCID page of the professor or the page on ResearchGate.
+
+359
+00:41:32,080 --> 00:41:36,080
+You can also go to that site to find professional information.
+
+360
+00:41:37,080 --> 00:41:44,080
+Of course, you can use Google to look for information on a specific person, like this one, Nancy Brocken.
+
+361
+00:41:45,080 --> 00:41:54,080
+You can also check the LinkedIn profile, that also gives information about the professor or if professors have personal websites or blogs.
+
+362
+00:41:55,080 --> 00:42:04,080
+You might also be able to retrieve, for instance, the year that they were born or the year they got their PhD degrees or something.
+
+363
+00:42:05,080 --> 00:42:10,080
+Furthermore, you can also look in Wikipedia articles about the professors.
+
+364
+00:42:11,080 --> 00:42:14,080
+These are some articles about Maastricht University professors.
+
+365
+00:42:15,080 --> 00:42:25,080
+And then I would suggest that you don't look at the Wikipedia article yourself, so don't get information from this part of the Wikipedia article.
+
+366
+00:42:26,080 --> 00:42:29,080
+But always go to the underlying sources of the Wikipedia article.
+
+367
+00:42:29,080 --> 00:42:34,080
+And here you can, if you check those sources, you can also find relevant information.
+
+368
+00:42:35,080 --> 00:42:36,080
+All right.
+
+369
+00:42:37,080 --> 00:42:41,080
+Then before we can actually get started, it's a pretty long introduction.
+
+370
+00:42:42,080 --> 00:42:44,080
+I'm very aware of that, but there is a lot to tell.
+
+371
+00:42:45,080 --> 00:42:52,080
+There are a lot of remarks to make before you can actually, with an informed mind, add information to Wikidata.
+
+372
+00:42:52,080 --> 00:43:00,080
+So, although it might be a bit lengthy, I have to share this information with you because this is important, because we're dealing with living persons.
+
+373
+00:43:01,080 --> 00:43:04,080
+Most of the university professors at Maastricht are still alive.
+
+374
+00:43:05,080 --> 00:43:14,080
+So that's why we have to be aware of the GDPR and the AVG conditions that apply to this exercise.
+
+375
+00:43:15,080 --> 00:43:20,080
+And information about the AVG is available from the Wiki-Wetenschappersproject.
+
+376
+00:43:20,080 --> 00:43:36,080
+And just to summarize the most important findings, it says that personal data about living persons we only include in Wikidata if they are publicly available from general information sources.
+
+377
+00:43:37,080 --> 00:43:39,080
+And this is a good guide to go by.
+
+378
+00:43:40,080 --> 00:43:56,080
+If there are some kind of, for instance, if you find information on a non-public site or if you have to log in to certain sites or if they're not generally publicly available, don't include that information in Wikidata.
+
+379
+00:43:57,080 --> 00:44:13,080
+And this is also stated by a report that was done after the Wiki-Wetenschappersproject by the SAE, the Dutch Academic Heritage Foundation.
+
+380
+00:44:13,080 --> 00:44:26,080
+They also give guidelines to which kinds of data are suitable for inclusion into Wikidata, given the GDPR AVG that is valid.
+
+381
+00:44:27,080 --> 00:44:44,080
+So in this report they state that, they ask the question, can we provide data about Dutch professors to the Wiki-Wetenschappersproject?
+
+382
+00:44:45,080 --> 00:44:52,080
+They said, yeah, we can do that, provided there is a public source mentioned.
+
+383
+00:44:52,080 --> 00:45:02,080
+So this is from the Wiki-Wetenschappersproject point of view. Of course, Wikidata also has policies about living persons.
+
+384
+00:45:03,080 --> 00:45:09,080
+They're also aware of GDPR AVG, so they have their own policies to follow.
+
+385
+00:45:10,080 --> 00:45:21,080
+And they kind of say the same things. For data about living persons, it should be supported by a reliable public source.
+
+386
+00:45:22,080 --> 00:45:25,080
+And privacy should be respected. That's always the case.
+
+387
+00:45:26,080 --> 00:45:33,080
+So just to summarize the findings from both the Wiki-Wetenschappersproject and the Wikidata policies,
+
+388
+00:45:34,080 --> 00:45:44,080
+these are the guidelines that you need to be aware of when you add information to Wikidata.
+
+389
+00:45:44,080 --> 00:45:52,080
+So only add information from reliable public well-known sources. Always add references in Wikidata to those sources.
+
+390
+00:45:53,080 --> 00:46:04,080
+Avoid what in Dutch are special persoonsgegevens, so special personal data like religion, ethnicity, sexual orientation, etc.
+
+391
+00:46:05,080 --> 00:46:12,080
+Don't include that in Wikidata unless you have explicit permission from the person itself.
+
+392
+00:46:12,080 --> 00:46:18,080
+Avoid things like home addresses, email, telephone numbers, information about partners, children, etc.
+
+393
+00:46:19,080 --> 00:46:27,080
+And even if the professor person provided himself, and why did I include this last thing?
+
+394
+00:46:28,080 --> 00:46:33,080
+This has to do with what I found in the CV of Professor Bijker.
+
+395
+00:46:34,080 --> 00:46:39,080
+When you go here, it just tells you where he lives. This is his personal home address.
+
+396
+00:46:39,080 --> 00:46:45,080
+Don't include that in Wikidata because this is personal private sensitive data.
+
+397
+00:46:46,080 --> 00:46:52,080
+He chose to put it on here, but just be careful, be mindful of Professor Bijker.
+
+398
+00:46:53,080 --> 00:47:01,080
+Don't add that to Wikidata, because once it's in Wikidata, it will be in Wikidata forever, and it will be visible forever for everybody.
+
+399
+00:47:02,080 --> 00:47:08,080
+Okay, now I'm actually going to skip this part.
+
+400
+00:47:09,080 --> 00:47:15,080
+This is supposed to be me giving a live demo, but because of reasons of time, I'm actually going to avoid it.
+
+401
+00:47:16,080 --> 00:47:20,080
+It is not too difficult when you follow the instructions that I showed you before.
+
+402
+00:47:21,080 --> 00:47:26,080
+So now we can use 20 minutes of our time to actually go to work yourself.
+
+403
+00:47:26,080 --> 00:47:30,080
+Finally, I'm very aware that I've spoken a lot.
+
+404
+00:47:31,080 --> 00:47:37,080
+But this is the information you need to have one time, and once you know this, once you are aware of the information,
+
+405
+00:47:38,080 --> 00:47:42,080
+then you can add information to Wikidata forever.
+
+406
+00:47:43,080 --> 00:47:47,080
+So, start with what the exercise is.
+
+407
+00:47:48,080 --> 00:47:53,080
+From this table here, go to the table, see where there are empty cells in the table,
+
+408
+00:47:53,080 --> 00:48:00,080
+and try to add information about where the persons were educated, academic degrees, etc.
+
+409
+00:48:01,080 --> 00:48:12,080
+based on information of external sources, and also include those sources in the Wikidata source references.
+
+410
+00:48:13,080 --> 00:48:19,080
+To make life easier for you, in the handout that you already downloaded,
+
+411
+00:48:19,080 --> 00:48:32,080
+at the very bottom of the handout, there is already a list that I compiled myself.
+
+412
+00:48:33,080 --> 00:48:40,080
+So if you don't want to go to too much trouble, and you want to add information about Willem Brouwer,
+
+413
+00:48:41,080 --> 00:48:47,080
+you can go to this page and you will find these bits of information that you can readily include in Wikidata.
+
+414
+00:48:47,080 --> 00:48:55,080
+And I did that for, I think, 15 to 20 professors, so if you're a bit lazy,
+
+415
+00:48:56,080 --> 00:48:59,080
+you can just copy basically the information that is given here.
+
+416
+00:49:00,080 --> 00:49:05,080
+But please also check the originating sources for this information.
+
+417
+00:49:06,080 --> 00:49:16,080
+And again, as I said, if you wonder how to do it, if you're a bit, perhaps if it's your first time working with Wikidata,
+
+418
+00:49:17,080 --> 00:49:27,080
+and you need some guidance and things to hold on to, go to either of these three items,
+
+419
+00:49:28,080 --> 00:49:34,080
+and you will find a really good example of how information in Wikidata for professors can be structured.
+
+420
+00:49:35,080 --> 00:49:38,080
+Okay, this is it for me for now.
+
+421
+00:49:38,080 --> 00:49:47,080
+Here on the third, this was supposed to be, because for reasons of time, I'm not going to try to discuss this.
+
+422
+00:49:48,080 --> 00:49:53,080
+If you want to do this, this is about creating actually new Wikidata items,
+
+423
+00:49:54,080 --> 00:49:59,080
+so we already looked at existing Wikidata items, if you want to create new Wikidata items for UM professors,
+
+424
+00:50:00,080 --> 00:50:04,080
+then go by these guidelines.
+
+425
+00:50:05,080 --> 00:50:12,080
+So find the professor that is not yet described in that Wiki-Wetenschappers table.
+
+426
+00:50:13,080 --> 00:50:15,080
+For instance, you can find one here.
+
+427
+00:50:16,080 --> 00:50:20,080
+Then try to gather information about this person from reliable public sources.
+
+428
+00:50:21,080 --> 00:50:26,080
+And then please pay attention to AVG GDPR and privacy guidelines.
+
+429
+00:50:26,080 --> 00:50:38,080
+And then add that information to Wikidata, based on the examples of Marleen van Baak, Bruno and Gerard van Breukelen.
+
+430
+00:50:39,080 --> 00:50:41,080
+Okay, that was it for me. I think I've talked enough.
+
+431
+00:50:42,080 --> 00:50:46,080
+It's really time for you to actually go and exercise yourselves.
+
+432
+00:50:47,080 --> 00:50:55,080
+If you have any questions or any suggestions, feel free to send me an email at olaf.janssen@kb.nl
+
+433
+00:50:56,080 --> 00:51:00,080
+This is the National Library in the Netherlands, where I'm the Wikimedia Coordinator.
+
+434
+00:51:01,080 --> 00:51:08,080
+And we can also get in touch via video or telephone or something, or chat.
+
+435
+00:51:09,080 --> 00:51:15,080
+It's all available if you need any support in adding data to Wikidata.
+
+436
+00:51:16,080 --> 00:51:18,080
+Okay, thank you very much. Bye bye.
+

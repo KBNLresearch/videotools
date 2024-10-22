@@ -1,0 +1,436 @@
+Hello, good afternoon everybody.
+Welcome to this practical part of the Wikidata workshop about professors at the University
+of Maastricht.
+It's the 15th of October 2024 currently.
+And my name is Olaf Janssen.
+I'm the Wikimedia Coordinator of the National Library in the Netherlands.
+I must first mention that there is also a theoretical part to this workshop which is
+available in the other video I recorded.
+So if you want to know the basics about Wikidata and its applications to research and science,
+please consult the first theoretical part of the workshop.
+This is the second practical part.
+So this is especially if you want to get hands-on yourself with Wikidata and if you want to
+work on Wikidata items that are related to professors here at Maastricht University.
+This part will be about 1 hour and 15 to 20 minutes if you do the full part.
+So let me just walk you through this workshop.
+There will be about 30 minutes of practical exercises that you can do.
+For the rest I think I need to explain first a bit what the aim of the workshop is, where
+you can find information related to professors of Maastricht University that you can then
+include in Wikidata.
+So first I'm going to try to give you some general context about the topic and then I'll
+try to help you with making your first steps in Wikidata by adding and enriching the information
+about university professors at Maastricht.
+Okay, but before we continue, let me make sure that we're all on the same level, that
+the Wi-Fi on your laptops is enabled and that you have actually created an account on Wikidata.
+I asked you to do that before the workshop today.
+So I reckon you have done that.
+If you have not yet done that, if you still need to create a Wikidata account, you can
+go to the URL that is shown here and do that during the first part of the workshop, because
+I'm not going to wait for that.
+So you can do it right now.
+Most importantly, what you will need for the workshop is the handout here that I made,
+which is available from this URL here at Zenodo.
+If you go to here, you can download the handout for participants.
+In detail, it's available here.
+This is the Zenodo page.
+This exactly contains the same kind of information that is available as in the presentation that
+I'm about to give, but then all written out so you can easily refer to your either Word
+or PDF version of the handout.
+If you want to be able to access the information that I will send you quickly.
+Okay, having said that, let's first talk about professors as normal human beings.
+Of course, they are humans.
+What I intend to do in this part is just to look at the basic properties of professors,
+like they have a date of birth, a place of birth, they have a sex or gender, they have
+a name, etc.
+Later in the workshop, in this practical part, I will look at the professional qualities
+of these professors, like the fields of work they work at, where they were educated, what
+sort of professor they were.
+That's all about their professional activities.
+By the way, here on the top of the screen, you can still see the Zenodo record.
+If you have not yet downloaded or accessed this page to download the handout for participants,
+you can do it during the first few slides of this workshop.
+Okay, so when I'm talking about modeling professors, I'm talking about modeling humans.
+Then we have to look at how humans in Wikidata are actually modeled.
+Then you have to think, well, what kind of really basic properties are needed to model
+a person in Wikidata?
+When you give that some thought, and you would look at already existing Wikidata items, especially
+there are these properties that can be considered rather basic.
+First of all, the statement if a person in Wikidata is a male or female or something
+else.
+Then the country of citizenship, so basically nationality.
+Then the given name, the family name, and the name in the native language.
+Date of birth, place of birth, date of death, place of death.
+And then the native language the person speaks.
+So if it is from the Netherlands, then it will be Dutch.
+But also the other languages the person is capable of speaking or writing.
+So this is for the first bit of this section of the workshop.
+Then after we've looked at it, we're going to look at the professional and educational
+information about the professors.
+But that's specifically for the second part.
+Just to look at a quick example of these basic properties, I have the Wikidata item
+about a famous Dutch astronomer, Jan Hendrik Oort.
+My background, I studied astronomy in the 90s in Leiden.
+So this is why I chose this not exactly random example, but it's a good example to illustrate
+the basic properties of humans on Wikidata.
+And first of all, we have the label.
+So this is basically the name of this person, Jan Hendrik Oort, in all the different languages.
+And then there is a short description about what kind of person Jan Hendrik Oort was.
+He was a Dutch astronomer who lived between 1900 and 1992, actually.
+And this is available in multiple languages.
+I need to point out here that for every human on Wikidata, it's always an instance of human.
+So this is a unique specimen of the group of humans.
+And this is indicated in Wikidata by the property P31.
+This is instance of, so a unique example of.
+And then the value of that property is Q5.
+So this is the class of humans on Wikidata, which is the fifth class.
+Q1 is the universe, Q2 is the earth, Q5 is human, Q42 is Douglas Adams, obviously.
+And this goes all the way up to currently Q114 million even.
+Then if you scroll down that page, you will see that Jan Hendrik Oort is a sex or gender male.
+Sex or gender is denoted by property P21 in Wikidata.
+Country of citizenship, that's P27, which is the Kingdom of the Netherlands, etc.
+So the name in a native language, the name in Dutch, is indicated by this property.
+The given name, so that's his first names given by the P735 property.
+The family name is one number down.
+And so you can continue, the date of birth is P569, the place of birth is P19, etc.
+You see, this is the date of death and the place of death.
+So these are all properties in Wikidata that are related to basic data about humans.
+And to continue to finish this up, the native language, so the natural language the person speaks
+because he's a citizen of a certain country is P103.
+And obviously, Jan Hendrik Oort was capable of speaking Dutch, which is indicated by this property.
+Okay, you might wonder, why can I find all these different properties that are related to humans?
+Or is there a nice, compact overview of all these kinds of properties?
+The good answer is, yes, there is.
+Because on this URL, so the Template:Person properties,
+this lists all kinds of properties that are related to humans.
+Both really basic properties, like sex or gender or place of birth, etc.
+But also a bit more advanced properties, like educated at and academic degree, etc.
+That's what we'll look at later.
+But these are the most important properties related to humans.
+Alternatively, you can go to the Wikidata Prop Explorer here at this page.
+And if you collapse down the list of all the various properties,
+then there is this thing called Wikidata Property for Items About People.
+And here you see the same properties that I actually showed before.
+So the place of birth, the place of death, etc.
+Sex or gender, P21.
+All the way up to date of birth and date of death by this property.
+Family name, given name, etc.
+So these are just the things I showed you already.
+Okay, so now for the first part of the practical exercise,
+what we'll do in the first instance is to add basic properties for these professors.
+And I have to give a bit of background to this exercise.
+Because the professors at Maastricht University and at many other universities in the Netherlands,
+here on the screen, data about these professors has already been added to Wikidata
+because of the so-called Wiki-scientist Project, which was started in 2019.
+Because then the first really big bulk of professors were added to Wikidata.
+And it still runs till today.
+And you can consider this workshop to be part of that Wiki-scientist Project.
+So what the aim of this particular project was,
+was to create and maintain centralized and structured data about Dutch professors
+and other leading scientists all the way from the 16th century up to now
+to be used by a wide audience.
+And also to have the work-related data of these professors mapped onto Wikidata.
+So recording information, for instance, about which university did they work,
+when did they join the university, when did they leave the university,
+what positions did they held at the university, etc.
+And this is a project that is done on Wikidata.
+Hence, you see here, this is a Wiki project.
+So that's a project where all the information is gathered on Wikidata.
+And the project working environment, the documentation, etc.
+is also available on Wikidata.
+An employee of Maastricht University, Manuel Boessen,
+he has written a blog post about this project.
+And if you want to read the full background of the project,
+you can go to the website of the Stichting Academisch Erfgoed,
+which is the Foundation for Academical Heritage in English.
+And this was the organization that actually initiated this project.
+And they wrote, after the first year of the project,
+I believe they wrote a report on the activities that were done during the project
+and the results that were obtained.
+And to place this project in a bit more wider context,
+there are two other projects on Wikidata
+that are related to higher education and universities, etc.
+One is the Wiki project Higher Education,
+which works on adding Wikidata or adding to Wikidata information
+about universities and higher educational institutions.
+And another project is especially about university degrees throughout the world,
+because Wikidata has always an international scope.
+So you could say that this Dutch Wiki-Wetenschappersproject
+is actually a subset or a subproject of these larger, more encompassing projects.
+All right. And then if you go to that page on the Wiki-Wetenschappersproject,
+you will find a table where all the basic properties that we just discussed
+are actually available here.
+These are the same properties that I already showed you here.
+So if you want to refer to this project specifically for the properties,
+the properties specifically for the project, you can go to this page.
+And our starting point will be this table.
+This is a table for the University of Maastricht
+where all the professors, all the hoogleraren are recorded.
+Well, not necessarily all the Maastricht University professors, but many of them.
+Actually, the persons who agreed upon having their data recorded in Wikidata
+at the start of the project in 2019.
+But this table, it has some 300 Maastricht professors listed.
+So this is a really excellent starting point if you want to improve
+and add in data about professors at Maastricht.
+This is a good starting point.
+So we'll use that table to work from.
+And in this table, all these basic persons data, as we saw before,
+are listed for many professors.
+And these columns in the table correspond to these properties in Wikidata that I showed you.
+What you immediately see is that there are blank spots here in the table.
+So this means that for this professor, the family name and the place of death is not recorded.
+This is not a surprise because she's still alive, luckily.
+So this will remain empty for a while, I guess.
+But here you can see that the country of origin and the nationality is the Kingdom of the Netherlands.
+And it is not available for this professor here in this field.
+So we're going to try to improve this situation.
+So what we're going to do now is the first level of exercise.
+And the first level of exercise is actually to add data to Wikidata without the need for external data.
+So we're not going to consult external resources, external references to add to Wikidata.
+That we'll do in the next block.
+But in this first block, we will actually get our information from already existing Wikidata items.
+So we have this table again that we just looked at.
+And you see here, this is a description of the person in Dutch.
+And you immediately see that this is a short characterization of this professor Wil Albeda called.
+And it's typically composed of fields like the nationality, Netherlands, Dutch.
+Something about the profession or occupation of this person, a political person and an economist here.
+And if available, the year of birth and year of death.
+So like in this case you see here.
+And the good thing is about this table is that you can actually sort it.
+And if you sort it, you will see that all the professors for which this description is not yet available are listed here.
+So what we can now easily do, we can add information like the nationality, the profession, the fact.
+Because these are all Maastricht University professors, we can add that fact.
+And if available, these years.
+So that might look for this professor, that might look something like this.
+The Netherlands, a Dutch psychiatrist and professor at Maastricht University.
+So we can similarly, we can add this kind of information, not necessarily very like a copy of this, but something equivalent.
+You could say we can add that to these, all these, all these professors that don't yet have that.
+Then next we'll see here at the far right of the table, this is sex or gender.
+And this can often be derived, commonly typically be derived from the name of the professor.
+And this is very easy, for instance, this is so this is about property 21.
+So this person, Cees van Dam, obviously, if you know that he is a man and you can add male here.
+And the typical values to choose from, if you make the classical subdivision male, female,
+is male has this Q-number, which is shown here.
+And female has this Q-number, which is shown here.
+So it's either male or female.
+And if a person is non-binary or something, there are also separate Wikidata properties for those types of sex or gender.
+What is also quite easy to derive from existing information is the country of nationality, so P27.
+And this can be commonly derived from the place of birth.
+Here we see that all these persons were born in either The Hague, Heerlen or Boksmeer, these are all cities in the Netherlands.
+And it means that we can easily from this derive that the nationality of the person is Kingdom of the Netherlands.
+And for Dutch persons, you have to be aware of that you actually choose Kingdom of the Netherlands here.
+So this Wikidata item number and not Q55, which is the Netherlands, which is a different thing than the Kingdom of the Netherlands.
+But the convention on Wikidata is to actually for Dutch persons do Kingdom of the Netherlands.
+And finally, we can also derive a family name and given name of the person from their already stated full names here.
+So for instance, for this professor Wilko Letterie, his first name is Wilko and his family name is Letterie.
+So that can also be easily added to Wikidata.
+Okay, so now let me try to give a live demo.
+Well, I actually can do that because I'm not recording my screen now.
+But if you, this is quite easy to actually go to this Wikidata item and then have a short description of this person.
+Like he's a professor at, not sure which topic or which field of work, but he's a professor at Utrecht University.
+And I think his birthday is already stated in Wikidata.
+So you can actually use that information to add to the description.
+And you can add that the given name is Wilko and his family name is Letterie.
+And in an equivalent manner you can add to Wikidata on the item of Cees van Dam that the sex or gender of this person is male in this case.
+So this is a short demo.
+What I would like you to continue now is to go to this table here at this URL.
+And then go to one of the Wikidata items.
+I have to point out on the previous slide, not sure if I can actually go back to that slide.
+No, I'm afraid not.
+Don't edit this, what I want to say, don't edit this table directly.
+Rather go to the Wikidata item here and make the edits in the Wikidata items themselves.
+So you can choose a person from the list, see where information can be added, like this kind of information.
+And then just edit the Wikidata item, store it.
+And then once you have done that, and we take about 10 minutes for that.
+Don't forget after saving your edits to push here to click this.
+This is not really a button, but this URL, this text here, to manually update the list.
+And after you have done that, then the table here will be updated either immediately or if the system is slow, then within a couple of minutes.
+And then this table will be updated and the information that you just added is actually available from here.
+Alright, so that's about 10 minutes of work.
+And after you have hopefully successfully done that, we'll continue with the second block of this workshop.
+And now we're going to try to add to Wikidata.
+Data that is related to the professional activities of these professors.
+And this block is going to be a bit more complicated than the previous block, because we have to build up and improve our knowledge, of course.
+But the structure of the data is also slightly more complicated.
+So, yeah, let's go on and tackle that now.
+But first, before I dive into this further, I have to make sure that we all have the same definitions.
+And this has to do with defining what a professor is, basically.
+I thought that I knew something about the phenomenon of professor.
+But when I was preparing for this workshop a couple of weeks ago, I found out that there is much more nuance in professorships and the ranks and functions of professors than I was aware of.
+So this is why I made this slide to actually make you also, if you're all working on a university, so I think you have some notion of professors, of course.
+But it's good to have this clearly on a sheet.
+And I'm deliberately using the Dutch word for professor, hoogleraar.
+Why I use that deliberately in Dutch, you will see in a moment.
+But een hoogleraar, he or she is a university teacher of the most senior rank.
+So, hoogleraar, that's a position, an office you can hold. In Dutch it's called a functie or an ambt.
+So that's just a, yeah, like a job, a function.
+And the funny thing about, at least in the Netherlands, what I found out is that an academic education or a PhD or a doctor's degree is not a requirement for if you want to become a professor.
+Of course, it's highly unlikely that without a PhD you will get a professorship, but there are examples known that people that didn't study at university or only got their master's degree actually became professors.
+You might be surprised about this fact. You can check the sources. I think it goes to Wikipedia.
+But I don't want to go on, I want to discuss this in more detail now because this is beyond the scope of the current workshop.
+Okay, then there is something called professor in Dutch. This is different from hoogleraar.
+If I were to do this slide in English, then both these things would be professor because the English word for hoogleraar is professor.
+But the English word for professor is also professor. So this is a Dutch word, professor.
+And professor is an academic title and rank. So it's in Dutch an aanspreektitel.
+And it's generally used for a university teacher of any rank. For instance, in the United States this is the case, but in the Netherlands it's especially true for the hoogleraar, so the university teachers of the highest rank.
+And professor is not something like an academic degree or something you can actually work for, you can study for, but it's like an attribute you get when you become a hoogleraar.
+So this is the difference. It's a decoration attribute title you can use if you're a hoogleraar.
+And then the academic degree. The degree at the university is something of course it gives to its graduates and it's actually something you study for.
+So the highest degree that Dutch universities will give is the degree of PhD or doctorate.
+And this is also the most common degree that the hoogleraar will have. They first did their master's thesis, then their PhD, and then they were appointed to be a professor at some stage of their careers.
+All right, so now how do all these kinds of different things and definitions translate into the Wiki-Wetenschappersproject and thus about the professors at Maastricht University?
+And for that we go to the Wikiewetenschappers eigenschappen, the properties page again, which we saw before for these basic properties about professors.
+And if you scroll down that page, you will come to the professional information for the professors.
+And here you see quite a number of properties in Wikidata that are related to that professional activities like the occupation, the employer, so that's the university they work at, the university where they got their education, the academic degree they hold.
+And here you see an entire blob of all kinds of different Wikidata items related to professors.
+So let's look at this. I think if you see this, this is quite confusing. So let's look at this in a bit more detail. Let's use some illustration for that in other words.
+And the Wikidata item I found, which was really good, was the item on Marleen van Baak. She is an emeritus professor at Maastricht.
+And when I looked through this Wikidata item, this is like a really good example, a kind of canonical you could even call it. So this is the example I will use to demonstrate how professional data about hoogleraaren is recorded in Wikidata.
+So the first thing to notice is that the occupation, that's P106 in Wikidata, is always university teacher, which is this number. This is true for all professors or all university teachers, not only at Maastricht University, but also for all the other universities that were part of the Wiki-Wetenschappersproject.
+You could argue about this. I'm sure you could also say, is the university teacher, is that the best way to describe a professor at university? I'm not going to discuss that at this particular moment, because this was a choice that was made at the beginning of the Wiki-Wetenschappersproject back in 2019.
+And I'm going to respect that choice, although I think you can debate about it, but this is the standard that is used throughout the project for all the universities. So I'm going to stick to the convention and not motivate you or change your mind that you would need to do this in a different manner.
+Then it says the employer of this hoogleraar is Maastricht University, so that's always P180 for Maastricht, this Q-number. And these two things that I showed you here, so that's the Maastricht University and the occupation being university teacher.
+That's the definition to have a wetenschapper on the Wiki-Wetenschappersproject.
+To continue, where was Marleen van Baak educated? As it said here, she was educated at the University of Maastricht. She got her, what's it called now, the master's thesis, master's degree.
+These are the dates she started, she ended, and her field was biology. And she got her academic degree of doctorate, so that's her PhD, between 1975 and 1979. She was in the field of exercise psychology, and it was done at Nijmegen University.
+So this is the way to record that kind of information in Wikidata.
+Then what you often see in the Wiki-Wetenschappersproject is a webpage where the person is described, and it's typically the homepage at the university the professor is associated with.
+So in this case, this is the homepage of Professor van Baak.
+What you also often see is the ORCID ID, which is property 496 in Wikidata and has this particular value. So if you click on this link, you will go to the ORCID ID page of Marleen van Baak.
+One thing I did not yet discuss, but which I will show you now, is how that notion that Marleen is a professor is actually recorded in Wikidata.
+Well, the way it's done is under employers, so that's the P108 Maastricht University here, which we saw before.
+These qualifiers here are used to indicate that Marleen was a professor.
+First, she was a normal professor, a hoogleraar, position held hoogleraar, but that ended because she got a pension basically, she got her emeritus.
+And it's indicated here that from 2014 onwards she has a different position because their position now has become professor emeritus.
+And you immediately see that professor emeritus and hoogleraar, those are two different things in Wikidata.
+And actually it gets much more complicated because there are a lot of notions on professors in Wikidata.
+Just to show you a few, now don't get scared because I'm going to show you this one, this is a Wikidata about a professor.
+This is another one, this is even another one, professorship, full professor, an ordinary professor, an extraordinary professor, an assistant professor, an associate professor.
+It goes on, a teaching professor, an honorary professor, an ecclesiastical professor, a visiting professor, an emeritus, a berufstitelprofessor, this is in German,
+professor de universite, this is a French type of professor.
+And then if you think now I've seen them all, you're very wrong because for the Netherlands there are even all these kinds of professorships.
+So this is quite a lot and it's also quite confusing that there are so many types of professor, but this is the nature of Wikidata.
+Wikidata is an open project that everybody can add data to and this means that the ontology in Wikidata is also open.
+So everybody can add their notion or their local or their national notion of different types of professors.
+Sometimes that makes sense, sometimes it doesn't.
+When it makes sense for instance is that the notion of professor in the Netherlands, this full professor in the Netherlands,
+it's something else than the notion of a professor in Germany.
+That's really a different thing.
+Or a professor in Sweden, that's also a different thing.
+Or a professor in the UK or in the United States.
+Those are all slightly different notions of professorships which therefore have their own Wikidata items.
+And obviously something like an ordinary professor or an extraordinary professor, those are also different notions.
+And they have these special appointment professors or this is a typical Dutch thing, academy professor, etc.
+So there are all these different notions on professorship which are in Wikidata for a reason.
+It's very confusing if you are new to Wikidata and you're not familiar with all these kinds of, or you're aware of all these kinds of things.
+But it's a thing to take into account of.
+But what I would encourage you if you're working on Wikidata on Dutch professors, on Dutch full professors, I need to say always use this queue number.
+A general other tip when working on Wikidata and if you're not yet familiar with how certain items are structured,
+is then to look at good quality items of already existing persons in this case.
+And for Marleen van Baak I showed you, but also Gerard van Breukelen, who we already saw in the first theoretical part of the workshop.
+And also Bruno de Witte, if you look at their Wikidata items, the way their professional data is recorded, so the professor and educated ed and degree, etc.
+That's really well done.
+So if you can consider this to be canonical items to actually copy the structure of the data from these three examples.
+Okay, this is the thing I needed to say about professorships.
+So what we're going to do now in the second practical block of the afternoon is to try to add professional data about professors to already existing Wikidata items, where we get that information from external data sources.
+And let's look at how that can be done.
+We'll start with the table that we saw before. So this is the overview table of Maastricht professors.
+And what kind of information would we like to add now? We would like to add information from external public sources.
+And the first one could be the place of birth and the date of birth.
+So if you can find in a public, reliable, external source information about the date on which the person was born, you can add that to Wikidata.
+And again, don't add it in the table directly, but add it in the corresponding Wikidata items.
+And then furthermore, you can add the information about the university where the professor was educated, the academic degree of the professor, the homepage at the university, and the ORCID ID information.
+You can all add that to these related properties.
+Of course, when you find external information and you want to add that information to Wikidata, you have to state, you have to make clear where you found that information, where you got it from.
+And for this case, for Bruno de Witte, it's stated that his employer is Maastricht University.
+And you need to make clear where that information comes from.
+And this is done by this block. So there is this information about his homepage on the Maastricht University website.
+And from here, you can actually derive that his employer is Maastricht University.
+And what you also need to do in general is to add information about when you added or when you checked that source for that information and when you added the information to Wikidata.
+And when you look at here, how do you do that?
+When you edit Wikidata, you get this edit screen and the reference URL, that's P854 in Wikidata, that states the URL of the page where the information was found.
+And the retrieved date, P813, is the information or the date when the information was added.
+So these are always the same things you have to put in Wikidata when you make a reference to a certain external source.
+Just to make clear, where can you find that kind of information?
+First of all, of course, you can find it on the public, the homepage of the university where the professors have their own homepage.
+For instance, this professor, Wiebe Bijker, he's called.
+He actually, when you go to his page, you scroll down, there is a full CV of all his activities.
+And here you can find information about where he was educated, when he became a professor, etc.
+Another good source is the ORCID page of the professor or the page on ResearchGate.
+You can also go to that site to find professional information.
+Of course, you can use Google to look for information on a specific person, like this one, Nancy Brocken.
+You can also check the LinkedIn profile, that also gives information about the professor or if professors have personal websites or blogs.
+You might also be able to retrieve, for instance, the year that they were born or the year they got their PhD degrees or something.
+Furthermore, you can also look in Wikipedia articles about the professors.
+These are some articles about Maastricht University professors.
+And then I would suggest that you don't look at the Wikipedia article yourself, so don't get information from this part of the Wikipedia article.
+But always go to the underlying sources of the Wikipedia article.
+And here you can, if you check those sources, you can also find relevant information.
+All right.
+Then before we can actually get started, it's a pretty long introduction.
+I'm very aware of that, but there is a lot to tell.
+There are a lot of remarks to make before you can actually, with an informed mind, add information to Wikidata.
+So, although it might be a bit lengthy, I have to share this information with you because this is important, because we're dealing with living persons.
+Most of the university professors at Maastricht are still alive.
+So that's why we have to be aware of the GDPR and the AVG conditions that apply to this exercise.
+And information about the AVG is available from the Wiki-Wetenschappersproject.
+And just to summarize the most important findings, it says that personal data about living persons we only include in Wikidata if they are publicly available from general information sources.
+And this is a good guide to go by.
+If there are some kind of, for instance, if you find information on a non-public site or if you have to log in to certain sites or if they're not generally publicly available, don't include that information in Wikidata.
+And this is also stated by a report that was done after the Wiki-Wetenschappersproject by the SAE, the Dutch Academic Heritage Foundation.
+They also give guidelines to which kinds of data are suitable for inclusion into Wikidata, given the GDPR AVG that is valid.
+So in this report they state that, they ask the question, can we provide data about Dutch professors to the Wiki-Wetenschappersproject?
+They said, yeah, we can do that, provided there is a public source mentioned.
+So this is from the Wiki-Wetenschappersproject point of view. Of course, Wikidata also has policies about living persons.
+They're also aware of GDPR AVG, so they have their own policies to follow.
+And they kind of say the same things. For data about living persons, it should be supported by a reliable public source.
+And privacy should be respected. That's always the case.
+So just to summarize the findings from both the Wiki-Wetenschappersproject and the Wikidata policies,
+these are the guidelines that you need to be aware of when you add information to Wikidata.
+So only add information from reliable public well-known sources. Always add references in Wikidata to those sources.
+Avoid what in Dutch are speciale persoonsgegevens, so special personal data like religion, ethnicity, sexual orientation, etc.
+Don't include that in Wikidata unless you have explicit permission from the person itself.
+Avoid things like home addresses, email, telephone numbers, information about partners, children, etc.
+And even if the professor person provided himself, and why did I include this last thing?
+This has to do with what I found in the CV of Professor Bijker.
+When you go here, it just tells you where he lives. This is his personal home address.
+Don't include that in Wikidata because this is personal private sensitive data.
+He chose to put it on here, but just be careful, be mindful of Professor Bijker.
+Don't add that to Wikidata, because once it's in Wikidata, it will be in Wikidata forever, and it will be visible forever for everybody.
+Okay, now I'm actually going to skip this part.
+This is supposed to be me giving a live demo, but because of reasons of time, I'm actually going to avoid it.
+It is not too difficult when you follow the instructions that I showed you before.
+So now we can use 20 minutes of our time to actually go to work yourself.
+Finally, I'm very aware that I've spoken a lot.
+But this is the information you need to have one time, and once you know this, once you are aware of the information,
+then you can add information to Wikidata forever.
+So, start with what the exercise is.
+From this table here, go to the table, see where there are empty cells in the table,
+and try to add information about where the persons were educated, academic degrees, etc.
+based on information of external sources, and also include those sources in the Wikidata source references.
+To make life easier for you, in the handout that you already downloaded,
+at the very bottom of the handout, there is already a list that I compiled myself.
+So if you don't want to go to too much trouble, and you want to add information about Willem Brouwer,
+you can go to this page and you will find these bits of information that you can readily include in Wikidata.
+And I did that for, I think, 15 to 20 professors, so if you're a bit lazy,
+you can just copy basically the information that is given here.
+But please also check the originating sources for this information.
+And again, as I said, if you wonder how to do it, if you're a bit, perhaps if it's your first time working with Wikidata,
+and you need some guidance and things to hold on to, go to either of these three items,
+and you will find a really good example of how information in Wikidata for professors can be structured.
+Okay, this is it for me for now.
+Here on the third, this was supposed to be, because for reasons of time, I'm not going to try to discuss this.
+If you want to do this, this is about creating actually new Wikidata items,
+so we already looked at existing Wikidata items, if you want to create new Wikidata items for UM professors,
+then go by these guidelines.
+So find the professor that is not yet described in that Wiki-Wetenschappers table.
+For instance, you can find one here.
+Then try to gather information about this person from reliable public sources.
+And then please pay attention to AVG GDPR and privacy guidelines.
+And then add that information to Wikidata, based on the examples of Marleen van Baak, Bruno and Gerard van Breukelen.
+Okay, that was it for me. I think I've talked enough.
+It's really time for you to actually go and exercise yourselves.
+If you have any questions or any suggestions, feel free to send me an email at olaf.janssen@kb.nl
+This is the National Library in the Netherlands, where I'm the Wikimedia Coordinator.
+And we can also get in touch via video or telephone or something, or chat.
+It's all available if you need any support in adding data to Wikidata.
+Okay, thank you very much. Bye bye.

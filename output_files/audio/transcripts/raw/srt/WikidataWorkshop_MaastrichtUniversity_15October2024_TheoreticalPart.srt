@@ -1,0 +1,2048 @@
+1
+00:00:00,000 --> 00:00:09,120
+Hello everybody, welcome to this workshop on Wikidata for the University of Maastricht
+
+2
+00:00:09,120 --> 00:00:17,440
+on the 15th of October 2024. My name is Olaf, I'm the Wikimedia Coordinator at the National
+
+3
+00:00:17,440 --> 00:00:23,560
+Library of the Netherlands. And today, for the next two and a half hours, I will guide
+
+4
+00:00:23,560 --> 00:00:33,360
+this workshop on Wikidata related to professors here at Maastricht University. And this workshop
+
+5
+00:00:33,360 --> 00:00:40,540
+will be in two parts. It will be first a theoretical introduction where we will look at the basics
+
+6
+00:00:40,540 --> 00:00:49,200
+of Wikidata, so really the principles and founding guidances of Wikidata. And also in
+
+7
+00:00:49,200 --> 00:00:57,440
+the theoretical part we will look at how we can use Wikidata in research, science and
+
+8
+00:00:57,440 --> 00:01:03,240
+cultural heritage. That will be about an hour, so that will be me presenting the theory to
+
+9
+00:01:03,240 --> 00:01:09,640
+you. And of course, if you have any questions, you can send me an email or we can have a
+
+10
+00:01:09,640 --> 00:01:15,800
+chat if you would like to know more about that part of Wikidata. Then we have a short
+
+11
+00:01:15,800 --> 00:01:21,920
+break and after the break there will be a second theoretical part, so where you will actually try
+
+12
+00:01:21,920 --> 00:01:31,560
+to make your first edits and contributions to Wikidata, themed by data on professors of
+
+13
+00:01:31,560 --> 00:01:36,840
+Maastricht University. For the second part, there's actually a separate video available which
+
+14
+00:01:36,840 --> 00:01:44,560
+you will find on the page this video is in. I recorded it also today when it was still daylight.
+
+15
+00:01:44,720 --> 00:01:50,400
+So if you want to work through that workshop, the practical part of the workshop yourself,
+
+16
+00:01:50,400 --> 00:01:59,520
+then you can go and check out that video. And the second part is between 75 or 90 minutes,
+
+17
+00:01:59,520 --> 00:02:06,520
+but for this particular video that I'm recording now, I will actually only do the basics of Wikidata,
+
+18
+00:02:06,680 --> 00:02:17,400
+so that will be approximately an hour of video you will have had. So let me go on to the opening
+
+19
+00:02:17,400 --> 00:02:23,400
+slide of this theoretical part. As I said, I'm Olaf Janssen, I'm with the National Library of
+
+20
+00:02:23,400 --> 00:02:30,360
+the Netherlands. And for the next hour, we will look at the basics of Wikidata. So what Wikidata
+
+21
+00:02:30,360 --> 00:02:35,960
+is, what are the principles of Wikidata, both from the technical and social point of view,
+
+22
+00:02:35,960 --> 00:02:46,840
+and with social, I mean the community point of view. And then in the second part of this first
+
+23
+00:02:46,840 --> 00:02:53,320
+theoretical block, I will show you some case studies on how Wikidata can be relevant for
+
+24
+00:02:53,320 --> 00:03:00,840
+the domains of research, science and cultural heritage. Perhaps a small introduction about
+
+25
+00:03:00,840 --> 00:03:06,280
+myself. As I said, I'm with the National Library of the Netherlands, and I'm the Wikimedia
+
+26
+00:03:06,280 --> 00:03:12,840
+Coordinator of our library. And in that role, which I've been fulfilling for 10 years now,
+
+27
+00:03:13,560 --> 00:03:19,640
+I try to bring two worlds together. On the one hand, there is the world of the KB with our
+
+28
+00:03:19,640 --> 00:03:24,280
+collections and our data and our books, of course, and our information and our people.
+
+29
+00:03:25,240 --> 00:03:31,800
+And on the other hand, there is the world of Wikipedia, for instance, Encyclopedia, but also
+
+30
+00:03:31,800 --> 00:03:39,560
+projects like Wikidata that we'll discuss today, or the image repository of Wikipedia called
+
+31
+00:03:39,560 --> 00:03:47,400
+Wikimedia Commons. And the volunteers of creators, or sorry, the communities of creators, mostly
+
+32
+00:03:47,400 --> 00:03:54,840
+volunteers, that work on these platforms to sustain them and to grow them. In these two worlds,
+
+33
+00:03:54,840 --> 00:04:03,000
+I try to collaborate them together to mutual benefit. For instance, we as the KB take a lot
+
+34
+00:04:03,000 --> 00:04:10,680
+of information from Wikipedia, Wikidata, but also make sure that we contribute to Wikidata. And one
+
+35
+00:04:10,680 --> 00:04:17,320
+of the contributions that we also do, it's not only adding data to Wikidata, but also educating
+
+36
+00:04:17,320 --> 00:04:23,960
+other heritage institutions and other universities about Wikidata. This is exactly the thing that I'm
+
+37
+00:04:23,960 --> 00:04:30,280
+doing right now. So I'm sharing my knowledge with you and hopefully the wider Wikimedia community
+
+38
+00:04:32,200 --> 00:04:40,760
+just for mutual benefit, so to say. All right, so what do I hope that you will have
+
+39
+00:04:41,480 --> 00:04:47,160
+learned or gained some more understanding of by the end of this afternoon? First of all,
+
+40
+00:04:47,800 --> 00:04:53,880
+that you have a basic idea of what Wikidata is, how it works, both from the technical perspective,
+
+41
+00:04:53,880 --> 00:04:59,880
+like the data perspective, and also from the community slash social perspective. So that you
+
+42
+00:04:59,880 --> 00:05:07,880
+will also have a little insight in how the community around Wikidata is organized.
+
+43
+00:05:08,840 --> 00:05:13,640
+Because I put it here on purpose, because in many introductory talks about Wikidata,
+
+44
+00:05:13,640 --> 00:05:22,520
+it only focuses on this real hard data aspect of Wikidata. But for me, the community aspects are
+
+45
+00:05:23,160 --> 00:05:28,520
+equally important, actually. And actually, I think they're even more important than the technical
+
+46
+00:05:28,520 --> 00:05:33,960
+aspects of Wikidata. And why I think so, I will discuss later on in this presentation.
+
+47
+00:05:34,280 --> 00:05:43,000
+Then next, the second learning goal is trying to give you a small insight into how Wikidata can be
+
+48
+00:05:43,000 --> 00:05:51,400
+relevant for research, science, and cultural heritage. And then lastly, and this is the second
+
+49
+00:05:51,400 --> 00:05:59,400
+part of the workshop, the practical part, for which a separate video is available also, is trying to
+
+50
+00:05:59,640 --> 00:06:04,760
+guide you through making your first steps into Wikidata yourself. So doing your first contributions
+
+51
+00:06:05,640 --> 00:06:13,640
+focused on data of professors here at Maastricht University. So let's start simply by asking
+
+52
+00:06:13,640 --> 00:06:21,480
+ourselves, what is Wikidata? Well, if you talk with people about Wikidata, you get a wide variety
+
+53
+00:06:22,200 --> 00:06:31,320
+of answers. But depending on their view on Wikidata and their level of experience with
+
+54
+00:06:31,320 --> 00:06:39,640
+Wikidata, I think the most basic thing you can explain about Wikidata is that it is a database
+
+55
+00:06:40,360 --> 00:06:48,360
+containing structured descriptions of all sorts of things. And what kinds of things are,
+
+56
+00:06:49,160 --> 00:06:57,320
+can you think of, for instance, it as a description, a structured description of the Eiffel Tower,
+
+57
+00:06:57,320 --> 00:07:06,040
+or this valley in Antarctica, or this hit single by Girlfriend, or this book, or this American judge,
+
+58
+00:07:06,600 --> 00:07:14,040
+or this airport in the United States, or this gene, or this election in Catalonia,
+
+59
+00:07:14,600 --> 00:07:21,560
+or this scientific article, or this species of insect, or this composition by Robert Schumann,
+
+60
+00:07:21,560 --> 00:07:28,280
+or this street in the Netherlands, or this family name, or this quasar in the constellation of
+
+61
+00:07:28,280 --> 00:07:35,160
+Urza Meyer, or this really nice car, or this really nice metal band, or this international
+
+62
+00:07:35,160 --> 00:07:42,840
+football association, or this cannabis seed bank in Canada, or this researcher, or this randomly
+
+63
+00:07:42,840 --> 00:07:49,160
+chosen library from the Netherlands. So you see there are a lot of different things described in
+
+64
+00:07:49,160 --> 00:07:59,400
+Wikidata. In total, when I last checked it, nearly 114 million distinct things are described in
+
+65
+00:07:59,400 --> 00:08:07,800
+Wikidata. To give you just a short glimpse of what kind of groups together, like classes,
+
+66
+00:08:07,800 --> 00:08:13,160
+there are described in Wikidata. It has a lot of scientific articles to start with. This is the
+
+67
+00:08:13,880 --> 00:08:19,640
+the green pie chart. I will come back to that towards the end of my presentation, why it is
+
+68
+00:08:19,640 --> 00:08:26,280
+such a big chunk. But also there are roughly some 5 million people, 5 to 6 million people described
+
+69
+00:08:26,280 --> 00:08:33,800
+in Wikidata, animal and plants, etc. Chemical substances, thousands and thousands of
+
+70
+00:08:33,800 --> 00:08:40,520
+astronomical objects, genes, really a lot of genes are available in Wikidata, etc.
+
+71
+00:08:42,520 --> 00:08:48,680
+So Wikidata is both very broad, but it can also be very specific, like it has
+
+72
+00:08:49,320 --> 00:08:55,080
+currently nearly 900 descriptions of Van Gogh paintings.
+
+73
+00:08:56,040 --> 00:09:04,040
+If you take all the things in Wikidata that have geographical coordinates, like longitude
+
+74
+00:09:04,920 --> 00:09:10,440
+and latitude, and you plot them on a map, you get this map, which was last created a year ago.
+
+75
+00:09:11,320 --> 00:09:18,120
+Basically, this is a map of where people live, because where people live, they tend to describe
+
+76
+00:09:19,080 --> 00:09:25,560
+their things in their surroundings. And it's typically along the coast. You will see,
+
+77
+00:09:25,560 --> 00:09:35,800
+for instance, also this kind of map with other data points related to human civilization and
+
+78
+00:09:35,800 --> 00:09:42,840
+where humans live. Okay, so that was a really brief introduction into Wikidata, really basic.
+
+79
+00:09:42,840 --> 00:09:48,440
+What I would like to do next in the second part of the talk is to have a look at the principles
+
+80
+00:09:48,440 --> 00:09:59,800
+that are guiding Wikidata. And those are seven. And let me just start by the first one.
+
+81
+00:10:01,480 --> 00:10:07,160
+Wikidata contains structured descriptions of things. You can think, for instance, about
+
+82
+00:10:07,800 --> 00:10:14,840
+Wikipedia. Wikipedia also contains descriptions of things, but those descriptions are free text.
+
+83
+00:10:15,720 --> 00:10:22,040
+So they are not structured. And what do I mean by structured? It's the following, like there is,
+
+84
+00:10:22,040 --> 00:10:27,880
+for instance, the Eiffel Tower is described in Wikidata. And you can see here that the Eiffel
+
+85
+00:10:27,880 --> 00:10:34,360
+Tower is named after Gustave Eiffel. And it is situated in the country of France. And it is the
+
+86
+00:10:35,320 --> 00:10:41,080
+property of the government of France. And these are structured descriptions. So it's a
+
+87
+00:10:42,520 --> 00:10:49,240
+thing, the Eiffel Tower, and it has this property, which has a value here. And in this way,
+
+88
+00:10:49,240 --> 00:10:58,040
+the entire Wikidata item is structured. What you notice here is that this description of the Eiffel
+
+89
+00:10:58,040 --> 00:11:02,120
+Tower is in English. All the fields that you see here, all these strings and all these
+
+90
+00:11:02,920 --> 00:11:09,400
+things here, those are all in English. Why that's important, you will find out in a moment.
+
+91
+00:11:11,320 --> 00:11:19,560
+Then secondly, all these 114 million descriptions are stored in one big central system. At least
+
+92
+00:11:19,560 --> 00:11:24,520
+for the user, that is the experience. Behind the scenes, I think there will be multiple databases
+
+93
+00:11:24,600 --> 00:11:34,600
+working together. But for the user experience, it's one big storage of data. And data is not
+
+94
+00:11:34,600 --> 00:11:42,040
+available only in English, but in over 200 different languages. And that's why I just
+
+95
+00:11:42,040 --> 00:11:47,240
+showed you the English interface. You can also trigger the Dutch interface of Wikidata. And then
+
+96
+00:11:47,240 --> 00:11:54,920
+you will see all these texts here. Those are all in Dutch. You can also do it in Portuguese,
+
+97
+00:11:55,720 --> 00:12:03,640
+and even in Japanese. Most of the items here are also available in Japanese, as you can see here.
+
+98
+00:12:06,120 --> 00:12:13,320
+All right, that was the first three. The fourth thing is that on Wikidata, that it contains
+
+99
+00:12:13,400 --> 00:12:20,200
+linked data. And how do I explain this? The phrase that you use is linked data is about
+
+100
+00:12:20,760 --> 00:12:25,720
+things, not strings. And it is made clear by looking at, for instance,
+
+101
+00:12:27,800 --> 00:12:34,120
+after whom the Eiffel Tower was named, being Gustav Eiffel. And this text you see here,
+
+102
+00:12:34,120 --> 00:12:40,440
+Gustav Eiffel, that's not plain text, but it's actually a URL you can click on. It's a clickable
+
+103
+00:12:40,440 --> 00:12:48,680
+link. And when you click on this link, you will go to the Wikidata item on Gustav Eiffel. And in
+
+104
+00:12:48,680 --> 00:12:53,400
+Gustav Eiffel, there are the other blue links, as you can see here, that use a human, etc. You can
+
+105
+00:12:53,400 --> 00:12:59,480
+also click on those, and then you'll go to the Wikidata items on, in this case, human.
+
+106
+00:13:00,280 --> 00:13:08,200
+This is meant by, so these are all entities in semantic terms, and not just ordinary strings.
+
+107
+00:13:08,760 --> 00:13:14,760
+These are mutually interconnected, as will be clear from this example. So there are like a
+
+108
+00:13:14,760 --> 00:13:20,840
+billion and billions of connections between all the items in Wikidata. So it's strongly internally
+
+109
+00:13:20,840 --> 00:13:27,880
+connected. But also Wikidata is strongly connected to the outside world, because in this case, for
+
+110
+00:13:27,880 --> 00:13:35,160
+the Eiffel Tower, these are all databases you see here, in which the Eiffel Tower is also described.
+
+111
+00:13:36,120 --> 00:13:42,520
+And if you, for instance, look at this one, the Skyscraper Center Building ID, and if you click
+
+112
+00:13:42,520 --> 00:13:47,880
+on this identifier in that particular database, you will get a description of the Eiffel Tower
+
+113
+00:13:47,880 --> 00:13:53,960
+in this database. Currently, there are over 9,000 different databases known to Wikidata.
+
+114
+00:13:53,960 --> 00:13:59,640
+So in theory, it's not the case, but provided they would all have an item on the Eiffel Tower,
+
+115
+00:13:59,720 --> 00:14:08,120
+this list of external databases would be 9,000 rows long. But that's just an illustration of
+
+116
+00:14:08,120 --> 00:14:11,000
+how many databases are actually available in Wikidata.
+
+117
+00:14:13,240 --> 00:14:21,800
+Okay, number five, Wikidata is free and open. And what do I mean by free? Free is as in gratis,
+
+118
+00:14:21,800 --> 00:14:28,680
+as in you don't have to pay money for it. And open is free. So you can go to the website,
+
+119
+00:14:28,680 --> 00:14:36,440
+pay money for it, to access it. Also, there are no trackers, like cookies and stuff in Wikidata.
+
+120
+00:14:36,440 --> 00:14:45,720
+And you will never see an ad that you have to avoid or click on. Because Wikidata is actually
+
+121
+00:14:45,720 --> 00:14:54,280
+under the same funding as Wikipedia. It's financed by getting annual donations from
+
+122
+00:14:54,280 --> 00:15:04,920
+about 7 million people from all over the world. Also, what is also defined by the word open here
+
+123
+00:15:04,920 --> 00:15:12,120
+is that the fact that in Wikidata, all the data is free of copyright and also free of database rights.
+
+124
+00:15:12,120 --> 00:15:19,640
+And that's because all the data in Wikidata is under the CC0 license. Effectively, this means
+
+125
+00:15:19,640 --> 00:15:28,280
+that all the data is dedicated into the public domain. This has two big consequences, this
+
+126
+00:15:28,280 --> 00:15:35,720
+principle that it is open. First of all, everybody is allowed to reuse the data in Wikidata. So you
+
+127
+00:15:35,720 --> 00:15:42,280
+can search it, you can share it, you can copy data, you can actually download all of Wikidata
+
+128
+00:15:42,280 --> 00:15:47,400
+and sell that as a commercial product. That's fully allowed because it's all in the public domain.
+
+129
+00:15:50,600 --> 00:15:58,840
+Secondly, the open nature of Wikidata also means that everybody can contribute data. Everybody can
+
+130
+00:15:58,840 --> 00:16:06,840
+add data, everybody can improve data, they can join two similar items, they can delete items, they can
+
+131
+00:16:07,960 --> 00:16:13,400
+add other kinds of information to Wikidata. And if you think that's true, there are actually a lot of
+
+132
+00:16:13,480 --> 00:16:20,120
+people that like doing that. Personally, I'm quite fond of adding new data to Wikidata.
+
+133
+00:16:21,240 --> 00:16:27,560
+And I'm not the only one in the world, because there is a strong Wikidata community.
+
+134
+00:16:29,240 --> 00:16:37,560
+And there are about 23,000 people on the planet that work on Wikidata at least once a week,
+
+135
+00:16:37,560 --> 00:16:46,040
+that's meant by active contributors. Of which I am one. So I have, you could also say that I have
+
+136
+00:16:46,040 --> 00:16:56,360
+23,000 colleagues all over the world, which I can reach out to if I need any help, or if I can,
+
+137
+00:16:56,360 --> 00:17:05,720
+if I also can give knowledge and my time and my knowledge about Wikidata, I can give them to them.
+
+138
+00:17:06,280 --> 00:17:11,080
+And what you also see on the background, I will come back to this later in a bit more detail,
+
+139
+00:17:11,080 --> 00:17:16,840
+but these people, they really like to meet each other, because I think every week or so, and
+
+140
+00:17:16,840 --> 00:17:23,160
+perhaps more often, somewhere in the world, there is a gathering of people working on Wikidata.
+
+141
+00:17:24,520 --> 00:17:29,080
+So this is an international bunch of people, really ranging from here, this is the Netherlands,
+
+142
+00:17:29,080 --> 00:17:35,080
+this was in Haiti, this was in Nigeria, if I remember correctly, this was in Nepal, I guess.
+
+143
+00:17:35,800 --> 00:17:45,880
+So a really international crowd, and I think the community is the unique selling point of Wikidata.
+
+144
+00:17:45,880 --> 00:17:54,840
+And why do I think so? In the previous slide I told that you can, in principle, you can download
+
+145
+00:17:54,840 --> 00:18:00,440
+Wikidata fully, the full database, and you can try to build a commercial product around it.
+
+146
+00:18:01,080 --> 00:18:06,760
+That's actually, I guess, not a totally unachievable task, it's a doable effort,
+
+147
+00:18:07,320 --> 00:18:13,720
+but what you don't, what you can't buy with money is the commitment and the time and the enthusiasm
+
+148
+00:18:13,720 --> 00:18:21,560
+and even the love of people for Wikidata. You can't buy these 23,000 people to actually come
+
+149
+00:18:21,560 --> 00:18:26,440
+and work at your new commercial version of Wikidata. And this is actually, I think, the
+
+150
+00:18:26,440 --> 00:18:32,520
+unique part of Wikidata, that there is this community that is really enthusiastic about
+
+151
+00:18:32,520 --> 00:18:39,560
+Wikidata, is helping each other all the time, it's global, it's very open, very friendly people,
+
+152
+00:18:40,280 --> 00:18:50,200
+which money simply can't buy. And more about the Wikidata community later in this presentation.
+
+153
+00:18:51,160 --> 00:18:58,440
+Okay, and the final guiding principle of Wikidata is number seven. This has to do with the fact that
+
+154
+00:18:58,440 --> 00:19:05,160
+Wikidata is both for humans. You can have, as a human, you can have an interaction with Wikidata
+
+155
+00:19:05,160 --> 00:19:12,680
+via the web interface of Wikidata. So you can read this stuff, but you can also change it and edit it,
+
+156
+00:19:12,680 --> 00:19:18,840
+and you can merge it, etc. And all these kind of operations you can do via the graphical user
+
+157
+00:19:18,920 --> 00:19:27,640
+interface, typically associated with HTML. But if you're a machine, or if somebody actually writes
+
+158
+00:19:27,640 --> 00:19:33,240
+a script to have machine interaction with Wikidata, that's also fully possible, because all
+
+159
+00:19:33,240 --> 00:19:41,160
+the things you can do via the graphical user interface, you can also do via a set of APIs.
+
+160
+00:19:41,160 --> 00:19:47,240
+So these are actually fully equivalent. If you can, everything you can do here, you can also do
+
+161
+00:19:47,240 --> 00:19:59,000
+programmatically via the API. All right, so far for the first two items on the agenda of this
+
+162
+00:19:59,000 --> 00:20:05,640
+theoretical part. What I would like to do next is to have a look at how things are actually
+
+163
+00:20:05,640 --> 00:20:15,720
+described in Wikidata. All right, so let's look at how things are described in Wikidata.
+
+164
+00:20:16,040 --> 00:20:23,480
+And this is always the classical image that is also available on the front page of the Wikidata
+
+165
+00:20:23,480 --> 00:20:29,960
+website. To illustrate this principle, we have this thing, in this case the Earth, and this has this
+
+166
+00:20:29,960 --> 00:20:36,840
+property, in this case the highest point. And this property has a value, and in this case it's
+
+167
+00:20:37,800 --> 00:20:47,560
+Mount Everest. And in Wikidata terms, it goes as follows. The Earth, which is Q2, and this Q-number
+
+168
+00:20:47,560 --> 00:20:54,120
+in Wikidata, that's a unique identifier of the thing that is being described. So apparently,
+
+169
+00:20:56,120 --> 00:21:02,360
+the Earth was the second thing ever to be described in Wikidata. Q1 is the universe, Q42 is
+
+170
+00:21:03,320 --> 00:21:11,000
+Douglas Adams, of course, all the way up to Q114 million at the moment. And this is just a number
+
+171
+00:21:11,000 --> 00:21:18,120
+that goes up every time a new Wikidata item is created. This Q2 has this property, highest point.
+
+172
+00:21:21,320 --> 00:21:26,760
+So this is this Q2 thing again, sorry. And this has this highest point, which is a property
+
+173
+00:21:26,760 --> 00:21:32,840
+in Wikidata, denoted by the P-number here. And this is apparently the 610th property that was
+
+174
+00:21:32,840 --> 00:21:43,240
+ever recorded in Wikidata. And the value of the thing is here, the Q-number for Mount Everest,
+
+175
+00:21:43,240 --> 00:21:50,280
+actually hidden by my little camera here. But this is, I can't read the Q-number actually,
+
+176
+00:21:50,280 --> 00:21:55,480
+but this is a Q-number. So it's always Q-P-Q, hence the Q, so like this,
+
+177
+00:21:56,120 --> 00:22:05,720
+actually the classical semantical triple. So let's illustrate that a bit further by looking at
+
+178
+00:22:05,720 --> 00:22:12,840
+the item of the KB in Wikidata. And the KB has this unique identifier. So that is the
+
+179
+00:22:13,480 --> 00:22:19,480
+unique Q-number by which the National Library of Netherlands is identified.
+
+180
+00:22:20,840 --> 00:22:27,880
+And this block on top, that's called the fingerprint in Wikidata terms.
+
+181
+00:22:29,800 --> 00:22:33,800
+This is multilingual. As you can see, there is a description in English, in German, in Spanish,
+
+182
+00:22:33,800 --> 00:22:40,680
+etc., also in Dutch, of course. And this has these fields of a label. So this is the title of the
+
+183
+00:22:40,680 --> 00:22:47,320
+item. And this is also reflected here. So if I were to change this, then this would change.
+
+184
+00:22:48,280 --> 00:22:53,480
+A little description, so a short characterization of what the thing is. This is the National
+
+185
+00:22:53,480 --> 00:22:59,080
+Library of the Netherlands. And here are these aliases, also known as alternative names,
+
+186
+00:22:59,080 --> 00:23:04,760
+by which this particular item is known, like the KB or the Royal Library, etc.
+
+187
+00:23:07,240 --> 00:23:13,880
+Next, if you scroll down that item page, then you will see that there is a claim made about
+
+188
+00:23:14,840 --> 00:23:20,840
+the country in which the National Library is. So this is again the same Q-P-Q triple. So it's
+
+189
+00:23:21,560 --> 00:23:29,800
+the KB, Q-number, this number. The country is identified by property 17 in Wikidata.
+
+190
+00:23:30,840 --> 00:23:38,680
+And the value of this property is it's in the Netherlands, which has number Q55.
+
+191
+00:23:39,400 --> 00:23:46,600
+And the place where this information comes from, the source reference, is listed as in this block.
+
+192
+00:23:46,600 --> 00:23:52,920
+This is called the reference. And it says, well, the claim that the KB is in the Netherlands is
+
+193
+00:23:53,960 --> 00:23:59,640
+drawn from this website, which was published in December 2019.
+
+194
+00:24:02,040 --> 00:24:05,560
+And this information was retrieved on this, the 12th of December,
+
+195
+00:24:05,560 --> 00:24:11,800
+2021. Everything that is in Wikidata should have a source reference. You can also see it here,
+
+196
+00:24:11,800 --> 00:24:18,040
+for instance, this claim has a reference, this has a reference, this not yet. But if you're
+
+197
+00:24:18,040 --> 00:24:25,560
+working on Wikidata, always try to add references to where you found the information that is being
+
+198
+00:24:25,560 --> 00:24:32,840
+given in the item. Then if you scroll down, you will see that there is a claim that the
+
+199
+00:24:33,800 --> 00:24:47,720
+KB is a member of a range of library associations. And if you look at this one, it's the KB is a member of the Conference of European National Librarians.
+
+200
+00:24:49,400 --> 00:24:56,200
+And in this bit, point in time 2022, so this claim was true in this year, this refinement,
+
+201
+00:24:56,200 --> 00:25:01,080
+that's called a qualifier. So qualifier is always the thing that refines the
+
+202
+00:25:06,040 --> 00:25:15,560
+how do you call that? The upper general, more general statement.
+
+203
+00:25:19,560 --> 00:25:25,000
+And finally, there is a list of external identifiers, just the same as I showed you with
+
+204
+00:25:25,000 --> 00:25:35,160
+the Eiffel Tower. And so these are all claims about the National Library. Okay, I actually
+
+205
+00:25:35,160 --> 00:25:43,960
+already mentioned that currently there are 9,000 over 9,000, to be said 9,045 different databases
+
+206
+00:25:43,960 --> 00:25:50,040
+known to Wikidata. And all these databases have their own properties. As you can see here,
+
+207
+00:25:50,040 --> 00:25:56,520
+these are all P numbers. So these all have their own properties. And actually, this is one of the
+
+208
+00:25:56,520 --> 00:26:03,000
+major functions of Wikidata is to be a hub on the internet to connect all kinds of databases
+
+209
+00:26:03,000 --> 00:26:10,360
+together. And I don't know any other registry or any other big place where so many different
+
+210
+00:26:10,360 --> 00:26:18,520
+databases are recorded. So if you want to discover obscure databases that you will never have heard
+
+211
+00:26:18,600 --> 00:26:26,520
+of before, Wikidata is the place to go to. If you just go to this and you check them out, you will
+
+212
+00:26:26,520 --> 00:26:37,480
+be amazed what kind of data is recorded in the world. And if you want to check out this information
+
+213
+00:26:39,640 --> 00:26:44,520
+in a bit more relaxed or laid-back manner, you can go to this page. This is a page on the
+
+214
+00:26:44,520 --> 00:26:51,560
+simplified data model of Wikidata. Basically, here is the same information as I just explained
+
+215
+00:26:51,560 --> 00:26:59,560
+to you is available, but you can read it at your own pace. And one thing I need to point out is
+
+216
+00:27:00,200 --> 00:27:08,120
+the following, that Wikidata has a version history. And this means that every edit that is stored
+
+217
+00:27:09,080 --> 00:27:16,520
+is stored forever. So everything you do in Wikidata is recorded. And you can always go back to previous
+
+218
+00:27:16,520 --> 00:27:25,160
+versions of the document and make sure that you don't put anything in Wikidata that is private
+
+219
+00:27:25,160 --> 00:27:35,000
+or secret. Because once it's in Wikidata, it is public forever. So be careful about what you add
+
+220
+00:27:35,000 --> 00:27:47,240
+to Wikidata. All right. Now let's look at some examples of what kind of information can be
+
+221
+00:27:47,240 --> 00:27:54,440
+requested from Wikidata. And I'm going to build it on three slides we saw before. The fact that
+
+222
+00:27:54,440 --> 00:28:01,160
+all the data in Wikidata is stored centrally. That it has all kinds of things, Wikidata,
+
+223
+00:28:02,120 --> 00:28:09,240
+and that everything is interconnected. Those three things, if you combine them together,
+
+224
+00:28:09,240 --> 00:28:14,600
+centrally stored, all sorts of things and everything is connected, you can ask really
+
+225
+00:28:14,600 --> 00:28:20,600
+interesting questions to Wikidata. If you want to ask questions to Wikidata, you do that via
+
+226
+00:28:20,600 --> 00:28:27,720
+a search language which is called SPARQL. It's like a dialect of SQL. And this is a common search
+
+227
+00:28:27,720 --> 00:28:34,760
+language for linked open databases. I'm not going to go into detail on SPARQL. That's an entire
+
+228
+00:28:36,200 --> 00:28:41,560
+day in itself, I guess. I can give workshops and lectures on that as well. But it's far
+
+229
+00:28:41,560 --> 00:28:49,720
+beyond the scope of this introductory workshop we're doing at the moment. But what I would like
+
+230
+00:28:49,720 --> 00:28:56,360
+to do now is to look at some results that you can get from SPARQLing in Wikidata. For instance,
+
+231
+00:28:57,320 --> 00:29:04,440
+you can ask Wikidata, give me some depictions of house cats and you will get up this result.
+
+232
+00:29:06,040 --> 00:29:12,440
+And if you click on this link, it will trigger this gallery, this depiction gallery.
+
+233
+00:29:13,960 --> 00:29:19,480
+You can also ask Wikidata, give me a list of things that are named after French presidents,
+
+234
+00:29:19,480 --> 00:29:25,080
+but which are outside of France. And you will, for instance, discover that in
+
+235
+00:29:25,080 --> 00:29:32,680
+Ivory Coast, apparently there is a bridge named after General De Gaulle. You can really make
+
+236
+00:29:32,680 --> 00:29:41,720
+interesting discoveries. And in Poland, there's also a roundabout called, of course, named after
+
+237
+00:29:41,720 --> 00:29:50,760
+Charles De Gaulle, etc. Or you can ask, give me a list of the causes of death of American presidents.
+
+238
+00:29:51,400 --> 00:29:59,960
+Or you can say, man, Nobel Prizes were awarded last week. And I wanted to know, well, who were
+
+239
+00:29:59,960 --> 00:30:04,680
+Dutch people that were nominated for a Nobel Prize, but actually never won the prize?
+
+240
+00:30:06,280 --> 00:30:12,520
+You get this list and you see that the Dutch author of Simon Vesdijk, he was nominated 11
+
+241
+00:30:12,520 --> 00:30:19,080
+times for the Nobel Prize, but he never won it. That's quite sad. But if you think,
+
+242
+00:30:19,320 --> 00:30:26,440
+Simon Vesdijk is a sad guy, think again, because this guy, Johannes Willem Sommerfeld,
+
+243
+00:30:27,320 --> 00:30:36,120
+he was nominated no fewer than 84 times for the Nobel Prize, but he never won it. And, yeah,
+
+244
+00:30:36,120 --> 00:30:42,760
+the cruel thing is that all of his PhD students, of like, like, 10, I believe 10 or so of his PhD
+
+245
+00:30:42,840 --> 00:30:51,640
+students, were actually winners of Nobel Prizes. But the man himself never won it, I'm afraid.
+
+246
+00:30:53,880 --> 00:31:00,200
+This is also a really nice query to show you the power of Wikidata paintings with alliterative
+
+247
+00:31:00,200 --> 00:31:09,400
+titles. I think about, for instance, like, what was it, an Apollo artist,
+
+248
+00:31:09,800 --> 00:31:14,200
+Cesar Chechime, so all alliterations.
+
+249
+00:31:17,640 --> 00:31:22,280
+10 largest cities with female mayors, you can also request that these are the cities,
+
+250
+00:31:22,280 --> 00:31:29,240
+these are the populations, and these are the female mayors. And finally, you can request a list
+
+251
+00:31:29,240 --> 00:31:37,080
+of birthplaces of economists that already died, divided by time period. So these are the time
+
+252
+00:31:37,080 --> 00:31:42,920
+periods, and the different colors represent each one, one time period here. And these are the
+
+253
+00:31:42,920 --> 00:31:49,640
+places where these economists, these already deceased economists were actually born.
+
+254
+00:31:54,040 --> 00:32:00,920
+Okay, this is to show you the power of Wikidata, basically. And now for the next block,
+
+255
+00:32:00,920 --> 00:32:07,800
+I would like to look at the things we saw before, all quite, let's call it more technical,
+
+256
+00:32:07,800 --> 00:32:15,240
+more data aspects of Wikidata. And I would like to have a also look at the social slash community
+
+257
+00:32:15,240 --> 00:32:21,000
+aspects of Wikidata. And this, if you ask this question, who builds Wikidata?
+
+258
+00:32:22,760 --> 00:32:26,200
+Then the answer is the community, because it's a community project.
+
+259
+00:32:26,520 --> 00:32:34,440
+And here on this slide, you see a roughly 1% of all the people in the world that's working
+
+260
+00:32:34,440 --> 00:32:41,720
+on Wikidata. And what I already told actually is that there are currently 23,000 active contributors
+
+261
+00:32:41,720 --> 00:32:50,280
+to Wikidata. And it has been in existence since October 2012. So currently we're celebrating the
+
+262
+00:32:50,360 --> 00:32:57,720
+12th birthday of Wikidata. And since that time, they have made 2.25 billion edits, which is an
+
+263
+00:32:57,720 --> 00:33:06,600
+awful lot. These people don't only like to work on Wikidata as a data thing, but they also,
+
+264
+00:33:06,600 --> 00:33:14,200
+as you can see from this group, they like to meet each other. And when you become active
+
+265
+00:33:15,160 --> 00:33:21,560
+in the Wikidata community, as I said, you like to meet each other, but you also will,
+
+266
+00:33:23,320 --> 00:33:29,080
+by experience, be drawn to certain roles or certain tasks within the community
+
+267
+00:33:29,720 --> 00:33:36,920
+that you like more than others. And here you can see a number of roles that are
+
+268
+00:33:38,360 --> 00:33:43,000
+present in the Wikidata community. It can be a developer, or it can be an ambassador,
+
+269
+00:33:43,000 --> 00:33:53,080
+or it can be a translator. And when you look at a somewhat larger list of different roles you can
+
+270
+00:33:53,880 --> 00:34:01,080
+fulfill within the community, you will see that there are, this is not a hard division, but
+
+271
+00:34:01,720 --> 00:34:10,600
+I try to group the more hard data roles, like being a developer, or data editor, or data modeler,
+
+272
+00:34:10,680 --> 00:34:19,640
+or a SPARQL expert, here above the line here. But the nice thing about Wikidata is also that there
+
+273
+00:34:19,640 --> 00:34:26,760
+are lots of roles you can have in the community that are not really about hard data, but like,
+
+274
+00:34:26,760 --> 00:34:33,960
+you can translate in data in Wikidata, or you can be an event organizer. So all these events that
+
+275
+00:34:33,960 --> 00:34:39,880
+take place all over the world with subgroups of the Wikidata community, these are all organized
+
+276
+00:34:39,880 --> 00:34:45,400
+by those people themselves. So you can also, if you like organizing events, you can become a member
+
+277
+00:34:45,400 --> 00:34:52,680
+of the Wikidata community. Or you can do communication and outreach, or what I'm doing right now at this
+
+278
+00:34:52,680 --> 00:34:57,000
+moment, I can be a teacher, a trainer, and a speaker. This is also a role you can have
+
+279
+00:34:58,520 --> 00:35:05,960
+in the Wikidata community. So for every type of job role, there's always a place for you within
+
+280
+00:35:05,960 --> 00:35:17,000
+Wikidata. And another thing to shed another light on the community is the following. I asked
+
+281
+00:35:17,560 --> 00:35:25,000
+ChatGPT last week, what can you tell me about the mindset behind the Wikidata community?
+
+282
+00:35:25,720 --> 00:35:32,680
+And it came up with this really great answer. This was spot on, so I just copied it. I didn't
+
+283
+00:35:32,680 --> 00:35:39,640
+try to paraphrase it in any way. It's all about openness and transparency. It's about
+
+284
+00:35:39,640 --> 00:35:45,800
+collaboration and collective intelligence, the wisdom of the crowd here. It's about inclusivity
+
+285
+00:35:45,800 --> 00:35:52,760
+and diversity. Everybody is welcome from all over the world, independent of country, sexual
+
+286
+00:35:52,760 --> 00:35:58,280
+preference, education, etc. You're all very welcome, independent of culture, language,
+
+287
+00:35:58,280 --> 00:36:07,560
+expertise, etc. It's all about innovation and experimentation. It's about a strong culture of
+
+288
+00:36:07,560 --> 00:36:18,040
+experimentation, which is exactly how I personally like to work. I like to experiment with stuff.
+
+289
+00:36:19,320 --> 00:36:26,440
+It's about supportive collective learning, and it's about having an impact on the entire planet.
+
+290
+00:36:26,440 --> 00:36:32,920
+It's a global database. It's a global project. And this is also in the mind of people working
+
+291
+00:36:32,920 --> 00:36:38,440
+on Wikidata, that you're not doing this for your own institution or your own country even, but it's
+
+292
+00:36:38,440 --> 00:36:50,600
+really geared towards the entire world. This also means, this community sense, is that people like
+
+293
+00:36:50,600 --> 00:36:55,480
+to meet each other, as I already said, and it really happens all over the world. These are all
+
+294
+00:36:55,480 --> 00:37:03,560
+images of celebrations of Wikidata birthdays in the past, and you see it's from Indonesia, India,
+
+295
+00:37:03,560 --> 00:37:11,640
+Nepal, Germany, Netherlands, Turkey, etc. So it's a really global community.
+
+296
+00:37:15,800 --> 00:37:22,680
+Once every year, on average, there is this big international meetup of people that like Wikidata.
+
+297
+00:37:22,680 --> 00:37:29,000
+This is called WikidataCon. And here you can meet people from all over the world that are
+
+298
+00:37:31,080 --> 00:37:39,320
+working and are enthusiastic about Wikidata. And one of the events that takes place right now,
+
+299
+00:37:39,320 --> 00:37:45,320
+this month, is the birthday celebration of Wikidata. Currently we do the 12th birthday.
+
+300
+00:37:46,200 --> 00:37:52,440
+And people, they come together, they really celebrate Wikidata, they bake cakes with the
+
+301
+00:37:52,440 --> 00:37:58,600
+Wikidata logo on it, and they have their favorite t-shirts on. And it's really, you see, quite
+
+302
+00:37:58,600 --> 00:38:08,760
+literally all over the world, Wikidata is being celebrated. Also, throughout the year, many
+
+303
+00:38:08,760 --> 00:38:13,720
+Wikidata workshops are giving, introduction workshops, as I'm doing at the moment here right now,
+
+304
+00:38:13,720 --> 00:38:20,680
+but also more advanced workshops are also given, or more specialized technical meetups,
+
+305
+00:38:20,680 --> 00:38:29,320
+like hackathons and editathons, they're also happening quite often. And as a good community,
+
+306
+00:38:29,320 --> 00:38:35,160
+of course, you have your community swag, you have your t-shirts and your caps and your
+
+307
+00:38:35,960 --> 00:38:42,840
+breadcases and your brooms and your pens, etc. And this is me personally wearing my Wikidata t-shirts,
+
+308
+00:38:42,840 --> 00:38:50,200
+etc. It says stickers, of course, to put on your laptops. This is also a manifestation of the
+
+309
+00:38:51,240 --> 00:38:59,720
+fandom that many people have about Wikidata. So I hope this little section gave you some feeling
+
+310
+00:38:59,720 --> 00:39:05,640
+of the human side of Wikidata, I think I call it that way, the social and community aspects
+
+311
+00:39:05,640 --> 00:39:15,560
+which makes Wikidata such a nice place. Okay, then I've arrived at the last part of my,
+
+312
+00:39:16,440 --> 00:39:22,760
+this particular presentation, this talk. And this talk, this part is to do with
+
+313
+00:39:24,280 --> 00:39:31,240
+illustrating how Wikidata can be relevant for research, science and cultural heritage.
+
+314
+00:39:31,240 --> 00:39:38,360
+And this is actually a section I made especially for this workshop, this lecture.
+
+315
+00:39:39,320 --> 00:39:47,320
+So let's find out what it is. I think this section will take about 15 to 20 minutes.
+
+316
+00:39:48,840 --> 00:39:57,480
+So then we'll have a full hour of presentation done. This is not much time, 15 to 20 minutes is
+
+317
+00:39:57,480 --> 00:40:04,920
+not a lot of time to actually talk about this topic. So as you will see, this section will be
+
+318
+00:40:04,920 --> 00:40:10,760
+quite anecdotic. It's not a concise treatment of all the various aspects of Wikidata has
+
+319
+00:40:10,760 --> 00:40:16,040
+in relation to research, science and cultural heritage. But it's like, I will bring forward
+
+320
+00:40:16,040 --> 00:40:24,280
+a number of use cases which hopefully will illustrate this sentence here in a nice way.
+
+321
+00:40:25,240 --> 00:40:30,680
+And when I was thinking how shall I introduce this part of the presentation,
+
+322
+00:40:32,040 --> 00:40:38,440
+I thought the following. My line of thought was as follows. In this slide that we saw before,
+
+323
+00:40:40,680 --> 00:40:45,080
+you see actually that Wikidata holds data about many fields of science and research,
+
+324
+00:40:45,080 --> 00:40:52,360
+like chemistry, astronomy, genetic sciences, scientific articles, biology and stuff,
+
+325
+00:40:52,600 --> 00:40:59,000
+and et cetera here. And what I thought, well, actually, I don't need to talk about
+
+326
+00:40:59,560 --> 00:41:06,680
+what Wikidata holds for science, but the other way around, what science holds for Wikidata.
+
+327
+00:41:07,640 --> 00:41:15,560
+So I looked up a visual representation of all of human knowledge. These are all fields of
+
+328
+00:41:15,560 --> 00:41:22,440
+human knowledge, as you can see. And I asked myself the question, to what extent is Wikidata
+
+329
+00:41:22,440 --> 00:41:32,120
+used throughout science research and GLAM / cultural heritage? And actually,
+
+330
+00:41:33,880 --> 00:41:39,240
+I didn't have an immediate answer to that. So I tried searching academic databases,
+
+331
+00:41:39,240 --> 00:41:45,080
+looking for articles on Wikidata, and then plot them on certain fields of knowledge.
+
+332
+00:41:46,280 --> 00:41:53,160
+And this was not immediately an easy exercise until I found this website. You can see here at
+
+333
+00:41:53,160 --> 00:41:59,240
+the very bottom of the slide, it's called SemanticScholar.org. This is a service that you can
+
+334
+00:41:59,240 --> 00:42:05,560
+search over 200 million scientific articles with. And if you do this query, you can look for
+
+335
+00:42:05,560 --> 00:42:11,000
+articles that are related to Wikidata. And the nice thing about SemanticScholar is that you can
+
+336
+00:42:11,320 --> 00:42:18,760
+filter on fields of study. And this is what I did to get an overview of this. And then I found out
+
+337
+00:42:18,760 --> 00:42:27,640
+that Wikidata is used in the area of gender studies, and also on history and linguistics,
+
+338
+00:42:27,640 --> 00:42:37,400
+and geography and sociology and information science, art, astronomy, biology and microbiology,
+
+339
+00:42:37,400 --> 00:42:44,200
+computer science, medicine, environmental sciences, and even in ecology.
+
+340
+00:42:46,280 --> 00:42:59,800
+So it's certainly not a full, not every domain of human knowledge is represented via Wikidata,
+
+341
+00:42:59,800 --> 00:43:04,920
+but quite a few. And I also think that increasingly, because I think if you did
+
+342
+00:43:05,000 --> 00:43:10,200
+that exercise 10 years ago, you would have far less white bins here. So increasingly,
+
+343
+00:43:10,200 --> 00:43:18,040
+you Wikidata shows its relevance for increasingly more fields of knowledge.
+
+344
+00:43:20,600 --> 00:43:27,960
+And what I would like to do now is to look at six case studies, six anecdotal cases. And
+
+345
+00:43:27,960 --> 00:43:31,880
+there's a little point, of course, I did it anecdotally, because it's about Wikidata.
+
+346
+00:43:32,840 --> 00:43:39,080
+And look at six use cases, which hopefully show or at least illustrate
+
+347
+00:43:39,960 --> 00:43:44,840
+how Wikidata can be relevant for that particular field of science.
+
+348
+00:43:49,160 --> 00:43:56,040
+And the first case study, the first case I would like to bring forward has to do with
+
+349
+00:43:56,040 --> 00:44:01,400
+the field of scholarly communication or scientometrics. And scientometrics is the
+
+350
+00:44:03,880 --> 00:44:09,880
+quantitative study of science and scientific communication. So for instance, if you want to
+
+351
+00:44:09,880 --> 00:44:18,040
+know who is the most cited author in a certain field of science, or the most prolific journals
+
+352
+00:44:18,040 --> 00:44:24,840
+in a certain field, that's the things that are being studied in scientometrics.
+
+353
+00:44:25,480 --> 00:44:32,280
+And a really nice scientometric tool is Scholia. And what's Scholia? Scholia is a service that
+
+354
+00:44:32,280 --> 00:44:38,760
+creates visual scholarly profiles for researchers, articles, organizations, etc.,
+
+355
+00:44:39,320 --> 00:44:50,120
+all based on information from Wikidata. And I need to illustrate this, of course,
+
+356
+00:44:51,000 --> 00:44:56,120
+otherwise it will be a bit abstract. And the first profile that I would like to show you is
+
+357
+00:44:56,120 --> 00:45:01,480
+the profile from this professor here at Maastricht University, Gerard van Breukelen.
+
+358
+00:45:02,280 --> 00:45:10,920
+And this is a Scholia profile of Gerard. And if you go to this profile, what kind of things will
+
+359
+00:45:10,920 --> 00:45:17,480
+you actually encounter? First of all, there's a list of publications. So where he was the author
+
+360
+00:45:17,480 --> 00:45:26,040
+or one of the co-authors of the article. I have to be specific, these are not necessarily
+
+361
+00:45:26,040 --> 00:45:32,920
+all the articles that Gerard published, because these are only the articles that are recorded
+
+362
+00:45:32,920 --> 00:45:40,200
+in Wikidata. And I'm not sure if Wikidata has a complete inventory of all of his articles.
+
+363
+00:45:40,200 --> 00:45:45,800
+But for the articles that are available, you can make this list. You can also make this plot,
+
+364
+00:45:46,360 --> 00:45:52,440
+like how many articles he published over the years, either as the main author or one of the
+
+365
+00:45:53,320 --> 00:46:04,280
+co-authors or as a lower rank author. You can see by this, how I call it, bubble chart,
+
+366
+00:46:04,280 --> 00:46:12,200
+it's called what kind of research topics Gerard van Breukelen is involved in, and also in which
+
+367
+00:46:12,280 --> 00:46:22,360
+journals he published most. The bigger ones are the most often, I'm sorry, the journals he used
+
+368
+00:46:22,360 --> 00:46:28,520
+most often for his publications, and the smaller ones are the less used journals.
+
+369
+00:46:31,400 --> 00:46:38,520
+This is a graph of the co-authors, so the people who Gerard van Breukelen collaborated with in
+
+370
+00:46:38,520 --> 00:46:45,560
+writing his articles. And you can also see where these co-authors work across the globe by this
+
+371
+00:46:45,560 --> 00:46:54,200
+co-author map. And finally, you can also check out which articles by Gerard van Breukelen were
+
+372
+00:46:54,200 --> 00:47:01,720
+cited most often. And apparently this ANCOPA paper was cited 206 times. And of course,
+
+373
+00:47:01,720 --> 00:47:09,720
+you can also give the number of citations over the years. So this is how such a profile on
+
+374
+00:47:09,720 --> 00:47:19,720
+Scholia is composed. And the nice thing about Scholia is that you cannot only request these
+
+375
+00:47:19,720 --> 00:47:27,720
+profiles for authors, for people, but also for organizations or for articles or for journals or
+
+376
+00:47:27,720 --> 00:47:36,840
+for topics like obesity or for taxons like the Mosasaurus or chemical elements. These are all
+
+377
+00:47:36,840 --> 00:47:44,360
+possible, so you can have all these really nice ways to have various facets and spotlights on all
+
+378
+00:47:44,360 --> 00:47:56,280
+sorts of, let's say, classes of information. If you want to read more about Scholia, I can
+
+379
+00:47:56,360 --> 00:48:03,320
+recommend the base paper of Scholia where the project is introduced.
+
+380
+00:48:04,840 --> 00:48:13,320
+This one. And if you want to read on Wikidata about Scholia, you can go to the Scholia page on Wikidata.
+
+381
+00:48:16,200 --> 00:48:22,040
+Okay, the second one, the second field of science and research I would like to bring forward is
+
+382
+00:48:22,600 --> 00:48:32,280
+life and biomedical sciences. And I'm mainly doing this because the author of this particular paper,
+
+383
+00:48:33,080 --> 00:48:39,320
+Andra Waagmeester, is also a very active community member of Wikidata. So I know him
+
+384
+00:48:39,320 --> 00:48:48,840
+more from the Wikidata community than from this particular field. And I must be honest, I'm a bit
+
+385
+00:48:48,840 --> 00:48:57,240
+anxious. I'm holding my horses, let's say. I'm a bit anxious. That's too strong. But I'm not
+
+386
+00:48:57,240 --> 00:49:05,080
+very familiar in this field of knowledge. So I'm not going to talk about this in too much detail.
+
+387
+00:49:07,560 --> 00:49:11,160
+But what I would like to forward is that in this paper,
+
+388
+00:49:12,120 --> 00:49:18,120
+Wikidata is being discussed as a knowledge graph for the life sciences. And this paper demonstrates
+
+389
+00:49:18,120 --> 00:49:23,240
+several use cases of Wikidata, including crowdsource creation of biomedical ontologies,
+
+390
+00:49:23,960 --> 00:49:31,320
+phenotype-based diagnosis of disease. I have no idea what this means, but I'll just take it for
+
+391
+00:49:31,320 --> 00:49:36,200
+granted that some of you might know it. And drug repurposing. And if you want to read the full
+
+392
+00:49:37,160 --> 00:49:46,040
+article, of course, you can go here. Another article by Andra Waagmeester is this one. This
+
+393
+00:49:46,040 --> 00:49:55,720
+has to do with aligning knowledge surrounding corona viruses. When the pandemic struck,
+
+394
+00:49:55,720 --> 00:50:02,760
+it said here that there were a lot of projects and initiatives that rose up in the beta corner.
+
+395
+00:50:03,640 --> 00:50:11,320
+And these were all very loosely related. And there was a need to have a common ground to bring
+
+396
+00:50:11,320 --> 00:50:18,840
+together all these different projects. And in this paper, Wikidata is suggested as such a common
+
+397
+00:50:18,840 --> 00:50:29,320
+ground. So this is used to make data sources related to human corona viruses more interoperable.
+
+398
+00:50:30,200 --> 00:50:37,400
+So these are two papers by Andra Waagmeester. Actually, he took it a step further and he did
+
+399
+00:50:37,400 --> 00:50:51,240
+a PhD on biomedical sciences and Wikidata. Not exactly, but this PhD of his, which he defended
+
+400
+00:50:51,960 --> 00:51:00,360
+successfully earlier this year in January, it has a lot of Wikidata in it. I counted it and it has
+
+401
+00:51:00,840 --> 00:51:09,800
+415 mentions of Wikidata. I think this is the most Wikidata dense PhD thesis, perhaps,
+
+402
+00:51:13,000 --> 00:51:18,680
+for sure in this field of science. And I think perhaps in the Netherlands, perhaps even worldwide,
+
+403
+00:51:18,760 --> 00:51:24,520
+this is Wikidata is very prominent in this particular PhD.
+
+404
+00:51:27,640 --> 00:51:34,600
+This is another article on biological taxonomy. For reasons of time, I'm not going to
+
+405
+00:51:35,960 --> 00:51:39,080
+detail it. I'm not going to talk about it. Actually, I'm just showing it to you.
+
+406
+00:51:39,640 --> 00:51:46,520
+Of course, this presentation is also available as a PowerPoint and as a PDF file. And there's also a
+
+407
+00:51:46,520 --> 00:51:53,880
+full text version of this presentation where you can find the link to this particular article.
+
+408
+00:51:53,880 --> 00:51:59,160
+If you want to study it yourself, you can do it after this presentation.
+
+409
+00:52:01,720 --> 00:52:05,160
+And then the third field that I would like to bring forward is this one,
+
+410
+00:52:05,880 --> 00:52:12,200
+astronomy. And this is, let's say, the mirror opposite of life sciences, because
+
+411
+00:52:13,000 --> 00:52:18,040
+that's actually the topic I studied. I studied astronomy in the 90s in Leiden.
+
+412
+00:52:18,840 --> 00:52:24,760
+So I'm much more familiar with the type of information you see here than the type of
+
+413
+00:52:24,760 --> 00:52:31,800
+information you saw on the previous slides. So I was really happy to find a paper that mentions
+
+414
+00:52:32,360 --> 00:52:41,960
+Wikidata in relation to astronomy. And this paper talks about using Wikidata to disambiguate
+
+415
+00:52:41,960 --> 00:52:48,120
+planetary features. And what are planetary features? Excuse me, in this context.
+
+416
+00:52:50,360 --> 00:52:57,240
+Think, for instance, of craters on the moon and craters on Mars that carry the same name.
+
+417
+00:52:58,200 --> 00:53:02,520
+So if you have a paper, if you have an astronomical publication, and you want to do
+
+418
+00:53:02,520 --> 00:53:09,960
+named entity recognition on that paper, and you would encounter, for instance, I think it's called
+
+419
+00:53:10,520 --> 00:53:16,520
+Adams here, the crater is called Adams, you're not sure if that crater is situated on the moon,
+
+420
+00:53:17,080 --> 00:53:27,640
+or if it's situated on Mars. To make that process easier, this paper suggests that Wikidata can be
+
+421
+00:53:27,640 --> 00:53:35,240
+used for extracting planetary names, and to make that named entity recognition process and this
+
+422
+00:53:35,320 --> 00:53:39,640
+disambiguation process of planetary features more easily.
+
+423
+00:53:42,600 --> 00:53:48,680
+Another thing about astronomy, this is also, I'm just going to show you this, I'm not going to
+
+424
+00:53:48,680 --> 00:53:52,920
+discuss it, but you can study it yourself afterwards if you're interested.
+
+425
+00:53:54,520 --> 00:54:00,120
+Because I would like to move on to the next, the fourth case study on using Wikidata.
+
+426
+00:54:00,680 --> 00:54:04,840
+And this has to do with a very hot topic at the moment, large language models and
+
+427
+00:54:04,840 --> 00:54:12,520
+artificial intelligence. And this paper talks about using Wikidata to make large language
+
+428
+00:54:12,520 --> 00:54:19,880
+models more accurate and flexible. Here it says that all the facts that are stated in Wikidata,
+
+429
+00:54:19,880 --> 00:54:27,720
+some 12 billion, they can be used to train large language models to provide more accurate answers.
+
+430
+00:54:28,520 --> 00:54:35,080
+And the other way around is also true. This paper talks about using artificial intelligence and LLMs
+
+431
+00:54:35,080 --> 00:54:43,240
+to improve the contents of Wikidata. And you might notice in Wikidata that some fields are empty,
+
+432
+00:54:43,240 --> 00:54:48,600
+for instance, that not all fields have been fulfilled, or that certain languages in Wikidata
+
+433
+00:54:48,600 --> 00:54:56,440
+are underrepresented. And this paper suggests that artificial intelligence could build,
+
+434
+00:54:56,520 --> 00:55:08,920
+could fill those kinds of current gaps. This is another paper on AI and LLMs related to Wikidata,
+
+435
+00:55:08,920 --> 00:55:13,960
+but as with the previous two other papers that I skipped, I will also skip this one
+
+436
+00:55:13,960 --> 00:55:19,800
+for reasons of time. So if you're interested in that, yeah, you can study it yourself.
+
+437
+00:55:20,760 --> 00:55:28,840
+Because what I would like to spend the last five remaining minutes on of this talk is this one.
+
+438
+00:55:28,840 --> 00:55:35,720
+This is a case study from my own library, from the KB. And this has to do with GLAM and cultural
+
+439
+00:55:35,720 --> 00:55:43,160
+heritage. And the thing about the KB is that we have this really nice collection of what we call
+
+440
+00:55:43,160 --> 00:55:49,240
+our collection highlights. We have really wonderful manuscripts and old atlases and these really
+
+441
+00:55:50,440 --> 00:55:57,320
+lovely, hand-illustrated books about birds of the Netherlands from the 18th century, basically.
+
+442
+00:55:58,280 --> 00:56:06,120
+And we have about 80 of these most beautiful and important objects of our collection.
+
+443
+00:56:06,120 --> 00:56:10,360
+These are our collection highlights. And these are all part of our national heritage.
+
+444
+00:56:13,240 --> 00:56:19,720
+And when you look at the way that we make these collection highlights available through our own
+
+445
+00:56:19,720 --> 00:56:28,280
+websites, like our own KB website, but also our catalog, and the way we show the fully digitized
+
+446
+00:56:28,280 --> 00:56:34,520
+works, you will notice that they are really good to look at and to read. You can, for instance,
+
+447
+00:56:34,520 --> 00:56:39,720
+read about all these collection highlights on our own websites. You can all find them in our catalogs.
+
+448
+00:56:39,720 --> 00:56:45,640
+And we have these books you can leaf through with all the digitized images of all these
+
+449
+00:56:46,440 --> 00:56:54,040
+80 collection highlights. And the metaphor is that you can view them and you can see them and
+
+450
+00:56:54,040 --> 00:56:59,080
+you can read them, but you can't touch them. And what do I mean by you can't touch them?
+
+451
+00:56:59,880 --> 00:57:06,360
+Is that if you actually want to build stuff, you want to use these collection highlights as
+
+452
+00:57:06,360 --> 00:57:11,800
+building blocks, if you want to create something from these collection highlights, then our own
+
+453
+00:57:11,800 --> 00:57:18,200
+web services are not very suitable. And what do we have to think? If I say build stuff,
+
+454
+00:57:19,320 --> 00:57:24,680
+then like you say you want to make visualizations based on our collection highlights, or you want
+
+455
+00:57:24,680 --> 00:57:30,360
+to build apps that contain collection highlights, or you want to make data stories, or you want to
+
+456
+00:57:30,360 --> 00:57:38,520
+do AI stuff, or you want to build tools, etc. or games you want to use, you want to make a game
+
+457
+00:57:38,520 --> 00:57:44,360
+of our collection highlights, or offline you want to do a publication, or you want to do an artwork
+
+458
+00:57:44,360 --> 00:57:52,440
+on these collection highlights, then our own website and our own catalog are not really
+
+459
+00:57:52,440 --> 00:57:59,560
+suitable for that. It's not a place that offers building blocks. So if you think that idea through,
+
+460
+00:58:00,680 --> 00:58:05,400
+what you actually would like to have is something like that. You would like your collections
+
+461
+00:58:05,960 --> 00:58:13,400
+highlights to be some kind of a technical Lego set that contains building blocks with which you
+
+462
+00:58:13,400 --> 00:58:20,280
+can make all these things I just showed you. And if you look at this slide, it's no coincidence
+
+463
+00:58:21,000 --> 00:58:31,400
+that this Lego box is powered by Wikidata and also Commons and Wikipedia.
+
+464
+00:58:32,360 --> 00:58:39,480
+And how do you need to see this? This is about what I've called Wikifying our collection highlights.
+
+465
+00:58:39,480 --> 00:58:46,120
+So what we made sure we did a project on that in 2020. And we made sure that our collection
+
+466
+00:58:46,120 --> 00:58:55,640
+highlights were all described on Wikidata. And also subsets or deeper level Wikidata items
+
+467
+00:58:55,640 --> 00:59:02,200
+regarding those highlights were made. Next, we made sure that all the 11,000 images we had
+
+468
+00:59:02,200 --> 00:59:08,520
+from our KB collection highlights were available on Wikimedia Commons. And we made sure that most
+
+469
+00:59:09,160 --> 00:59:15,720
+highlights got Wikipedia articles. And I've summarized that process of turning our collection
+
+470
+00:59:15,720 --> 00:59:22,440
+highlights into Wiki building blocks. I call that Wikifying. And once you start Wikifying your
+
+471
+00:59:22,440 --> 00:59:30,120
+collections, then you will be able, you will get all kinds of new functionalities that you
+
+472
+00:59:30,680 --> 00:59:35,480
+can now do with your collection highlights that were not possible before.
+
+473
+00:59:38,360 --> 00:59:47,720
+Perhaps this is a bit abstract, but I invite you to read a five series paper that I wrote about this.
+
+474
+00:59:48,680 --> 00:59:54,920
+50 cool things that you can now do with KB collection highlights. And these, the first part
+
+475
+00:59:54,920 --> 01:00:01,880
+is a general introduction for why we did the project and how we Wikified our collection highlights.
+
+476
+01:00:01,880 --> 01:00:10,520
+And then in the four next episodes of this series, in roughly, let's say 12 new functionalities per
+
+477
+01:00:10,520 --> 01:00:18,680
+article, you can discover what kind of new things we can now do with our collection highlights,
+
+478
+01:00:18,680 --> 01:00:24,120
+because our collection highlights are now available in the Wikimedia infrastructure.
+
+479
+01:00:25,000 --> 01:00:30,280
+This is a really nice article that I really would like to encourage you to read it.
+
+480
+01:00:33,400 --> 01:00:36,840
+And then the last example that I would like to show you
+
+481
+01:00:37,400 --> 01:00:43,160
+is this one. This is from the American Physical Society. So that's the
+
+482
+01:00:43,960 --> 01:00:50,440
+organization that supports physicists in the United States. And they provide these trainings
+
+483
+01:00:51,160 --> 01:00:58,440
+that aim at elevating the achievements of women and other underrepresented groups via Wikipedia
+
+484
+01:00:59,080 --> 01:01:07,800
+and via Wikidata. The American Physical Society has such an initiative.
+
+485
+01:01:10,840 --> 01:01:14,760
+A similar initiative is done by the Smithsonian Institutions in Washington.
+
+486
+01:01:16,520 --> 01:01:23,080
+And they want to improve the representation of women in science, technology, engineering and math
+
+487
+01:01:23,640 --> 01:01:30,440
+by working on Wikipedia articles to improve those and create those for more female scientists
+
+488
+01:01:30,440 --> 01:01:38,120
+and also do that simultaneously on Wikidata. And if you get better information in Wikipedia,
+
+489
+01:01:38,120 --> 01:01:46,040
+you get better info boxes. Here this is a Wikipedia info box. And then in Google search results,
+
+490
+01:01:46,040 --> 01:01:52,360
+which is based on this info box, the information here will also be visible better.
+
+491
+01:01:53,080 --> 01:02:00,360
+So by working on Wikidata and Wikipedia, eventually Google will also be improved.
+
+492
+01:02:04,760 --> 01:02:09,560
+And if you want to read more about this, these were just six case studies where I highlighted
+
+493
+01:02:09,560 --> 01:02:17,960
+a number of papers. If you want to read more papers on science and Wikidata, you can go to
+
+494
+01:02:17,960 --> 01:02:25,160
+the little list I compiled here for you. It's various Google Scholar and Semantic Scholar that
+
+495
+01:02:25,160 --> 01:02:33,320
+I talked about before. And you can look for Wikidata articles yourself. Okay, this is pretty
+
+496
+01:02:33,320 --> 01:02:43,240
+much the end of my talk. Nearly finished. What I would like to show you before I really finish is
+
+497
+01:02:43,640 --> 01:02:50,840
+where you can find this presentation on Zenodo. If you go to this record on Zenodo,
+
+498
+01:02:55,000 --> 01:03:01,000
+then you can either download this presentation as a PowerPoint or a PDF.
+
+499
+01:03:03,720 --> 01:03:12,200
+And if you want to discover Wikidata further, because I was only able to show you a really
+
+500
+01:03:12,200 --> 01:03:18,920
+small part actually of all the knowledge related to Wikidata, you can go to this page on GitHub,
+
+501
+01:03:18,920 --> 01:03:26,440
+the Wikidata General Overview. And this is kind of a comprehensive introduction into Wikidata,
+
+502
+01:03:27,080 --> 01:03:33,880
+but quite compact. I tried to squeeze as much information on the basic level about Wikidata
+
+503
+01:03:33,880 --> 01:03:42,920
+into a big list. It's a big inventory of mainly links to other places for Wikidata.
+
+504
+01:03:44,520 --> 01:03:51,160
+I think this is a really good general introduction, general overview of Wikidata if you're relatively
+
+505
+01:03:51,160 --> 01:03:59,640
+new to Wikidata. Okay, that was my presentation. That was my talk. Thank you for your attention.
+
+506
+01:03:59,640 --> 01:04:07,160
+If you have any questions or any suggestions, please reach out to me. The preferred way is via
+
+507
+01:04:07,160 --> 01:04:13,400
+email here. This is my email address at the National Library. You can find all the information
+
+508
+01:04:13,400 --> 01:04:21,720
+here on Zenodo. And I would like to know if you send me an email. If you want to know more, we can
+
+509
+01:04:21,720 --> 01:04:29,000
+get in contact further. Okay, that was it for me. Bye bye. And I'll see you in the second part of
+
+510
+01:04:29,000 --> 01:04:34,680
+the presentation, or the second part of the workshop, which is the practical, hands-on part
+
+511
+01:04:34,680 --> 01:04:40,760
+of the workshop. And this is available in a separate video, which is also available from
+
+512
+01:04:41,880 --> 01:04:46,680
+Zenodo in due time. Bye bye.
+
