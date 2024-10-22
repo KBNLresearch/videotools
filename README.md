@@ -1,4 +1,4 @@
-# A collection of video and audio processing functions
+# A collection of video and audio processing tools
 
 ## Description
 This repo performs various operations on video and audio files, including:
