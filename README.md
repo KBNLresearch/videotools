@@ -1,5 +1,7 @@
 # A collection of video and audio processing tools
 
+![media/logo.png](media/logo.png)
+
 ## Description
 This repo performs various operations on video and audio files, including:
 1. Extracting short video clips from longer ones.
