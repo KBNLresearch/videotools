@@ -30,6 +30,12 @@ The main file of this repo is [runtools.py](runtools.py). In this file,
 - OpenAI API (Whisper and ChatGPT models) for transcription and transcript correction.
 - Set OpenAI API key for ChatGPT in the [.env](.env) file. Whisper can be run without API key
 
+## Demo
+Using this toolkit, an mp4-video has been converted into the following products: 
+- A WebM video : https://commons.wikimedia.org/wiki/File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.webm
+- A full text audio transcript has been generated using Whipser, with ChatGPT post-corrections. It is available in the video description. 
+- Closed captions / subtitles in English were also generated using Whisper with ChatGPT post-corrections: https://commons.wikimedia.org/wiki/TimedText:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.webm.en.srt
+
 ## Info
 * Latest update: 22 October 2024
 * Author: Olaf Janssen (ookgezellig) - Supported by ChatGPT
