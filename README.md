@@ -32,9 +32,9 @@ The main file of this repo is [runtools.py](runtools.py). In this file,
 
 ## Demo
 Using this toolkit, an mp4-video has been converted into the following products: 
-- A WebM video : https://commons.wikimedia.org/wiki/File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.webm
-- A full text audio transcript has been generated using Whipser, with ChatGPT post-corrections. It is available in the video description. 
-- Closed captions / subtitles in English were also generated using Whisper with ChatGPT post-corrections: https://commons.wikimedia.org/wiki/TimedText:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.webm.en.srt
+- A [WebM video](https://commons.wikimedia.org/wiki/File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.webm). In this video, the sound volume has been amplified and the voice of the speaker has been made lower/deeper. Also the file size of the webm is about 10 times smaller than the orginal mp4.
+- A full text audio transcript (.txt) has been generated. It has been embedded in the video description. This was done using Whisper with ChatGPT post-corrections.
+- [Closed captions / subtitles](https://commons.wikimedia.org/wiki/TimedText:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.webm.en.srt)  in English were also generated. This was done using Whisper with ChatGPT post-corrections.
 
 ## Info
 * Latest update: 22 October 2024
