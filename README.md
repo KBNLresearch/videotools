@@ -1,6 +1,6 @@
 # A collection of video and audio processing tools
 
-![media/logo.png](media/logo.png)
+![stories/media/repologo.png](stories/media/repologo.png)
 
 ## Description
 This repo performs various operations on video and audio files, including:
@@ -35,6 +35,9 @@ Using this toolkit, an mp4-video has been converted into the following products:
 - A [WebM video](https://commons.wikimedia.org/wiki/File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.webm). In this video, the sound volume has been amplified and the voice of the speaker has been made lower/deeper. Also the file size of the webm is about 10 times smaller than the orginal mp4.
 - A full text audio transcript (.txt) has been generated. It has been embedded in the video description. This was done using Whisper with ChatGPT post-corrections.
 - [Closed captions / subtitles](https://commons.wikimedia.org/wiki/TimedText:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.webm.en.srt)  in English were also generated. This was done using Whisper with ChatGPT post-corrections.
+
+## Articles
+* [How to create high-quality offline video transcriptions and subtitles using Whisper and Python](stories/How to create high-quality offline video transcriptions and subtitles using Whisper and Python.md) 
 
 ## Info
 * Latest update: 22 October 2024
