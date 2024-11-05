@@ -41,14 +41,14 @@ If you’re using the Whisper API with Python, you’ll need [FFmpeg](https://ww
 
 Here’s what it looks like on my home laptop. I followed the guide mentioned above.
 
-<image src="media/afbeelding3.png" width="300" hspace="10" align="right"/>
+<image src="media/ffmpeg-installatie-win10.PNG" width="400" hspace="10" align="right"/>
 
-<image src="media/ffmpeg-path-win10.PNG" width="300" hspace="10" align="right"/>
+<image src="media/ffmpeg-path-win10.PNG" width="400" hspace="10" align="right"/>
 
 ## Offline use, so privacy friendly
 When you run this piece of Python code for the first time,
 
-<image src="media/afbeelding4.png" width="300" hspace="10" align="right"/>
+<image src="media/afbeelding4.png" width="400" hspace="10" align="right"/>
 
 the ‘large’ model is downloaded to your machine once. (See here for [the available models](https://github.com/openai/whisper?tab=readme-ov-file#available-models-and-languages).) To my great surprise, it’s just a 3GB file that handles all speech-to-text tasks without needing any further internet connection. So no smoking data centers, overheated servers, or massive cloud computing power—just a file on your own computer that you can use offline. And it’s great for privacy since everything happens offline on your own machine. Here’s the model on my home laptop. What happens inside that .pt file is pure magic!
 
@@ -62,7 +62,7 @@ Beyond offline use, I am utterly amazed by the quality of the generated text. I�
 
 [https://commons.wikimedia.org/wiki/File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.webm](https://commons.wikimedia.org/wiki/File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.webm)
 
-<image src="media/afbeelding5.png" width="300" hspace="10" align="right"/>
+<image src="media/afbeelding5.png" width="400" hspace="10" align="right"/>
 
 The unformatted block of text shown in the file description was fully created using Whisper, with only minimal post-correction. Pay particular attention to how well it generates all named entities and technical terms, including proper capitalization, etc. WOW!
 
@@ -81,7 +81,7 @@ If desired, you can have the audio transcript corrected by ChatGPT. I made an in
 
 And since I was at it, I created a few other video and audio tools that only use FFmpeg, not Whisper or ChatGPT.
 
-<image src="media/afbeelding6.png" width="300" hspace="10" align="right"/>
+<image src="media/afbeelding6.png" width="400" hspace="10" align="right"/>
 
 ## Questions, comments?
 Since I’m “just experimenting,” I’d love to hear questions, feedback, tips, etc., on this new piece of AI for me. You can find my contact details below.
