@@ -1,6 +1,6 @@
 # How to create high-quality offline video transcriptions and subtitles using Whisper and Python
 
-<image src="media/afbeelding1.png" width="300" hspace="10" align="right"/>
+<image src="media/afbeelding1.png" width="400" hspace="10" align="right"/>
 
 I always thought that 'doing things with AI' was equivalant to smoking data centers, overheated servers, and massive cloud computing power.
 
@@ -30,7 +30,7 @@ As I work with ChatGPT regularly, I had heard of [Whisper, OpenAI’s speech-to-
 
 After some research to see if this could suit my ASR (Automatic Speech Recognition) needs, I found out that [this model excels in Dutch](https://github.com/openai/whisper?tab=readme-ov-file#available-models-and-languages). But it also performs well in English.
 
-<image src="media/afbeelding2.png" width="300" hspace="10" align="right"/>
+<image src="media/afbeelding2.png" width="400" hspace="10" align="right"/>
 
 OK, that already sounds promising. But Whisper doesn’t have a user-friendly front end (as far as I know), so I had to work with the API and Python. Fortunately, I found [this short blog post](https://nicobytes.com/blog/en/how-to-use-whisper/) to help me get started, and, combined with the [documentation](https://platform.openai.com/docs/guides/speech-to-text), it was straightforward to set up.
 
