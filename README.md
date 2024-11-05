@@ -39,7 +39,7 @@ Using this toolkit, an mp4-video has been converted into the following products:
 ## Articles
 * [How to create high-quality offline video transcriptions and subtitles using Whisper and Python](https://ookgezellig.github.io/videotools/stories/How%20to%20create%20high-quality%20offline%20video%20transcriptions%20and%20subtitles%20using%20Whisper%20and%20Python.html), 5 November 2024
 
-* ## Info
+## Info
 * Latest update: 5 November 2024
 * Author: Olaf Janssen (ookgezellig) - Supported by ChatGPT
 * License: Creative Commons CC0 - http://creativecommons.org/publicdomain/zero/1.0
