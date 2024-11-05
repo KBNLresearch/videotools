@@ -92,13 +92,13 @@ Since this was just a first experiment with this new piece of AI for me, I’d l
 ## Similar articles
 *  [Super efficient! Subtitling or transcribing your video with AI](https://id.nl/huis-en-entertainment/computer-en-gaming/software/superefficient-je-video-ondertitelen-of-transcriberen-met-ai) (in Dutch)
 
-## Licensing
-<image src="media/icon_cc0.png" width="100" hspace="10" align="right"/>
-
-All original materials in this repo, expect for the [blog article header](https://nicobytes.com/blog/en/how-to-use-whisper/), are released under the [CC0 1.0 Universal license](https://github.com/KBNLwikimedia/GLAMorousToHTML/blob/main/LICENSE), effectively donating all original content to the public domain.
-
 ## Contact
 <image src="media/icon_kb2.png" width="200" hspace="10" align="right"/>
 
 The [Videotools repo](https://github.com/KBNLresearch/videotools) is developed and maintained by Olaf Janssen, Wikimedia coordinator [@KB, national library of the Netherlands](https://www.kb.nl).
 You can find his contact details on his [KB expert page](https://www.kb.nl/over-ons/experts/olaf-janssen) or via his [Wikimedia user page](https://commons.wikimedia.org/wiki/User:OlafJanssen).
+
+## Licensing
+<image src="media/icon_cc0.png" width="100" hspace="10" align="right"/>
+
+All original materials in this repo, expect for the [blog article header](https://nicobytes.com/blog/en/how-to-use-whisper/), are released under the [CC0 1.0 Universal license](https://github.com/KBNLwikimedia/GLAMorousToHTML/blob/main/LICENSE), effectively donating all original content to the public domain.
