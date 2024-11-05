@@ -22,13 +22,12 @@ This repo performs various operations on video and audio files, including:
 - Correct transcripts using AI (ChatGPT).
 - Add subtitles to videos.
 
-The main file of this repo is [runtools.py](runtools.py). In this file, 
-(un)comment the functions you want execute.
+The main file of this repo is [runtools.py](https://github.com/ookgezellig/videotools/blob/main/runtools.py). In this file, (un)comment the functions you want execute.
 
 ## Requirements
 - FFmpeg for video/audio processing. It must be installed on your machine and added to the PATH variable
 - OpenAI API (Whisper and ChatGPT models) for transcription and transcript correction.
-- Set OpenAI API key for ChatGPT in the [.env](.env) file. Whisper can be run without API key
+- Set OpenAI API key for ChatGPT in the [.env](https://github.com/ookgezellig/videotools/blob/main/.env) file. Whisper can be run without API key
 
 ## Demo
 Using this toolkit, an mp4-video has been converted into the following products: 
@@ -42,4 +41,4 @@ Using this toolkit, an mp4-video has been converted into the following products:
 ## Info
 * Latest update: 5 November 2024
 * Author: Olaf Janssen (ookgezellig) - Supported by ChatGPT
-* License: Creative Commons CC0 - http://creativecommons.org/publicdomain/zero/1.0
+* License: Creative Commons CC0 - [http://creativecommons.org/publicdomain/zero/1.0](http://creativecommons.org/publicdomain/zero/1.0)
