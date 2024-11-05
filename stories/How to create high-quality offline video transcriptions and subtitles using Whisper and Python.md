@@ -41,7 +41,7 @@ Later in this article, you’ll see what I ultimately created with it, along wit
 ## FFmpeg is needed
 To use the Whisper API with Python, you’ll need to install [FFmpeg](https://www.ffmpeg.org/) on your laptop. [This WikiHow guide](https://www.wikihow.com/Install-FFmpeg-on-Windows) provides clear, step-by-step instructions for setup. I followed it on a laptop running Windows 10 Pro, and here’s what the setup looked like once completed.
 
-<image src="media/ffmpeg-installatie-win10.PNG" width="100%" hspace="0" align="left"/>
+<image src="media/ffmpeg-installatie-win10.PNG" width="80%" hspace="0" align="left"/>
 <br clear="all" /><br>
 
 <image src="media/ffmpeg-path-win10.PNG" width="100%" hspace="0" align="left"/>
