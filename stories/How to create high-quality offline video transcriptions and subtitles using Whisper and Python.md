@@ -14,16 +14,16 @@ Using a video presentation I recently recorded, I wanted to do ASR, not only
 * and because it’s **fun and educational** to experiment with new tech, especially when it turns out to be easier than you initially estimated, giving useful and motivating 'let's-go-on' results quickly.
 
 ## Downsides of existing ASR services
-Of course there are all kinds of existing ASR cloud services, but they come with various downsides, including:
+Of course there are all kinds of existing audio-to-text cloud services, but they come with various downsides, including:
 
-* Poor transcription quality, especially for names of things (eg. persons, places, organisations, journal titles etc.) and jargon words, which may need a lot of post-corrections;
+* Poor transcription quality, especially for names of things (so-called *named entities*, such as persons, places, organisations, journal titles etc.) and jargon words, which may need a lot of post-corrections;
 * Limited number of supported languages;
-* Privacy concerns: I want to avoid uploading my video to some sketchy AI transcription service, without knowing what will happen with it, especially when it contains confidential content;
-* Limited file sizes and/or video duration;
+* Privacy concerns: I want to avoid uploading my video to some sketchy AI transcription service, without knowing what will happen with it, especially when the source contains confidential content;
+* Limited file sizes and/or video durations;
 * Not wanting to publish your video on commercial platforms like YouTube, due to concerns about [public and open values](https://english.publicspaces.net/), despite it offering good transcription and subtitle features;
 * Costs, paid subscriptions etc. 
 
-For my little ASR project I wanted to avoid these disadvantages as much as possible.
+For my little ASR project, I wanted to avoid these disadvantages as much as possible.
 
 ## *Whisper* as a solution
 As I work with ChatGPT regularly, I had heard of [Whisper, OpenAI’s speech-to-text model](https://openai.com/index/whisper), but I never actually looked into it or used it. So I thought I’d give it a try!
@@ -42,8 +42,10 @@ If you’re using the Whisper API with Python, you’ll need [FFmpeg](https://ww
 Here’s what it looks like on my home laptop. I followed the guide mentioned above.
 
 <image src="media/ffmpeg-installatie-win10.PNG" width="400" hspace="10" align="right"/>
+<br clear="all" /><br>
 
 <image src="media/ffmpeg-path-win10.PNG" width="400" hspace="10" align="right"/>
+<br clear="all" />
 
 ## Offline use, so privacy friendly
 When you run this piece of Python code for the first time,
@@ -53,6 +55,7 @@ When you run this piece of Python code for the first time,
 the ‘large’ model is downloaded to your machine once. (See here for [the available models](https://github.com/openai/whisper?tab=readme-ov-file#available-models-and-languages).) To my great surprise, it’s just a 3GB file that handles all speech-to-text tasks without needing any further internet connection. So no smoking data centers, overheated servers, or massive cloud computing power—just a file on your own computer that you can use offline. And it’s great for privacy since everything happens offline on your own machine. Here’s the model on my home laptop. What happens inside that .pt file is pure magic!
 
 <image src="media/whisper-models-location-win10.PNG" width="300" hspace="10" align="right"/>
+<br clear="all" />
 
 ## Speed
 Does transcription go reasonably fast? The 'large-v2' model I use operates at about real-time speed, so if the audio is 15 minutes long, transcription takes about 15-20 minutes. The base and medium models are smaller and faster but deliver lower quality.
@@ -63,6 +66,7 @@ Beyond offline use, I am utterly amazed by the quality of the generated text. I�
 [https://commons.wikimedia.org/wiki/File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.webm](https://commons.wikimedia.org/wiki/File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.webm)
 
 <image src="media/afbeelding5.png" width="400" hspace="10" align="right"/>
+<br clear="all" />
 
 The unformatted block of text shown in the file description was fully created using Whisper, with only minimal post-correction. Pay particular attention to how well it generates all named entities and technical terms, including proper capitalization, etc. WOW!
 
