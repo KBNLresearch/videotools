@@ -4,7 +4,9 @@
 
 <image src="media/afbeelding1.png" width="400" hspace="10" align="right"/>
 
-I used to think that 'doing things with AI' was equivalant to smoking data centers, overheated servers, and massive cloud computing power. But this month, I had a jaw-dropping WTF OMG tech discovery: realizing that some AI tasks can run smoothly on a modest laptop, and even offline! I was searching for a solid solution to convert speech from a video file into text (also known as audio transcription, speech-to-text, or Automatic Speech Recognition, ASR) and found that this can all happen right on my own machine.
+I used to think that 'doing things with AI' was equivalant to smoking data centers, overheated servers, and massive cloud computing power. But this month, I had a jaw-dropping WTF OMG tech discovery: realizing that some AI tasks can run smoothly on a modest laptop, and even offline! 
+
+I was searching for a solid solution to convert speech from a video file into text (also known as audio transcription, speech-to-text, or Automatic Speech Recognition, ASR) and found that this can all happen right on my own machine.
 
 ## Why did I need audio transcriptions?
 Using a recent video presentation I recorded, I wanted to apply ASR for several reasons:
@@ -48,9 +50,10 @@ To use the Whisper API with Python, you’ll need to install [FFmpeg](https://ww
 ## Offline use, so privacy friendly
 When you run this piece of Python code for the first time,
 
-<image src="media/afbeelding4.png" width="400" hspace="10" align="right"/>
+<image src="media/afbeelding4.png" width="400" hspace="0" align="left"/>
+<br clear="all" />
 
-the ‘large’ model is downloaded to your machine once. (See here for [the available models](https://github.com/openai/whisper?tab=readme-ov-file#available-models-and-languages).) To my great surprise, this turned out to be just a single 3GB file, handling all speech-to-text tasks, without needing any further internet connection. So no smoking data centers, overheated servers, or massive cloud computing power—just, but just a file on your own computer that you can use offline. Best of all, it’s great for privacy, as all processing happens entirely on your own device, ensuring your data stays private and secure.
+the ‘large’ model is downloaded to your machine once. (See here for [the available models](https://github.com/openai/whisper?tab=readme-ov-file#available-models-and-languages).) To my great surprise, this turned out to be just a single 3GB file, handling all speech-to-text tasks, without needing any further internet connection. So no smoking data centers, overheated servers, or massive cloud computing power, but just a file on your own computer that you can use offline. Best of all, it’s great for privacy, as all processing happens entirely on your own device, ensuring your data stays private and secure.
 
 Here’s a screenshot of the model on my home laptop. What happens inside that `.pt` file is pure magic!
 
@@ -63,10 +66,10 @@ Does transcription run at a reasonable speed? With the 'large-v2' model I’m us
 ## And such quality! With subtitles! Even with poor input!
 Besides Whisper's offline capabilities, I am utterly amazed by the quality of the generated text. I can show this best through this (rather dull and quite lengthy) [test video](https://commons.wikimedia.org/wiki/File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.webm) in which I used myself as the test subject:
 
-<image src="media/afbeelding5.png" width="100%" hspace="0" align="left"/>
-<br clear="all" />
-
 The unformatted text block in the file description was generated entirely by Whisper, with only minimal human post-corrections. Take note of how accurately it handles named entities, technical terms, and proper capitalization, truly impressive!
+
+<image src="media/afbeelding5.png" width="80%" hspace="0" align="left"/>
+<br clear="all" />
 
 In the video, you can tell I wasn’t making an effort to speak clearly, loudly, enthusiastically, or fluently. Yet, despite these less-than-ideal inputs, Whisper still managed to produce a fantastic transcription using just that 3GB `.pt` file (and FFmpeg). Absolutely amazing!
 
@@ -83,7 +86,7 @@ As a side product, I also created a few other video and audio tools that only re
 
 <a href="https://github.com/KBNLresearch/videotools" target="_blank"><image src="media/afbeelding6.png" width="400" hspace="10" align="right"/></a>
 
-## Questions, comments?
+## Feedback is welcome!
 Since this was just a first experiment with this new piece of AI for me, I’d love to hear your questions, feedback, tips, etc. You can find my contact details below.
 
 ## Similar articles
