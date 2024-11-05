@@ -37,7 +37,7 @@ Using this toolkit, an mp4-video has been converted into the following products:
 - [Closed captions / subtitles](https://commons.wikimedia.org/wiki/TimedText:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.webm.en.srt)  in English were also generated. This was done using Whisper with ChatGPT post-corrections.
 
 ## Articles
-* [How to create high-quality offline video transcriptions and subtitles using Whisper and Python](stories/How to create high-quality offline video transcriptions and subtitles using Whisper and Python.md), 5 November 2024
+* [How to create high-quality offline video transcriptions and subtitles using Whisper and Python](https://ookgezellig.github.io/videotools/stories/How%20to%20create%20high-quality%20offline%20video%20transcriptions%20and%20subtitles%20using%20Whisper%20and%20Python.html), 5 November 2024
 
 * ## Info
 * Latest update: 5 November 2024
