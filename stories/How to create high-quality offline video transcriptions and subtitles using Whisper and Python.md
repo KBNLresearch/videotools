@@ -1,5 +1,7 @@
 # How to create high-quality offline video transcriptions and subtitles using Whisper and Python
 
+*Lastest update: 5 November 2024*
+
 <image src="media/afbeelding1.png" width="400" hspace="10" align="right"/>
 
 I used to think that 'doing things with AI' was equivalant to smoking data centers, overheated servers, and massive cloud computing power. But this month, I had a jaw-dropping WTF OMG tech discovery: realizing that some AI tasks can run smoothly on a modest laptop, and even offline! I was searching for a solid solution to convert speech from a video file into text (also known as audio transcription, speech-to-text, or Automatic Speech Recognition, ASR) and found that this can all happen right on my own machine.
@@ -73,9 +75,9 @@ And the [subtitles (closed captions)](https://commons.wikimedia.org/wiki/TimedTe
 ## Example code, try it yourself
 To share my knowledge and code, I created the GitHub repo [https://github.com/KBNLresearch/videotools](https://github.com/KBNLresearch/videotools)
 
-The relevant module is [transcribe_audio.py](../blob/main/transcribe_audio.py), which is run from [runtools.py](../blob/main/runtools.py), the main function of this repo.
+The relevant module is [transcribe_audio.py](https://github.com/ookgezellig/videotools/blob/main/transcribe_audio.py), which is run from [runtools.py](https://github.com/ookgezellig/videotools/blob/main/runtools.py), the main function of this repo.
 
-If you want, you can have the audio transcript corrected by ChatGPT, for which I made an initial setup in [ai_correct_audiotranscripts.py](../blob/main/ai_correct_audiotranscripts.py). To use this, you’ll need an [OpenAI API key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key). But please note that you’ll lose the privacy advantage and offline use, as the ChatGPT models are far too large to run on a personal laptop.
+If you want, you can have the audio transcript corrected by ChatGPT, for which I made an initial setup in [ai_correct_audiotranscripts.py](https://github.com/ookgezellig/videotools/blob/main/ai_correct_audiotranscripts.py). To use this, you’ll need an [OpenAI API key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key). But please note that you’ll lose the privacy advantage and offline use, as the ChatGPT models are far too large to run on a personal laptop.
 
 As a side product, I also created a few other video and audio tools that only require FFmpeg, without a need for Whisper or ChatGPT.
 
