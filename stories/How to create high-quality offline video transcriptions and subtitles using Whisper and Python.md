@@ -63,7 +63,7 @@ Here’s a screenshot of the model on my home laptop. What happens inside that `
 ## Speed
 Does transcription run at a reasonable speed? With the 'large-v2' model I’m using, transcription operates at roughly real-time, so a 15-minute audio file takes about 15-20 minutes to process. Smaller models, like 'base' and 'medium,' are faster but typically produce lower-quality transcriptions.
 
-## And such quality! With subtitles! Even with poor input!
+## Great quality! With subtitles! Even with poor input!
 Besides Whisper's offline capabilities, I am utterly amazed by the quality of the generated text. I can show this best through this (rather dull and quite lengthy) [test video](https://commons.wikimedia.org/wiki/File:Wikidata_Workshop_-_Theoretical_part_-_Maastricht_University_-_15_October_2024.webm) in which I used myself as the test subject:
 
 The unformatted text block in the file description was generated entirely by Whisper, with only minimal human post-corrections. Take note of how accurately it handles named entities, technical terms, and proper capitalization, truly impressive!
