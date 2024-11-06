@@ -1,6 +1,7 @@
 # How to create high-quality offline video transcriptions and subtitles using Whisper and Python
 
-*Lastest update: 5 November 2024*
+*Olaf Janssen, Wikimedia coordinator of the KB national library of the Netherlands<br/>
+Latest update: 5 November 2024*
 
 <image src="media/afbeelding1.png" width="400" hspace="10" align="right"/>
 
