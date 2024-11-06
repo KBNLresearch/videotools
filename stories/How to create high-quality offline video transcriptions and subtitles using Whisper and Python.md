@@ -1,7 +1,9 @@
 # How to create high-quality offline video transcriptions and subtitles using Whisper and Python
 
 *Olaf Janssen, Wikimedia coordinator of the KB national library of the Netherlands<br/>
-Latest update: 5 November 2024*
+Latest update: 5 November 2024
+<br/>
+[https://doi.org/10.5281/zenodo.14047913](https://doi.org/10.5281/zenodo.14047913)*
 
 <image src="media/afbeelding1.png" width="400" hspace="10" align="right"/>
 
@@ -92,7 +94,7 @@ Since this was just a first experiment with this new piece of AI for me, I’d l
 
 ## Similar articles
 * [Super efficient! Subtitling or transcribing your video with AI](https://id.nl/huis-en-entertainment/computer-en-gaming/software/superefficient-je-video-ondertitelen-of-transcriberen-met-ai) (in Dutch)
-* [This article on Github](https://kbnlresearch.github.io/videotools/stories/How%20to%20create%20high-quality%20offline%20video%20transcriptions%20and%20subtitles%20using%20Whisper%20and%20Python.html) and [Zenodo](https://doi.org/10.5281/zenodo.14047913), 6 november 2024
+* [This article on Github](https://kbnlresearch.github.io/videotools/stories/How%20to%20create%20high-quality%20offline%20video%20transcriptions%20and%20subtitles%20using%20Whisper%20and%20Python.html) and [Zenodo](https://doi.org/10.5281/zenodo.14047913), 6 November 2024
 
 ## Contact
 <image src="media/icon_kb2.png" width="200" hspace="10" align="right"/>
