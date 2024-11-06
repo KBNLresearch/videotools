@@ -91,7 +91,8 @@ As a side product, I also created a few other video and audio tools that only re
 Since this was just a first experiment with this new piece of AI for me, I’d love to hear your questions, feedback, tips, etc. You can find my contact details below.
 
 ## Similar articles
-*  [Super efficient! Subtitling or transcribing your video with AI](https://id.nl/huis-en-entertainment/computer-en-gaming/software/superefficient-je-video-ondertitelen-of-transcriberen-met-ai) (in Dutch)
+* [Super efficient! Subtitling or transcribing your video with AI](https://id.nl/huis-en-entertainment/computer-en-gaming/software/superefficient-je-video-ondertitelen-of-transcriberen-met-ai) (in Dutch)
+* [This article on Github](https://kbnlresearch.github.io/videotools/stories/How%20to%20create%20high-quality%20offline%20video%20transcriptions%20and%20subtitles%20using%20Whisper%20and%20Python.html) and [Zenodo](https://doi.org/10.5281/zenodo.14047913), 6 november 2024
 
 ## Contact
 <image src="media/icon_kb2.png" width="200" hspace="10" align="right"/>
