@@ -1,5 +1,3 @@
-[<< Back to tools index](https://kbnlwikimedia.github.io/tools/index.html)
-
 # A collection of video and audio processing tools
 
 ![stories/media/repologo.png](stories/media/repologo.png)
